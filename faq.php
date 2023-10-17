@@ -24,7 +24,6 @@
         <dt class="accordion-title"><a href="#" class="closed">Can I release a song made on your freebeat on Spotify?</a></dt>
         <dd class="accordion-content">Some of the freebeats contain samples, you have to clear the sample first, before you can monetize the song. If you plan a profit-release (if necessary: after clearing the sample) you have to purchase a suiting license.</dd>
     </dl>
-
     <script>
         $(document).ready(function(){
             $('.accordion-title').click(function(event) {
@@ -40,7 +39,6 @@
                 }
             });
         });
-
         function ScrollToTop() {
             setTimeout(function() {
                 $('html, body').animate({
@@ -49,5 +47,4 @@
             }, 600);
         }
     </script>
-
 </section>

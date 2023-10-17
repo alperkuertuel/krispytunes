@@ -2,5 +2,5 @@
 <hr>
 <section id="cont">
     <h2>Let's work together...</h2>
-        <?php include( "contactfields.php"); ?>
+        <?php include 'contactfields.php'; ?>
 </section>

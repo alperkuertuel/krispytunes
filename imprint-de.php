@@ -1,8 +1,6 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-
-    <?php include ("head.php"); ?>
-
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+    <?php include 'head.php'; ?>
     <body>
     <h1 id="start" class="back"><a href="https://www.krispytunes.com/de"><img src="img/back.svg" alt="<"/></a>IMPRINT</h1>
         <hr>
@@ -42,7 +40,6 @@
                 <a href="https://www.flaticon.com/authors/gregor-cresnar" target="_blank">Gregor Cresnar</a>
             </p>
         </section>
-
         <h1><a href="#start"><img src="img/up.svg" alt="&and;"/></a> AGBs </h1>
         <hr>
         <section class="imprint_box">

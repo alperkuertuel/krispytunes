@@ -1,8 +1,6 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
-
-	<?php include ("head-de.php"); ?>
-
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+	<?php include 'head-de.php'; ?>
 	<body>
         <nav class="shift">
             <!--googleoff: snippet-->
@@ -11,13 +9,11 @@
                 <a href="de"><img src="img/de.svg" alt="de"/></a>
             </div>
             <!--googleon: snippet-->
-
             <div class="container" onclick="myFunction(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-
             <ul class="showing">
                 <li><a href="#header">INSTRUMENTAL STORE</a></li>
                 <li><a href="#Licenses">LIZENZEN</a></li>
@@ -26,27 +22,16 @@
                 <li><a href="#Contact">KONTAKT</a></li>
             </ul>
         </nav>
-
-        <?php include ("header-de.php"); ?>
-
-        <?php include ("store-de.php"); ?>
-
-        <?php include ("clients-de.php"); ?>
-
-        <?php include ("license-terms-de.php"); ?>
-
-        <?php include("services-de.php"); ?>
-
-        <?php include ("freebeats-de.php"); ?>
-
+        <?php include 'header-de.php'; ?>
+        <?php include 'store-de.php'; ?>
+        <?php include 'clients-de.php'; ?>
+        <?php include 'license-terms-de.php'; ?>
+        <?php include 'services-de.php'; ?>
+        <?php include 'freebeats-de.php'; ?>
         <?php /* include ("faq-de.php"); */ ?>
-
         <!--googleoff: snippet-->
-
-        <?php include ("contact-de.php"); ?>
-
-        <?php include ("footer-de.php"); ?>
-
+        <?php include 'contact-de.php'; ?>
+        <?php include 'footer-de.php'; ?>
         <div class="cookie-container">
             <p>
                 Diese Seite verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Wenn Sie meine Website nutzen, gehe ich davon aus, dass Sie mit der <a href="privacy-policy" target="_blank">Datenschutzerklärung</a> einverstanden sind.
@@ -56,7 +41,5 @@
             </p>
             <button class="cookie-btn">OK, WEITER</button>
         </div>
-
     </body>
-
 </html>

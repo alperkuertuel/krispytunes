@@ -21,7 +21,7 @@
                 F&uuml;lle das Formular aus, um die 25 Freebeats im MP3-Format zugesendet zu bekommen.
             </p>
             <br />
-            <?php include('request-de.php'); ?>
+            <?php include 'request-de.php'; ?>
         </div>
     </div>
 </div>

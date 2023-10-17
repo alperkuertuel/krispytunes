@@ -1,37 +1,30 @@
 <footer>
-        <div id="up">
-            <a href="#slogan"><img src="img/up-arrow.svg" alt="MOVE UP"/></a>
-        </div>
-
-		<div id="dfooter1">
-            <ul>
-                <li><a href="imprint" target="_blank">Imprint</a></li>
-                <li><a href="imprint" target="_blank">Terms &amp; Conditions</a></li>
-                <li><a href="privacy-policy" target="_blank">Privacy Policy</a></li>
-			</ul>
-        </div>
-
-        <div id="dfooter2">
-            <ul>
-                <li><a href="whatsapp://send?text=Listen%20to%20the%20instrumentals%20I%20found%20here%3A%20https%3A%2F%2Fkrispytunes.com">Share on WhatsApp</a></li>
-                <li><a href="whatsapp://send?text=Listen%20to%20the%20instrumentals%20I%20found%20here%3A%20https%3A%2F%2Fkrispytunes.com"><img src="img/whatsapp.svg" alt="WhatsApp" /></a></li>
-            </ul>
-        </div>
-
-        <div id="dfooter3">
-            <ul>
-                <li><a href="https://www.instagram.com/krispy.tunes" target="_blank" rel="noopener"><img src="img/instagram.svg" alt="Instagram"/></a></li>
-                <li><a href="https://www.youtube.com/krispytunes" target="_blank" rel="noopener"><img src="img/youtube.svg" alt="Youtube"/></a></li>
-                <li><a href="https://www.facebook.com/krispytunes" target="_blank" rel="noopener"><img src="img/facebook.svg" alt="Facebook"/></a></li>
-            </ul>
-        </div>
+    <div id="up">
+        <a href="#slogan"><img src="img/up-arrow.svg" alt="MOVE UP"/></a>
+    </div>
+	<div id="dfooter1">
+        <ul>
+            <li><a href="imprint" target="_blank">Imprint</a></li>
+            <li><a href="imprint" target="_blank">Terms &amp; Conditions</a></li>
+            <li><a href="privacy-policy" target="_blank">Privacy Policy</a></li>
+		</ul>
+    </div>
+    <div id="dfooter2">
+        <ul>
+            <li><a href="whatsapp://send?text=Listen%20to%20the%20instrumentals%20I%20found%20here%3A%20https%3A%2F%2Fkrispytunes.com">Share on WhatsApp</a></li>
+            <li><a href="whatsapp://send?text=Listen%20to%20the%20instrumentals%20I%20found%20here%3A%20https%3A%2F%2Fkrispytunes.com"><img src="img/whatsapp.svg" alt="WhatsApp" /></a></li>
+        </ul>
+    </div>
+    <div id="dfooter3">
+        <ul>
+            <li><a href="https://www.instagram.com/krispy.tunes" target="_blank" rel="noopener"><img src="img/instagram.svg" alt="Instagram"/></a></li>
+            <li><a href="https://www.youtube.com/krispytunes" target="_blank" rel="noopener"><img src="img/youtube.svg" alt="Youtube"/></a></li>
+            <li><a href="https://www.facebook.com/krispytunes" target="_blank" rel="noopener"><img src="img/facebook.svg" alt="Facebook"/></a></li>
+        </ul>
+    </div>
 </footer>
-
-
 <script>
-
     $(document).ready(function() {
-
         const cookieContainer = document.querySelector(".cookie-container");
         const cookieButton = document.querySelector(".cookie-btn");
 
@@ -83,5 +76,4 @@
             'linear'
         )
     })
-
 </script>

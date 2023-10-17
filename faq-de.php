@@ -24,7 +24,6 @@
         <dt class="accordion-title"><a href="#" class="closed">Darf ich einen Song der auf einem deiner Freebeats aufgenommen wurde, auf Spotify ver&ouml;ffentlichen?</a></dt>
         <dd class="accordion-content"><b>Manche</b> der Freebeats beinhalten Samples von anderen Musikern. Du solltest diese Samples (falls welche vorhanden sein sollten) kl&auml;ren. Generell musst du bei mir eine passende Lizenz erweben, sofern du einen Song auf meinen Beats monetarisieren willst.</dd>
     </dl>
-
     <script>
         $(document).ready(function(){
             $('.accordion-title').click(function(event) {
@@ -40,7 +39,6 @@
                 }
             });
         });
-
         function ScrollToTop() {
             setTimeout(function() {
                 $('html, body').animate({
