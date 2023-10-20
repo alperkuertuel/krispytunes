@@ -1,9 +1,15 @@
+:root{
+  --white: #fff;
+  --black: #000;
+  --gray: gray;
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
-  color: #000;
+  color: var(--black);
   -webkit-tap-highlight-color: transparent;
   margin: 0 0 10em;
   padding: 0;
@@ -12,7 +18,7 @@ body {
 body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.08em;
-  background-color: #fff;
+  background-color: var(--white);
   font-size: 1.1em;
   text-align: center;
 }
@@ -29,7 +35,7 @@ body {
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(47, 54, 64);
+  background-color: var(--gray);
   padding: 0.3em 0 0.3em 1em;
 }
 
@@ -38,7 +44,7 @@ body {
 .bar3 {
   width: 2em;
   height: 0.2em;
-  background-color: #fff;
+  background-color: var(--white);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -102,7 +108,7 @@ nav ul li a {
   display: block;
   padding: 1em;
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -115,7 +121,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: #555;
+  color: var(--gray);
 }
 
 nav.shift ul li a {
@@ -124,7 +130,7 @@ nav.shift ul li a {
 }
 
 nav.shift ul li a:hover {
-  color: white;
+  color: var(--white);
 }
 
 nav.shift ul li a:after {
@@ -159,9 +165,9 @@ nav ul li a img {
 }
 
 #header {
-  background-color: #000;
+  background-color: var(--black);
   text-align: center;
-  color: #fff;
+  color: var(--white);
   padding: 0 0.2em;
 }
 
@@ -186,7 +192,7 @@ nav ul li a img {
   display: inline-block;
   text-align: center;
   width: 100%;
-  background-color: #000;
+  background-color: var(--black);
   margin: auto;
   padding: 0 0 1em;
 }
@@ -211,7 +217,7 @@ nav ul li a img {
   font-size: 0.8em;
   display: inline-block;
   width: 90%;
-  color: #fff;
+  color: var(--white);
   background-color: #2f3640;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -238,16 +244,16 @@ nav ul li a img {
   display: inline-block;
   height: auto;
   width: auto;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
   padding: 1em;
 }
 
 #stream a {
   display: inline-block;
-  color: #fff;
+  color: var(--white);
   background-color: #1e7e3f;
-  box-shadow: 0 2px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px var(--gray);
   -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
@@ -302,7 +308,7 @@ div .carousel-cell img {
   margin-top: 2em;
   margin-right: 1em;
   background-color: #ebebeb;
-  box-shadow: 0 2px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px var(--gray);
   -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
@@ -334,17 +340,17 @@ div .carousel-cell img {
 }
 
 .icon_refer a {
-  color: gray;
+  color: var(--gray);
 }
 
 .flickity-prev-next-button.previous:focus,
 .flickity-prev-next-button.next:focus {
-  background-color: gray;
+  background-color: var(--gray);
 }
 
 .flickity-button,
 .flickity-prev-next-button:hover {
-  background: gray;
+  background: var(--gray);
 }
 
 .flickity-page-dots,
@@ -357,7 +363,7 @@ div .carousel-cell img {
   text-align: center;
   width: 100%;
   height: auto;
-  color: #000;
+  color: var(--black);
   margin: 1em 0 0;
 }
 
@@ -383,7 +389,7 @@ div .carousel-cell img {
   background-color: #ebebeb;
   width: auto;
   border: 1px solid #d9d9d9;
-  box-shadow: 0 2px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px var(--gray);
   font-size: 0.8em;
   margin: 0;
   padding: 0.5em;
@@ -394,7 +400,7 @@ div .carousel-cell img {
 #lt3 h3,
 #lt4 h3 {
   font-size: 1em;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   background-color: #2f3640;
   margin: 0;
@@ -403,11 +409,11 @@ div .carousel-cell img {
 
 #lt2 h2.pop {
   margin-bottom: 0.2em;
-  background-color: #000;
+  background-color: var(--black);
   -webkit-border-radius: 0.4em 0.4em;
   -moz-border-radius: 0.4em;
   border-radius: 0.4em 0.4em;
-  box-shadow: 0 2px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px var(--gray);
   padding: 0.3em;
 }
 
@@ -422,9 +428,9 @@ div .carousel-cell img {
 #lt2 h2,
 #lt3 h2,
 #lt4 h2 {
-  color: #fff;
+  color: var(--white);
   background-color: #8a0022;
-  border: 1px solid #000;
+  border: 1px solid var(--black);
   border-bottom: none;
   -webkit-border-radius: 0.4em 0.4em 0 0;
   -moz-border-radius: 0.4em 0.4em 0 0;
@@ -453,7 +459,7 @@ div .carousel-cell img {
 
 .option-heading:before {
   content: "\25bc";
-  color: #fff;
+  color: var(--white);
 }
 
 .option-heading.is-active:before {
@@ -473,14 +479,14 @@ div .carousel-cell img {
   -webkit-border-radius: 0 0 0.4em 0.4em;
   -moz-border-radius: 0 0 0.4em 0.4em;
   border-radius: 0 0 0.4em 0.4em;
-  box-shadow: 0 2px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px var(--gray);
   margin: 0;
 }
 
 .pdf_terms a {
   font-size: 0.9em;
   font-weight: lighter;
-  color: #fff;
+  color: var(--white);
   border: 1px solid #d9d9d9;
   background-color: #2f3640;
   display: inline-block;
@@ -492,9 +498,9 @@ div .carousel-cell img {
 }
 
 .pdf_terms a:hover {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #000;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  color: var(--black);
   letter-spacing: 0.01em;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -534,8 +540,8 @@ div .carousel-cell img {
 #lost_beats a {
   display: inline-block;
   background-color: rgb(165, 19, 19);
-  color: #fff;
-  box-shadow: 0 2px 2px -2px gray;
+  color: var(--white);
+  box-shadow: 0 2px 2px -2px var(--gray);
   -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
   -moz-border-radius: 0.4em;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
@@ -586,7 +592,7 @@ dd {
 }
 
 dt a {
-  color: #000;
+  color: var(--black);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -655,8 +661,8 @@ textarea {
   border-radius: 0.1em;
   resize: none;
   background: 0 0;
-  border: 0.1em solid #000;
-  color: #000;
+  border: 0.1em solid var(--black);
+  color: var(--black);
   height: auto;
   width: auto;
   margin: 1em;
@@ -672,9 +678,9 @@ input {
   font-size: 1em;
   background: 0 0;
   border: 0;
-  border-bottom: 0.1em solid #000;
+  border-bottom: 0.1em solid var(--black);
   border-radius: 0;
-  color: #000;
+  color: var(--black);
   outline: 0;
   margin: 1em;
   padding: 0.3em;
@@ -723,15 +729,15 @@ input {
 .button {
   text-decoration: none;
   border: 0;
-  background-color: silver;
+  background-color: var(--gray);
   width: auto;
-  color: #000;
+  color: var(--black);
   padding: 0.8em;
 }
 
 .button:hover {
   background-color: rgba(47, 54, 64, 0.9);
-  color: #fff;
+  color: var(--white);
   transition: 0.5s ease 0.2s;
   font-weight: lighter;
 }
@@ -750,7 +756,7 @@ input {
 footer {
   background-color: #2f3640;
   vertical-align: center;
-  color: #fff;
+  color: var(--white);
   text-align: left;
   width: 100%;
   margin: 0 0 1em;
@@ -781,14 +787,14 @@ footer div ul li {
 }
 
 footer div ul li a {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-weight: lighter;
 }
 
 footer div ul li a:hover {
   text-decoration: none;
-  color: gray;
+  color: var(--gray);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -836,7 +842,7 @@ footer div ul li a img {
 
 .icon_refer {
   font-size: 0.8em;
-  color: gray;
+  color: var(--gray);
 }
 
 dt a:hover,
@@ -844,7 +850,7 @@ dt a:hover,
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
-  color: #000;
+  color: var(--black);
 }
 
 input:focus,
@@ -870,8 +876,7 @@ input::selection {
   left: 0;
   right: 0;
   background: #2f3640;
-  color: #f5f6fa;
-  box-shadow: 0 16px rgba(47, 54, 64, 0.39);
+  color: var(--white);
   transition: 400ms;
   padding: 0 32px;
 }
@@ -882,7 +887,7 @@ input::selection {
 
 .cookie-container a {
   font-weight: lighter;
-  color: #fff;
+  color: var(--white);
 }
 
 .cookie-btn {
