@@ -15,14 +15,16 @@
     <meta name="google-site-verification" content="p1Ihv-yEo78bVZQqBVqkVXwGfICG3GvsICcTqRXMF6Y" />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <meta name="theme-color" content="#2f3640" />
-    
-	<link type="image/ico" rel="icon" href="favicon.ico"/>
+	
+    <link type="image/ico" rel="icon" href="favicon.ico"/>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
+
     <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="jquery-ui.css">
+
+    <link rel="stylesheet" href="/flickity.min.css">
+    <script src="/flickity.pkgd.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
@@ -35,28 +37,24 @@
     <link rel="dns-prefetch" href="https://ajax.googleapis.com">
     <link rel="dns-prefetch" href="https://open.scdn.co">
 
-    <link rel="stylesheet" href="/flickity.min.css">
-    <script src="/flickity.pkgd.min.js"></script>
-
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     
     <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                document.getElementById('recaptchaResponse').value = token;
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+                    document.getElementById('recaptchaResponse').value = token;
+                });
             });
-        });
 
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                document.getElementById('recaptchaResponse2').value = token;
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+                    document.getElementById('recaptchaResponse2').value = token;
+                });
             });
-        });
     </script>
 
     <script src="https://airbit.com/js/embeds/html5/gatracking.js?gatracking=UA-150310420-1"></script>
 
     <script src="jquery-3.5.0.min.js"></script>
-    <script src="jquery-ui.min2.js"></script>
 </head>
