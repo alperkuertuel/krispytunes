@@ -22,7 +22,6 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="jquery-ui.css">
 
     <link rel="stylesheet" href="/flickity.min.css">
     <script src="/flickity.pkgd.min.js"></script>
@@ -58,5 +57,4 @@
     <script src="https://airbit.com/js/embeds/html5/gatracking.js?gatracking=UA-150310420-1"></script>
 
     <script src="jquery-3.5.0.min.js"></script>
-    <script src="jquery-ui.min2.js"></script>
 </head>
