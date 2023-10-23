@@ -35,7 +35,7 @@ body {
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: var(--gray);
+  background-color: rgba(47, 54, 64);
   padding: 0.3em 0 0.3em 1em;
 }
 
