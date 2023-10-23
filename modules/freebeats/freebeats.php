@@ -20,7 +20,7 @@
             <p>
                 Fill in the form to request a download-link, I will get back at you asap! You will receive 25 instrumentals in mp3-format for non-commercial use.
             </p>
-            <?php include 'request.php'; ?>
+            <?php include './modules/freebeats/request.php'; ?>
         </div>
     </div>
 </div>

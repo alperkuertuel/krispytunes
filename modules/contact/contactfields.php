@@ -38,7 +38,7 @@
                     var dsgvo = document.getElementById("dsgvo").value
                     var recaptcha_response2 = document.getElementById("recaptchaResponse2").value
                     
-                    $.post("contact_form.php",{
+                    $.post("./modules/contact/contact_form.php",{
                             absendername: absendername,
                             nachricht: nachricht,
                             absenderemail: absenderemail,

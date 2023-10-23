@@ -36,7 +36,7 @@
                     var subscribe_box = document.getElementById("subscribe_box").value
                     var dsgvo = document.getElementById("dsgvo").value
                     var recaptcha_response2 = document.getElementById("recaptchaResponse2").value
-                    $.post("contact_form-de.php",{
+                    $.post("./modules/contact/contact_form-de.php",{
                             absendername: absendername,
                             nachricht: nachricht,
                             absenderemail: absenderemail,

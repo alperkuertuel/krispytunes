@@ -40,7 +40,7 @@
                 var subscriber_box = document.getElementById("subscriber").value
                 var recaptcha_response = document.getElementById("recaptchaResponse").value
 
-                $.post("req_free-de.php",{
+                $.post("./modules/freebeats/req_free-de.php",{
                         absendername: absendername,
                         artistpage: artistpage,
                         absenderemail: absenderemail,

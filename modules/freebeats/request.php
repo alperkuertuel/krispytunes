@@ -31,7 +31,7 @@
                 var absenderemail = document.getElementById("emailid").value
                 var subscriber_box = document.getElementById("subscriber").value
                 var recaptcha_response = document.getElementById("recaptchaResponse").value
-                $.post("req_free.php",{
+                $.post("./modules/freebeats/req_free.php",{
                         absendername: absendername,
                         artistpage: artistpage,
                         absenderemail: absenderemail,
