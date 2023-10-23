@@ -4,6 +4,14 @@
   --gray: gray;
 }
 
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('/website-font/poppins-regular-webfont.woff2') format('woff2'),
+       url('/website-font/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   height: 100%;
@@ -16,7 +24,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppinsregular", sans-serif;
   letter-spacing: 0.08em;
   background-color: var(--white);
   font-size: 1.1em;
@@ -655,7 +663,7 @@ hr {
 textarea {
   display: inline-block;
   font-size: 1em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppinsregular", sans-serif;
   -webkit-border-radius: 0.1em;
   -moz-border-radius: 0.1em;
   border-radius: 0.1em;
