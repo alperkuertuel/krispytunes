@@ -1,6 +1,6 @@
 <!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-    <?php include 'head.php'; ?>
+    <?php include './modules/head/head.php'; ?>
     <body>
         <h1><a href="https://www.krispytunes.com"><img src="img/back.svg" alt="&and;"/></a> Privacy Policy</h1>
         <hr />
