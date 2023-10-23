@@ -1,3 +1,3 @@
-dir_to_ignore/dl
-dir_to_ignore/docs
+dl
+docs
 .DS_Store
