@@ -1,6 +1,6 @@
 <!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
-	<?php include 'head-de.php'; ?>
+	<?php include './modules/head/head-de.php'; ?>
 	<body>
         <nav class="shift">
             <!--googleoff: snippet-->
@@ -22,16 +22,16 @@
                 <li><a href="#Contact">KONTAKT</a></li>
             </ul>
         </nav>
-        <?php include 'header-de.php'; ?>
-        <?php include 'store-de.php'; ?>
-        <?php include 'clients-de.php'; ?>
-        <?php include 'license-terms-de.php'; ?>
-        <?php include 'services-de.php'; ?>
-        <?php include 'freebeats-de.php'; ?>
-        <?php /* include ("faq-de.php"); */ ?>
+        <?php include './modules/header/header-de.php'; ?>
+        <?php include './modules/store/store-de.php'; ?>
+        <?php include './modules/clients/clients-de.php'; ?>
+        <?php include './modules/license-terms/license-terms-de.php'; ?>
+        <?php include './modules/services/services-de.php'; ?>
+        <?php include './modules/freebeats/freebeats-de.php'; ?>
+        <?php /* include '/modules/faq/faq-de.php'; */ ?>
         <!--googleoff: snippet-->
-        <?php include 'contact-de.php'; ?>
-        <?php include 'footer-de.php'; ?>
+        <?php include './modules/contact/contact-de.php'; ?>
+        <?php include './modules/footer/footer-de.php'; ?>
         <div class="cookie-container">
             <p>
                 Diese Seite verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Wenn Sie meine Website nutzen, gehe ich davon aus, dass Sie mit der <a href="privacy-policy" target="_blank">Datenschutzerklärung</a> einverstanden sind.
