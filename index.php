@@ -1,6 +1,6 @@
 <!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<?php include 'head.php'; ?>
+	<?php include './modules/head/head.php'; ?>
 	<body>
         <nav class="shift">
             <!--googleoff: snippet-->
@@ -22,16 +22,16 @@
                 <li><a href="#Contact">CONTACT</a></li>
             </ul>
         </nav>
-        <?php include 'header.php'; ?>
-        <?php include 'store.php'; ?>
-        <?php include 'clients.php'; ?>
-        <?php include 'license-terms.php'; ?>
-        <?php include 'services.php'; ?>
-        <?php include 'freebeats.php'; ?>
-        <?php /* include ("faq.php"); */ ?>
+        <?php include './modules/header/header.php'; ?>
+        <?php include './modules/store/store.php'; ?>
+        <?php include './modules/clients/clients.php'; ?>
+        <?php include './modules/license-terms/license-terms.php'; ?>
+        <?php include './modules/services/services.php'; ?>
+        <?php include './modules/freebeats/freebeats.php'; ?>
+        <?php /* include '/modules/faq/faq.php'; */ ?>
         <!--googleoff: snippet-->
-        <?php include 'contact.php'; ?>
-        <?php include 'footer.php'; ?>
+        <?php include './modules/contact/contact.php'; ?>
+        <?php include './modules/footer/footer.php'; ?>
         <div class="cookie-container">
             <p>
                 I use cookies on my website. By using my website, I'll assume you consent to the <a href="privacy-policy" target="_blank">privacy-policy</a>.
