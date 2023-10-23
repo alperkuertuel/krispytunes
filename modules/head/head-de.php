@@ -21,7 +21,7 @@
     <link type="image/ico" rel="icon" href="favicon.ico"/>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
 
     <link rel="stylesheet" href="./flickity/flickity.min.css">
     <script src="./flickity/flickity.pkgd.min.js"></script>
