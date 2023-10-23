@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./flickity/flickity.min.css">
     <script src="./flickity/flickity.pkgd.min.js"></script>
 
+    <!-- Source for animation of "KRISPYTUNES - INSTRUMENTALS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link href="stylesheet_v11.css" rel="stylesheet" type="text/css" />
