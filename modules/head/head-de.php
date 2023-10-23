@@ -23,8 +23,8 @@
 
     <link rel="stylesheet" href="font-awesome.min.css">
 
-    <link rel="stylesheet" href="/flickity.min.css">
-    <script src="/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="./flickity/flickity.min.css">
+    <script src="./flickity/flickity.pkgd.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
