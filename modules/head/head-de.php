@@ -1,4 +1,11 @@
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3DRE0P6CM3');
+    </script>
     <meta name="robots" content="all" />
 	<title>krispytunes - INSTRUMENTAL STORE</title>
 	<meta name="description" content="Instrumentals For Sale | Freebeats | Custom Instrumentals | Beats For Commercial Videos" />
@@ -34,9 +41,6 @@
     <link rel="preconnect" href="https://airbit.com/widgets/html5/?uid=197830&config=453565">
 
     <link rel="dns-prefetch" href="https://cdn.airbit.com">
-    <link rel="dns-prefetch" href="https://www.google-analytics.com">
-    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
-    <link rel="dns-prefetch" href="https://open.scdn.co">
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
@@ -54,8 +58,5 @@
                 });
             });
     </script>
-
-    <script src="https://airbit.com/js/embeds/html5/gatracking.js?gatracking=UA-150310420-1"></script>
-
     <script src="jquery-3.5.0.min.js"></script>
 </head>
