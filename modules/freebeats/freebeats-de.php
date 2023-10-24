@@ -4,7 +4,7 @@
     <div class="flex">
         <div id="lost_beats">
             <h2>LOST BEATS VOL. 1</h2>
-            <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" />
+            <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" loading="lazy"/>
             <p>
             Kaufe einen beliebigen Beat aus dem Store und erhalte das Lost Beats Tape Vol. 1 mit <b>11 Beats im wav-Format gratis dazu!</b>
             </p>
@@ -16,7 +16,7 @@
         </div>
         <div id="freebeat">
             <h2>KRISPYTUNES VOL. 1</h2>
-            <img src="img/krispytunes_vol_1.png" alt="krispytunes vol 1" />
+            <img src="img/krispytunes_vol_1.png" alt="krispytunes vol 1" loading="lazy"/>
             <p>
                 F&uuml;lle das Formular aus, um die 25 Freebeats im MP3-Format zugesendet zu bekommen.
             </p>
