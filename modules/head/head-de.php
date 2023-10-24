@@ -38,9 +38,7 @@
 
     <link href="stylesheet_v11.css" rel="stylesheet" type="text/css" />
 
-    <link rel="preconnect" href="https://airbit.com/widgets/html5/?uid=197830&config=453565">
-
-    <link rel="dns-prefetch" href="https://cdn.airbit.com">
+    <link rel="preload" href="https://krispytunes.infinity.airbit.com?config_id=11468&embed=1" as="document" crossorigin>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
