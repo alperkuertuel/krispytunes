@@ -1,9 +1,9 @@
-<h1 id="Services"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a> SERVICES</h1>
+<h1 id="Services"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> SERVICES</h1>
 <hr>
     <div class="flex">
         <div  itemscope itemtype="http://schema.org/Dataset"  id="left">
             <h1 itemprop="name">CUSTOM BEATS</h1>
-            <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" />
+            <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
             <h2 >Suchst du nach etwas Einzigartigem?</h2>
             <p itemprop="description">
                 Dann <a href="#cont">kontaktiere </a> mich, um einen auf dich zugeschnittenen Beat zu bekommen.
@@ -12,7 +12,7 @@
 
         <div id="right">
             <h1>BEATS F&Uuml;R WERBEVIDEOS</h1>
-            <img src="img/videos.svg" alt="COMMERCIAL VIDEOS" />
+            <img src="img/videos.svg" alt="COMMERCIAL VIDEOS" loading="lazy"/>
             <p>
                 Suchst du nach einer speziellen Stimmung in deinem Werbevideo?
             </p>

@@ -1,6 +1,6 @@
 <div id="Instrumentalstore">
     <div id="infinity_wrapper">
-        <iframe id="airbit_infinity" src="https://krispytunes.infinity.airbit.com?config_id=11468&embed=1" title="Instrumental Store" ></iframe>
+    <div id="airbit-player"><script async>window.onload = loadAirbitPlayer;</script></div>
             <div id="under">
                 <div id="under_images">
                     <img src="img/master_debit.png" alt="Master und Debit Card" />

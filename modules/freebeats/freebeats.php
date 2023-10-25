@@ -1,10 +1,10 @@
 <div id="Freebeats">
-<h1><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a>DOWNLOAD MORE THEN 30 FREEBEATS WITHOUT VOICE TAGS</h1>
+<h1><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a>DOWNLOAD MORE THEN 30 FREEBEATS WITHOUT VOICE TAGS</h1>
     <hr>
     <div class="flex">
         <div id="lost_beats">
             <h2>LOST BEATS VOL. 1</h2>
-            <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" />
+            <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" loading="lazy"/>
             <p>
                 Buy any beat from the store and receive the lost beats tape vol. 1 with <b>11 beats in wav-format for free on top!</b>
             </p>
@@ -16,7 +16,7 @@
         </div>
         <div id="freebeat">
             <h2>KRISPYTUNES VOL. 1</h2>
-            <img src="img/krispytunes_vol_1.png" alt="krispytunes vol 1" />
+            <img src="img/krispytunes_vol_1.png" alt="krispytunes vol 1" loading="lazy"/>
             <p>
                 Fill in the form to request a download-link, I will get back at you asap! You will receive 25 instrumentals in mp3-format for non-commercial use.
             </p>
