@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
 
     <!-- stylesheet, fontAwesome and jQuery -->
-    <link href="stylesheet_v11.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet_v11.css" rel="stylesheet" media="screen" type="text/css">
     <script src="jquery-3.5.0.min.js"></script>
 
     <!-- Flickity -->
