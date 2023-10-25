@@ -7,6 +7,7 @@
         gtag('js', new Date());
         gtag('config', 'G-3DRE0P6CM3');
     </script>
+    <script src="jquery-3.5.0.min.js"></script>
     <meta name="robots" content="all" />
 	<title>krispytunes - INSTRUMENTAL STORE</title>
 	<meta name="description" content="Instrumentals For Sale | Freebeats | Custom Instrumentals | Beats For Commercial Videos" />
@@ -32,16 +33,24 @@
     <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
 
     <link rel="stylesheet" href="./flickity/flickity.min.css">
-    <script src="./flickity/flickity.pkgd.min.js"></script>
+    <script src="./flickity/flickity.pkgd.min.js" defer></script>
 
     <!-- Source for animation of "KRISPYTUNES - INSTRUMENTALS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link href="stylesheet_v11.css" rel="stylesheet" type="text/css" />
 
-    <link rel="preload" href="https://krispytunes.infinity.airbit.com?config_id=11468&embed=1" as="document" crossorigin>
+    <script async>
+        function loadAirbitPlayer() {
+            const iframe = document.createElement("iframe");
+            iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
+            iframe.title = "Instrumental Store";
+            iframe.id = "airbit_infinity";
+            document.getElementById("airbit-player").appendChild(iframe);
+        }
+    </script>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     
     <script>
@@ -57,5 +66,4 @@
                 });
             });
     </script>
-    <script src="jquery-3.5.0.min.js"></script>
 </head>
