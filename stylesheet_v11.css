@@ -29,6 +29,10 @@ body {
   box-sizing: border-box;
 }
 
+.main {
+  margin: 0;
+}
+
 /*Container for bars */
 .container {
   display: none;
