@@ -18,10 +18,6 @@
     <link type="image/ico" rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <!-- Animation: "KRISPYTUNES - INSTRUMENTALS -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
     <!-- fontawesome -->
     <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
 
