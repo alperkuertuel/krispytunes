@@ -1,5 +1,5 @@
 <div id="Freebeats">
-<h1><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a>DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS</h1>
+<h1><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a>DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS</h1>
     <hr>
     <div class="flex">
         <div id="lost_beats">

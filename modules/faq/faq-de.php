@@ -1,4 +1,4 @@
-<h1 id="FAQ"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a> FAQ</h1>
+<h1 id="FAQ"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> FAQ</h1>
 <hr>
 <section id="faqs">
     <h2 class="margin">Vielleicht gibt es schon Antworten auf deine Fragen...</h2>

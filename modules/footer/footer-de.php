@@ -1,6 +1,6 @@
 <footer>
     <div id="up">
-        <a href="#slogan"><img src="img/up-arrow.svg" alt="MOVE UP"/></a>
+        <a href="#slogan"><img src="img/up-arrow.svg" alt="MOVE UP" loading="lazy"/></a>
     </div>
 	<div id="dfooter1">
         <ul>
