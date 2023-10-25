@@ -19,11 +19,13 @@ body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.05em;
   background-color: var(--white);
-  font-size: 1.1em;
+  font-size: 100%;
   text-align: center;
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -164,26 +166,26 @@ nav ul li a img {
   padding: 0;
 }
 
-#header {
+/* -- Header -- */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   background-color: var(--black);
-  text-align: center;
   color: var(--white);
-  padding: 0 0.2em;
 }
 
-#header img {
-  width: 55%;
+.header__image {
+  width: 100%;
   filter: saturate(110%) contrast(130%) brightness(80%);
-  margin: 2.4em 0 0;
 }
 
-#slogan {
-  font-size: 1.5em;
+.header__slogan {
+  font-size: 1.5rem;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
-  width: auto;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  color: var(--white);
 }
 
 #Instrumentalstore {
