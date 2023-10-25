@@ -1,4 +1,4 @@
-<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a> LIZENZEN</h1>
+<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZEN</h1>
 <hr>
 <section id="terms">
     <h2>Lese dir vor deinem Einkauf die Lizenzen durch.</h2>
@@ -8,13 +8,12 @@
         <br />
         <a href="#contable">Kontaktiere mich,</a> wenn du eine exklusive Lizenz kaufen willst.
     </p>
-
     <div id="lt1">
         <h2>20 $</h2>
         <h3 class="option-heading"> WAV LEASING </h3>
         <table class="option-content is-hidden">
             <tr>
-                <td><b>100% Gebührenfrei</b></td>
+                <td><b>100% Geb&Uuml;hrenfrei</b></td>
                 <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
             </tr>
             <tr>
@@ -81,12 +80,12 @@
         <div class="pdf_terms">
             <a href="docs/wl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
             <br />
-            <img src="img/wav.svg" alt="wav-file"/>
+            <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
         </div>
     </div>
 
     <div id="lt2">
-        <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!"/> BELIEBT <img src="img/fire.svg" alt="!FIRE!"/></h2>
+        <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/> BELIEBT <img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></h2>
         <h2>80 $</h2>
         <h3 class="option-heading"> PREMIUM LEASING</h3>
         <table class="option-content is-hidden">
@@ -158,7 +157,7 @@
         <div class="pdf_terms">
             <a href="docs/pl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
             <br />
-            <img src="img/premium.svg" alt="premium"/>
+            <img src="img/premium.svg" alt="premium" loading="lazy"/>
         </div>
     </div>
 
@@ -167,7 +166,7 @@
         <h3 class="option-heading"> UNLIMITED LEASING</h3>
         <table class="option-content is-hidden">
             <tr>
-                <td><b>100% Gebührenfrei</b></td>
+                <td><b>100% Geb&auml;hrenfrei</b></td>
                 <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
             </tr>
             <tr>
@@ -234,7 +233,7 @@
             <div class="pdf_terms">
                 <a href="docs/ul.pdf" target="_blank">LIZENZ DOWNLOAD</a>
                 <br />
-                <img src="img/unlimited.svg" alt="unlimited"/>
+                <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
             </div>
     </div>
 
@@ -316,6 +315,5 @@
         $(".option-heading").on('click', function() {
             $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
         });
-
     });
 </script>

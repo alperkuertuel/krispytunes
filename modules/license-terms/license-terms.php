@@ -1,4 +1,4 @@
-<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;"/></a> LICENSE TERMS</h1>
+<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LICENSE TERMS</h1>
 <hr>
 <section id="terms">
     <h2>Make sure to read the license terms before purchasing.</h2>
@@ -8,7 +8,6 @@
         <br />
         If you want to buy a exclusive license contact me via the <a href="#contable">contact form</a>.
     </p>
-
     <div id="lt1">
         <h2>20 $</h2>
         <h3 class="option-heading"> WAV LEASING </h3>
@@ -82,12 +81,12 @@
             CAN BE SOLD AGAIN
             <a href="docs/wl.pdf" target="_blank">TERMS DOWNLOAD</a>
             <br />
-            <img src="img/wav.svg" alt="wav-file"/>
+            <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
         </div>
     </div>
 
     <div id="lt2">
-        <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!"/> POPULAR <img src="img/fire.svg" alt="!FIRE!"/></h2>
+        <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/> POPULAR <img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></h2>
         <h2>80 $</h2>
         <h3 class="option-heading"> PREMIUM LEASING</h3>
         <table class="option-content is-hidden">
@@ -160,7 +159,7 @@
             CAN BE SOLD AGAIN
             <a href="docs/pl.pdf" target="_blank">TERMS DOWNLOAD</a>
             <br />
-            <img src="img/premium.svg" alt="premium"/>
+            <img src="img/premium.svg" alt="premium" loading="lazy"/>
         </div>
     </div>
 
@@ -237,7 +236,7 @@
                 CAN BE SOLD AGAIN
                 <a href="docs/ul.pdf" target="_blank">TERMS DOWNLOAD</a>
                 <br />
-                <img src="img/unlimited.svg" alt="unlimited"/>
+                <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
             </div>
     </div>
 
@@ -320,6 +319,5 @@
         $(".option-heading").on('click', function() {
             $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
         });
-
     });
 </script>
