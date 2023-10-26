@@ -4,6 +4,12 @@
   --gray: gray;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -11,7 +17,7 @@ body {
   scroll-behavior: smooth;
   color: var(--black);
   -webkit-tap-highlight-color: transparent;
-  margin: 0 0 10em;
+  margin: 1rem 0 10em;
   padding: 0;
 }
 
@@ -21,12 +27,6 @@ body {
   background-color: var(--white);
   font-size: 100%;
   text-align: center;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .main {
