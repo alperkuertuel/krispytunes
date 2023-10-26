@@ -21,7 +21,7 @@
                 </p>
                 <button class="cookie-btn">OK, WEITER</button>
             </div>
-        <main>
+        </main>
         <?php include './modules/footer/footer-de.php'; ?>
     </body>
 </html>
