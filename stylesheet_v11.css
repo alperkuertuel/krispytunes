@@ -17,7 +17,7 @@ body {
   scroll-behavior: smooth;
   color: var(--black);
   -webkit-tap-highlight-color: transparent;
-  margin: 1rem 0 10em;
+  margin: 0 0 10em;
   padding: 0;
 }
 
@@ -181,6 +181,7 @@ nav ul li a img {
 }
 
 .header__image {
+  margin-top: 2.4rem;
   width: 100%;
   filter: saturate(110%) contrast(130%) brightness(80%);
 }
