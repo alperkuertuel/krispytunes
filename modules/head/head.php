@@ -33,10 +33,11 @@
     <script async>
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
+            const store = document.querySelector('[data-js="store"]');
             iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
             iframe.title = "Instrumental Store";
-            iframe.id = "airbit_infinity";
-            document.getElementById("airbit-player").appendChild(iframe);
+            iframe.classList.add("store__player");
+            store.appendChild(iframe);
         }
     </script>
 

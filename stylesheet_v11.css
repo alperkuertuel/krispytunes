@@ -86,11 +86,6 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-p {
-  margin: 0.5em;
-  padding: 0.5em;
-}
-
 /* -- container for menu icon and bars -- */
 .menue-bar-container {
   display: none;
@@ -250,76 +245,58 @@ nav {
   }
 }
 
+/* -- store -- */
 #Instrumental-Store {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
   background-color: var(--black);
-  margin: auto;
-  padding: 0 0 1em;
-}
-
-#infinity_wrapper {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  padding: 0;
-}
-
-#airbit_infinity {
-  text-align: center;
-  width: 90%;
-  height: 70vh;
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-#under {
-  font-size: 0.8em;
-  display: inline-block;
-  width: 90%;
   color: var(--white);
+}
+
+.store {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.store__player {
+  width: 100%;
+  height: 70vh;
+  border: none;
+}
+
+/* -- payment-methods --*/
+.store__payment-methods {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  width: 100%;
   background-color: #2f3640;
-  -webkit-border-radius: 0.4em;
-  -moz-border-radius: 0.4em;
-  border-radius: 0.4em;
-  margin: 0.5em;
-  padding: 0.5em;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
 }
 
-#payment {
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-
-#under_images img {
-  float: right;
+.store__payment-methods__icon {
   height: 19px;
   width: 33px;
-  margin: 0 0.5em;
-  padding: 0;
+  margin-right: 0.5rem;
 }
 
-#stream {
-  display: inline-block;
-  height: auto;
-  width: auto;
-  background-color: var(--black);
-  color: var(--white);
-  padding: 1em;
+/* -- spotify -- */
+.spotify {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-#stream a {
-  display: inline-block;
+.spotify__link {
   color: var(--white);
   background-color: #1e7e3f;
   box-shadow: 0 2px 2px -2px var(--gray);
-  -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
-  -moz-border-radius: 0.4em;
-  border-radius: 0.4em 0.4em 0.4em 0.4em;
-  padding: 1em;
+  border-radius: 5px;
+  padding: 1rem;
 }
 
 #client {
@@ -908,10 +885,6 @@ input::selection {
 }
 
 @media (max-width: 700px) {
-  #infinity_wrapper {
-    width: 100%;
-  }
-
   .flex {
     flex-direction: column;
   }
@@ -945,10 +918,6 @@ input::selection {
 }
 
 @media (max-width: 1165px) {
-  #infinity_wrapper {
-    width: 100%;
-  }
-
   #left,
   #right,
   #freebeat,
