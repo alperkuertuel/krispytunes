@@ -14,7 +14,7 @@
         </p>
     </article>
     <article class="spotify">
-        <p class="spotify__text">Want to save the beats for a later writing session? Then jump to my Spotify-Playlist to listen to all of my instrumentals!</p>
-        <a class="spotify__link" href="https://open.spotify.com/playlist/5LbVDw3w7VYvdFDXQmS12P?si=7cd118a54af04636" target="_blank" rel="noopener">ALL PURCHASABLE BEATS ON SPOTIFY</a>
+        <h2 class="spotify__text">Want to save the beats for a later writing session? Then jump to my spotify playlist:</h2>
+        <a class="spotify__link" href="https://open.spotify.com/playlist/5LbVDw3w7VYvdFDXQmS12P?si=7cd118a54af04636" target="_blank" rel="noopener"><img src="img/spotify.svg" alt="spotify" loading="lazy"/></a>
     </article>
 </section>
