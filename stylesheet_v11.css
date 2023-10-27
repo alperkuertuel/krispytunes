@@ -221,7 +221,7 @@ nav {
   }
 }
 
-/* -- Header -- */
+/* -- header -- */
 .header {
   display: flex;
   flex-direction: column;
@@ -243,7 +243,6 @@ nav {
   letter-spacing: 0.1em;
   color: var(--white);
 }
-
 
 @media (max-width: 700px) {
   .header__slogan {
