@@ -292,9 +292,9 @@ nav {
 .spotify__link {
   background-color: #1e7e3f;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  animation: pump .5s linear 1s infinite alternate;
+  height: 75px;
+  width: 75px;
+  animation: pump 1s linear 1s infinite alternate;
 }
 
 @keyframes pump {

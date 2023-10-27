@@ -18,3 +18,4 @@
         <a class="spotify__link" href="https://open.spotify.com/playlist/5LbVDw3w7VYvdFDXQmS12P?si=7cd118a54af04636" target="_blank" rel="noopener"><img src="img/spotify.svg" alt="spotify" loading="lazy"/></a>
     </article>
 </section>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 90"><defs><clipPath id="b"><rect width="1920" height="90"/></clipPath></defs><g id="a" clip-path="url(#b)"><rect width="1920" height="90" fill="#fff"/><path d="M-75.5-17.353S71.727,58.694,485.519,61.4s574-39.163,791.843-39.163,654.853,67.942,654.853,67.942V-17.353Z" fill="#000"/></g></svg>
