@@ -1,5 +1,5 @@
 <div id="clients">
-    <h1><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> WAS KUNDEN SAGEN</h1>
+    <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> WAS KUNDEN SAGEN</h1>
     <hr>
     <div class="carousel" data-flickity='{ "wrapAround": true}'>
         <div class="carousel-cell">

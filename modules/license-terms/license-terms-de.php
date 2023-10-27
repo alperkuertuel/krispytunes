@@ -1,4 +1,4 @@
-<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZEN</h1>
+<h1 id="Licenses"><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZEN</h1>
 <hr>
 <section id="terms">
     <h2>Lese dir vor deinem Einkauf die Lizenzen durch.</h2>

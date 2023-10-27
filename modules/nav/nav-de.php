@@ -1,20 +1,20 @@
-<nav class="shift">
+<nav>
     <!--googleoff: snippet-->
-    <div id="flags">
-        <a href="index"><img src="img/us.svg" alt="us"/></a> 
-        <a href="de"><img src="img/de.svg" alt="de"/></a>
+    <ul class="flags-container">
+        <li><a href="index"><img class="flags-container__image" src="img/us.svg" alt="us"/></a></li>
+        <li><a href="de"><img class="flags-container__image" src="img/de.svg" alt="de"/></a></li>
+    </ul>
+    <div class="menue-bar-container" onclick="myFunction(this)">
+        <div class="menue-bar-container__bar1"></div>
+        <div class="menue-bar-container__bar2"></div>
+        <div class="menue-bar-container__bar3"></div>
     </div>
     <!--googleon: snippet-->
-    <div class="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-    <ul class="showing">
-        <li><a href="#header">INSTRUMENTAL STORE</a></li>
-        <li><a href="#Licenses">LIZENZEN</a></li>
-        <li><a href="#Services">SERVICES</a></li>
-        <li><a href="#Freebeats">FREEBEATS</a></li>
-        <li><a href="#Contact">KONTAKT</a></li>
+    <ul class="nav">
+        <li><a class="nav__item" href="#Instrumental-Store">INSTRUMENTAL STORE</a></li>
+        <li><a class="nav__item" href="#Licenses">LIZENZEN</a></li>
+        <li><a class="nav__item" href="#Services">SERVICES</a></li>
+        <li><a class="nav__item" href="#Freebeats">FREEBEATS</a></li>
+        <li><a class="nav__item" href="#Contact">KONTAKT</a></li>
     </ul>
 </nav>

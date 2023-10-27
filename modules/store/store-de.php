@@ -1,4 +1,4 @@
-<div id="Instrumentalstore">
+<div id="Instrumental-Store">
     <div id="infinity_wrapper">
     <div id="airbit-player"><script async>window.onload = loadAirbitPlayer;</script></div>
             <div id="under">

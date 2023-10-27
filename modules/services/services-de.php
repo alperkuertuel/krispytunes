@@ -1,4 +1,4 @@
-<h1 id="Services"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> SERVICES</h1>
+<h1 id="Services"><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> SERVICES</h1>
 <hr>
     <div class="flex">
         <div  itemscope itemtype="http://schema.org/Dataset"  id="left">
