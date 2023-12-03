@@ -1,4 +1,4 @@
-:root{
+:root {
   --white: #fff;
   --black: #000;
   --gray: gray;
@@ -6,7 +6,7 @@
 
 *,
 *::before,
-*::after  {
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -32,7 +32,10 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: #750020;
 }
 
@@ -129,11 +132,11 @@ a:hover {
 
 /* -- flags -- */
 .flags-container {
-  top: .5rem;
+  top: 0.5rem;
   right: 1rem;
   position: fixed;
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   z-index: 3;
 }
 
@@ -267,7 +270,7 @@ nav {
   width: 100%;
   background-color: #2f3640;
   border-radius: 5px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .store__payment-methods__icon {
@@ -298,12 +301,15 @@ nav {
 }
 
 @keyframes pump {
-  from {transform: scale(1);}
-  to {transform: scale(1.1);}
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 /* -- client-section -- */
-
 #client {
   margin-bottom: 2em;
 }

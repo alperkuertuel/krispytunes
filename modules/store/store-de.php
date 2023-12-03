@@ -18,4 +18,3 @@
         <a class="spotify__link" href="https://open.spotify.com/playlist/5LbVDw3w7VYvdFDXQmS12P?si=7cd118a54af04636" target="_blank" rel="noopener"><img src="img/spotify.svg" alt="spotify" loading="lazy"/></a>
     </article>
 </section>
-<img src="img/seperator.svg" alt="seperator" loading="lazy"/>
