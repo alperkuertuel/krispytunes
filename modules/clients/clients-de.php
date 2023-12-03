@@ -1,4 +1,4 @@
-<section id="clients">
+<section>
     <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> WAS KUNDEN SAGEN</h1>
     <hr>
     <article class="carousel" data-flickity='{ "wrapAround": true}'>
