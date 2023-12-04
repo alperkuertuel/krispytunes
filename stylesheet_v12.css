@@ -878,10 +878,6 @@ input::selection {
     flex-direction: column;
   }
 
-  .responsive {
-    width: 70%;
-  }
-
   #absendernameid,
   #absenderemailid,
   #nachrichtid,
@@ -929,9 +925,5 @@ input::selection {
 
   #terms table {
     display: none;
-  }
-
-  .responsive {
-    width: 70%;
   }
 }
