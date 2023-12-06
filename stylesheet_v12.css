@@ -524,10 +524,8 @@ nav {
 #right,
 #freebeat,
 #lost_beats {
-  z-index: 0;
-  width: 50%;
-  margin: 2em;
-  padding: 0;
+  width: auto;
+  margin: 2rem;
 }
 
 #lost_beats a {
@@ -558,7 +556,6 @@ nav {
   text-align: center;
   width: 100%;
   height: auto;
-  margin: 0;
 }
 
 #faqs .margin {
@@ -578,7 +575,6 @@ dd {
   text-align: justify;
   display: none;
   width: 80%;
-  margin: 0;
   padding: 0.5em 1em 0.3em 3em;
 }
 
@@ -594,7 +590,6 @@ h1 a img {
   width: 25px;
   height: 25px;
   margin: 2em 0.1em 0;
-  padding: 0;
 }
 
 #pp {
@@ -634,7 +629,6 @@ textarea:focus {
 }
 
 input {
-  z-index: 0;
   font-size: 1em;
   background: 0 0;
   border: 0;
@@ -729,8 +723,6 @@ footer {
   vertical-align: top;
   height: auto;
   text-align: left;
-  margin: 0;
-  padding: 0;
 }
 
 footer div ul {
@@ -763,7 +755,6 @@ footer div ul li a:hover {
 footer div ul li a img {
   width: 30px;
   height: 30px;
-  margin: 0;
   padding: 0.1em;
 }
 
@@ -779,13 +770,11 @@ footer div ul li a img {
   right: 0;
   position: relative;
   margin: 1em 0.3em;
-  padding: 0;
 }
 
 .imprint_box h2 {
   font-weight: lighter;
   font-size: 1.5em;
-  margin: 0;
   padding: 0.5em 0 0;
 }
 
