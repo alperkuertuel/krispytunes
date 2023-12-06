@@ -39,7 +39,7 @@
     }, 2000);
 
         $(window).on('resize', function() {
-            if ($(window).width() <= 1165 ) {
+            if ($(window).width() <= 1023 ) {
                 $('.nav').hide();
             }   else {
                 $('.nav').show();
@@ -58,7 +58,7 @@
 
     $('a[href*="#"]').on('click', function(e) {
         e.preventDefault()
-            if ($(window).width() <= 1165 ) {
+            if ($(window).width() <= 1023 ) {
                 $('.nav').hide();
             }   else {
                 $('.nav').show();

@@ -125,7 +125,7 @@ a:hover {
   background-color: #be0048;
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 768px) {
   .menue-bar-container {
     display: inline-block;
   }
@@ -206,7 +206,7 @@ nav {
   height: 100%;
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 1023px) {
   .nav {
     margin-top: 2em;
     flex-direction: column;
@@ -236,7 +236,7 @@ nav {
   color: var(--white);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .header__slogan {
     font-size: 1rem;
   }
@@ -407,6 +407,12 @@ nav {
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .license-terms-contracts table {
+    display: none;
+  }
+}
+
 .license-terms-contracts table tr td {
   padding: 5px;
 }
@@ -500,7 +506,6 @@ nav {
   background-color: var(--white);
   border: 1px solid var(--black);
   color: var(--black);
-  letter-spacing: 0.01rem;
   transition: all 0.5s ease;
 }
 
@@ -855,7 +860,7 @@ input::selection {
   padding: 12px 48px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .flex {
     flex-direction: column;
   }
@@ -883,7 +888,7 @@ input::selection {
   }
 }
 
-@media (max-width: 1165px) {
+@media (min-width: 1023px) {
   #left,
   #right,
   #freebeat,
