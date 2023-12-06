@@ -84,7 +84,6 @@
                 <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
             </p>
         </div>
-
         <div class="license-terms-contracts__premium-leasing">
             <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Beliebt<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
@@ -161,7 +160,6 @@
                 <img src="img/premium.svg" alt="premium" loading="lazy"/>
             </p>
         </div>
-
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
             <h3 class="option-heading">UNLIMITED LEASING</h3>
@@ -237,12 +235,11 @@
                 <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
             </p>
         </div>
-
         <div class="license-terms-contracts__exclusive">
             <h2>
                 IHR ANGEBOT
             </h2>
-            <h3 class="option-heading"> EXKLUSIVLIZENZ</h3>
+            <h3 class="option-heading">EXKLUSIVLIZENZ</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td>Mir zuordnen:</td>

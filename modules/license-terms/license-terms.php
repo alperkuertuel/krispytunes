@@ -22,8 +22,8 @@
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
                 </tr>
                 <tr>
-                    <td>Beat Tags</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td>Beat tags</td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
@@ -35,7 +35,7 @@
                 </tr>
                 <tr>
                     <td>Trackouts:</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>Sales:</td>
@@ -67,11 +67,11 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>Duration:</td>
@@ -84,12 +84,10 @@
                 <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
             </p>
         </div>
-
-
         <div class="license-terms-contracts__premium-leasing">
             <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Popular<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
-            <h3 class="option-heading"> PREMIUM LEASING</h3>
+            <h3 class="option-heading">PREMIUM LEASING</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -100,8 +98,8 @@
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes voice</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td>Beat tags</td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
@@ -145,11 +143,11 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>Duration:</td>
@@ -162,10 +160,9 @@
                 <img src="img/premium.svg" alt="premium" loading="lazy"/>
             </p>
         </div>
-
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 class="option-heading"> UNLIMITED LEASING</h3>
+            <h3 class="option-heading">UNLIMITED LEASING</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -176,8 +173,8 @@
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes voice</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td>Beat tags</td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
@@ -238,20 +235,19 @@
                 <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
             </p>
         </div>
-
         <div class="license-terms-contracts__exclusive">
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 class="option-heading"> EXCLUSIVE LICENSE</h3>
+            <h3 class="option-heading">EXCLUSIVE LICENSE</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td>Tagging me:</td>
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes voice</td>
-                    <td><i class="fa fa-times"></i></td>
+                    <td>Beat tags</td>
+                    <td><i class="fa fa-times" title="Disabled"></i></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>

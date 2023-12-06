@@ -161,7 +161,6 @@ nav {
 }
 
 .nav__item {
-  margin: 0;
   display: block;
   padding: 1rem;
   text-decoration: none;
@@ -385,7 +384,8 @@ nav {
 
 .license-terms-contracts {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -393,7 +393,7 @@ nav {
 .license-terms-contracts__premium-leasing,
 .license-terms-contracts__unlimited-leasing,
 .license-terms-contracts__exclusive {
-  width: 90%;
+  width: 17rem;
   margin: 1rem auto;
 }
 
@@ -528,8 +528,6 @@ nav {
   background-color: rgb(165, 19, 19);
   color: var(--white);
   box-shadow: 0 2px 2px -2px var(--gray);
-  -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
-  -moz-border-radius: 0.4em;
   border-radius: 0.4em 0.4em 0.4em 0.4em;
   margin: 1em;
   padding: 1em;
