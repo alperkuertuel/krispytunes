@@ -11,7 +11,7 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 class="option-heading"> WAV LEASING </h3>
+            <h3 class="option-heading">WAV LEASING</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -22,7 +22,7 @@
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes voice</td>
+                    <td>Beat Tags</td>
                     <td><i class="fa fa-times"></i></td>
                 </tr>
                 <tr>
