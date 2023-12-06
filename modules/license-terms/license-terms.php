@@ -8,8 +8,8 @@
             If you want to buy a exclusive license contact me via the <a href="#contable">contact form</a>.
         </p>
     </article>
-    <article>
-        <div id="lt1">
+    <article class="license-terms-contracts">
+        <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
             <h3 class="option-heading"> WAV LEASING </h3>
             <table class="option-content is-hidden">
@@ -78,16 +78,16 @@
                     <td>3 years</td>
                 </tr>
             </table>
-            <div class="pdf_terms">
+            <p class="license-terms-contracts__pdf-container">
                 CAN BE SOLD AGAIN
                 <a href="docs/wl.pdf" target="_blank">TERMS DOWNLOAD</a>
-                <br />
                 <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
-            </div>
+            </p>
         </div>
 
-        <div id="lt2">
-            <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/> POPULAR <img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></h2>
+
+        <div class="license-terms-contracts__premium-leasing">
+            <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Popular<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
             <h3 class="option-heading"> PREMIUM LEASING</h3>
             <table class="option-content is-hidden">
@@ -156,15 +156,14 @@
                     <td>3 years</td>
                 </tr>
             </table>
-            <div class="pdf_terms">
+            <p class="license-terms-contracts__pdf-container">
                 CAN BE SOLD AGAIN
                 <a href="docs/pl.pdf" target="_blank">TERMS DOWNLOAD</a>
-                <br />
                 <img src="img/premium.svg" alt="premium" loading="lazy"/>
-            </div>
+            </p>
         </div>
 
-        <div id="lt3">
+        <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
             <h3 class="option-heading"> UNLIMITED LEASING</h3>
             <table class="option-content is-hidden">
@@ -233,15 +232,14 @@
                     <td>3 years</td>
                 </tr>
             </table>
-                <div class="pdf_terms">
-                    CAN BE SOLD AGAIN
-                    <a href="docs/ul.pdf" target="_blank">TERMS DOWNLOAD</a>
-                    <br />
-                    <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
-                </div>
+            <p class="license-terms-contracts__pdf-container">
+                CAN BE SOLD AGAIN
+                <a href="docs/ul.pdf" target="_blank">TERMS DOWNLOAD</a>
+                <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
+            </p>
         </div>
 
-        <div id="lt4">
+        <div class="license-terms-contracts__exclusive">
             <h2>
                 YOUR OFFER
             </h2>
@@ -308,18 +306,17 @@
                     <td>Permanent</td>
                 </tr>
             </table>
-            <div class="pdf_terms">
+            <p class="license-terms-contracts__pdf-container">
                 CAN'T BE SOLD AGAIN
                 <a href="docs/ex.pdf" target="_blank">TERMS DOWNLOAD</a>
-            </div>
+            </p>
         </div>
     </article>
-</section>
-
-<script>
-    jQuery(function($) {
-        $(".option-heading").on('click', function() {
-            $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+    <script>
+        jQuery(function($) {
+            $(".option-heading").on('click', function() {
+                $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+            });
         });
-    });
-</script>
+    </script>
+</section>
