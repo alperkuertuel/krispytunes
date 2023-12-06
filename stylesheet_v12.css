@@ -469,13 +469,13 @@ nav {
 }
 
 .option-heading:before {
-  content: "\25bc";
-  margin-right: 5px;
+  content: "\25b6";
+  margin-right: 10px;
 }
 
 .option-heading.is-active:before {
-  content: "\25b6";
-  margin-right: 5px;
+  content: "\25bc";
+  margin-right: 10px;
 }
 
 /* pdf-container */
