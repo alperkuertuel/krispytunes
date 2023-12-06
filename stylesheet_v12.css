@@ -411,6 +411,14 @@ nav {
   padding: 5px;
 }
 
+.fa-times {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
+
 .popular {
   display: flex;
   justify-content: space-evenly;
@@ -456,10 +464,12 @@ nav {
 
 .option-heading:before {
   content: "\25bc";
+  margin-right: 5px;
 }
 
 .option-heading.is-active:before {
   content: "\25b6";
+  margin-right: 5px;
 }
 
 /* pdf-container */
@@ -497,14 +507,6 @@ nav {
 .license-terms-contracts__pdf-container img {
   width: 50px;
   height: 50px;
-}
-
-.fa-times {
-  color: red;
-}
-
-.fa-check {
-  color: green;
 }
 
 .flex {
