@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
 
     <!-- stylesheet, fontAwesome and jQuery -->
-    <link href="stylesheet_v11.css" rel="stylesheet" media="screen" type="text/css">
+    <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
     <script src="jquery-3.5.0.min.js"></script>
 
     <!-- Flickity -->
@@ -33,10 +33,11 @@
     <script async>
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
+            const store = document.querySelector('[data-js="store"]');
             iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
             iframe.title = "Instrumental Store";
-            iframe.id = "airbit_infinity";
-            document.getElementById("airbit-player").appendChild(iframe);
+            iframe.classList.add("store__player");
+            store.appendChild(iframe);
         }
     </script>
 

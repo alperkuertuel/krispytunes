@@ -1,319 +1,318 @@
-<h1 id="Licenses"><a href="#Instrumentalstore"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZEN</h1>
-<hr>
-<section id="terms">
-    <h2>Lese dir vor deinem Einkauf die Lizenzen durch.</h2>
-    <p>
-        Die unten aufgef&uuml;hrten Lizenzen geben dir einen kurzen &Uuml;berblick.
-        Ich empfehle dir die Beispiel-Lizenzen unterhalb der Lizenz-&Uuml;bersicht im PDF-Format herunterzuladen und durchzulesen. Auf <a href="#cont">Anfrage</a> kann ich dir eine deutsche Version der Rechte zuschicken.
-        <br />
-        <a href="#contable">Kontaktiere mich,</a> wenn du eine exklusive Lizenz kaufen willst.
-    </p>
-    <div id="lt1">
-        <h2>20 $</h2>
-        <h3 class="option-heading"> WAV LEASING </h3>
-        <table class="option-content is-hidden">
-            <tr>
-                <td><b>100% Geb&Uuml;hrenfrei</b></td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Erw&auml;hnung:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>krispytunes Stimme</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>MP3:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>WAV:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Beatspuren:</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>Verk&auml;ufe:</td>
-                <td>5.000</td>
-            </tr>
-            <tr>
-                <td>Free Downloads:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Unbezahlte Auftritte:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Bezahlte Auftritte:</td>
-                <td>1 (Ein)</td>
-            </tr>
-            <tr>
-                <td>Music Videos:</td>
-                <td>1 (Ein)</td>
-            </tr>
-            <tr>
-                <td>Audio Streams:</td>
-                <td>50.000</td>
-            </tr>
-            <tr>
-                <td>Video Streams:</td>
-                <td>50.000</td>
-            </tr>
-            <tr>
-                <td>Ausstrahlungsrechte:</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>Radio Stationen:</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>Dauer:</td>
-                <td>3 Jahre</td>
-            </tr>
-        </table>
-        <div class="pdf_terms">
-            <a href="docs/wl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
-            <br />
-            <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
+<section class="license-terms">
+    <h1 id="Licenses"><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZBEDINGUNGEN</h1>
+    <article class="license-terms__description">
+        <h2>Bitte lese dir die Lizenzbedingungen vor dem Kauf sorgfältig durch.</h2>
+        <p class="license-terms__description__text">
+            Bitte beachten, dass die unten aufgeführten Lizenzbedingungen einen kurzen Überblick bieten.
+            Für weitere Details empfehle ich dir, die Beispiellizenzen herunterzuladen.
+            Wenn Sie eine exklusive Lizenz erwerben möchten, kontaktieren Sie mich über das <a href="#contable">Kontaktformular</a>.
+        </p>
+    </article>
+    <article class="license-terms-contracts">
+        <div class="license-terms-contracts__wav-leasing">
+            <h2>20 $</h2>
+            <h3 class="option-heading">WAV LEASING</h3>
+            <table class="option-content is-hidden">
+                <tr>
+                    <td><b>100% Gebührenfrei</b></td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Erwähnung:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Beat-Kennzeichnung</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>MP3:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>WAV:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Beatspuren:</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Verkäufe:</td>
+                    <td>5.000</td>
+                </tr>
+                <tr>
+                    <td>Free Downloads:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Unbezahlte Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Bezahlte Auftritte:</td>
+                    <td>ein (1)</td>
+                </tr>
+                <tr>
+                    <td>Music Videos:</td>
+                    <td>ein (1)</td>
+                </tr>
+                <tr>
+                    <td>Audio Streams:</td>
+                    <td>50.000</td>
+                </tr>
+                <tr>
+                    <td>Video Streams:</td>
+                    <td>50.000</td>
+                </tr>
+                <tr>
+                    <td>Austrahlungsrechte:</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Radio Stationen:</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Dauer:</td>
+                    <td>3 years</td>
+                </tr>
+            </table>
+            <p class="license-terms-contracts__pdf-container">
+            KANN ERNEUT VERKAUFT WERDEN
+                <a href="docs/wl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
+                <img src="img/wav.svg" alt="wav-file" loading="lazy"/>
+            </p>
         </div>
-    </div>
-
-    <div id="lt2">
-        <h2 class="pop"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/> BELIEBT <img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></h2>
-        <h2>80 $</h2>
-        <h3 class="option-heading"> PREMIUM LEASING</h3>
-        <table class="option-content is-hidden">
-            <tr>
-                <td><b>100% Gebührenfrei</b></td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Erw&auml;hnung:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>krispytunes Stimme</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>MP3:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>WAV:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Beatspuren:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Verk&auml;ufe:</td>
-                <td>10.000</td>
-            </tr>
-            <tr>
-                <td>Free Downloads:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Unbezahlte Auftritte:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Bezahlte Auftritte:</td>
-                <td>Zehn (10)</td>
-            </tr>
-            <tr>
-                <td>Music Videos:</td>
-                <td>1 (Ein)</td>
-            </tr>
-            <tr>
-                <td>Audio Streams:</td>
-                <td>500.000</td>
-            </tr>
-            <tr>
-                <td>Video Streams:</td>
-                <td>500.000</td>
-            </tr>
-            <tr>
-                <td>Ausstrahlungsrechte:</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>Radio Stationen:</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>Dauer:</td>
-                <td>3 Jahre</td>
-            </tr>
-        </table>
-        <div class="pdf_terms">
-            <a href="docs/pl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
-            <br />
-            <img src="img/premium.svg" alt="premium" loading="lazy"/>
+        <div class="license-terms-contracts__premium-leasing">
+            <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Beliebt<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
+            <h2>80 $</h2>
+            <h3 class="option-heading">PREMIUM LEASING</h3>
+            <table class="option-content is-hidden">
+                <tr>
+                    <td><b>100% Gebührenfrei</b></td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Erwähnung:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Beat-Kennzeichnung</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>MP3:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>WAV:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Beatspuren:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Verkäufe:</td>
+                    <td>10.000</td>
+                </tr>
+                <tr>
+                    <td>Freedownloads:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Unbezahlte Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Bezahlte Auftritte:</td>
+                    <td>zehn (10)</td>
+                </tr>
+                <tr>
+                    <td>Musik Videos:</td>
+                    <td>ein (1)</td>
+                </tr>
+                <tr>
+                    <td>Audio Streams:</td>
+                    <td>500.000</td>
+                </tr>
+                <tr>
+                    <td>Video Streams:</td>
+                    <td>500.000</td>
+                </tr>
+                <tr>
+                    <td>Austrahlungsrechte:</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Radio Stationen:</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Dauer:</td>
+                    <td>3 Jahre</td>
+                </tr>
+            </table>
+            <p class="license-terms-contracts__pdf-container">
+                KANN ERNEUT VERKAUFT WERDEN
+                <a href="docs/pl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
+                <img src="img/premium.svg" alt="premium" loading="lazy"/>
+            </p>
         </div>
-    </div>
-
-    <div id="lt3">
-        <h2>280 $</h2>
-        <h3 class="option-heading"> UNLIMITED LEASING</h3>
-        <table class="option-content is-hidden">
-            <tr>
-                <td><b>100% Geb&auml;hrenfrei</b></td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Erw&auml;hnung:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>krispytunes Stimme</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>MP3</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>WAV:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Beatspuren:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Verk&auml;ufe:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Free Downloads:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Unbezahlte Auftritte:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Bezahlte Auftritte:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Music Videos:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Audio Streams:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Video Streams:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Ausstrahlungsrechte:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Radio Stationen:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Dauer:</td>
-                <td>3 Jahre</td>
-            </tr>
-        </table>
-            <div class="pdf_terms">
+        <div class="license-terms-contracts__unlimited-leasing">
+            <h2>280 $</h2>
+            <h3 class="option-heading">UNLIMITED LEASING</h3>
+            <table class="option-content is-hidden">
+                <tr>
+                    <td><b>100% lizenzfrei</b></td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Mir zuordnen:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>krispytunes-Stimme</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>MP3:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>WAV:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Trackouts:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Verkäufe:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Kostenlose Downloads:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Non-Profit-Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Bezahlte Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Musikvideos:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Audio-Streams:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Video-Streams:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Rundfunkrechte:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Radiosender:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Dauer:</td>
+                    <td>3 Jahre</td>
+                </tr>
+            </table>
+            <p class="license-terms-contracts__pdf-container">
+                KANN ERNEUT VERKAUFT WERDEN
                 <a href="docs/ul.pdf" target="_blank">LIZENZ DOWNLOAD</a>
-                <br />
                 <img src="img/unlimited.svg" alt="unlimited" loading="lazy"/>
-            </div>
-    </div>
-
-    <div id="lt4">
-        <h2>
-            AUF ANFRAGE
-        </h2>
-        <h3 class="option-heading"> EXKLUSIVE LIZENZ</h3>
-        <table class="option-content is-hidden">
-            <tr>
-                <td>Erw&auml;hnung:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>krispytunes Stimme</td>
-                <td><i class="fa fa-times"></i></td>
-            </tr>
-            <tr>
-                <td>MP3:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>WAV:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Beatspuren:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Verk&auml;ufe:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Free Downloads:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Unbezahlte Auftritte:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Bezahlte Auftritte:</td>
-                <td>Unlimitert</td>
-            </tr>
-            <tr>
-                <td>Music Videos:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Audio Streams:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Video Streams:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Ausstrahlungsrechte:</td>
-                <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
-            </tr>
-            <tr>
-                <td>Radio Stationen:</td>
-                <td>Unlimitiert</td>
-            </tr>
-            <tr>
-                <td>Dauer:</td>
-                <td>Permanent</td>
-            </tr>
-        </table>
-        <div class="pdf_terms">
-            <a href="docs/ex.pdf" target="_blank">LIZENZ DOWNLOAD</a>
+            </p>
         </div>
-    </div>
-</section>
-
-<script>
-    jQuery(function($) {
-        $(".option-heading").on('click', function() {
-            $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+        <div class="license-terms-contracts__exclusive">
+            <h2>
+                IHR ANGEBOT
+            </h2>
+            <h3 class="option-heading">EXKLUSIVLIZENZ</h3>
+            <table class="option-content is-hidden">
+                <tr>
+                    <td>Mir zuordnen:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>krispytunes-Stimme</td>
+                    <td><i class="fa fa-times" title="Deaktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>MP3:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>WAV:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Trackouts:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Verkäufe:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Kostenlose Downloads:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Non-Profit-Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Bezahlte Auftritte:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Musikvideos:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Audio-Streams:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Video-Streams:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Rundfunkrechte:</td>
+                    <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
+                </tr>
+                <tr>
+                    <td>Radiosender:</td>
+                    <td>Unbegrenzt</td>
+                </tr>
+                <tr>
+                    <td>Dauer:</td>
+                    <td>Unbefristet</td>
+                </tr>
+            </table>
+            <p class="license-terms-contracts__pdf-container">
+                KANN ERNEUT WIEDER VERKAUFT WERDEN
+                <a href="docs/ex.pdf" target="_blank">LIZENZ DOWNLOAD</a>
+            </p>
+        </div>
+    </article>
+    <script>
+        jQuery(function($) {
+            $(".option-heading").on('click', function() {
+                $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+            });
         });
-    });
-</script>
+    </script>
+</section>

@@ -1,7 +1,5 @@
-<div id="header">
-    <a href="index"><img src="img/header.jpg" class="back" alt="krispytunes"/></a>
-    <br />
-    <div id="slogan">
-        KRISPYTUNES - INSTRUMENTALS
-    </div>
-</div>
+<header class="header" id="header">
+    <a href="index"><img class="header__image" src="img/header.jpg" alt="krispytunes"/></a>
+    <h1 class="header__slogan">krispytunes - instrumental store</h1>
+    <?php include './modules/nav/nav.php'; ?>
+</header>
