@@ -2,7 +2,26 @@
   --white: #fff;
   --black: #000;
   --gray: gray;
+
+  --success-color: rgba(0, 128, 28, 0.5);
+  --success-color-darker: rgba(0, 128, 28, 0.5);
+  --success-color-lighter: #8fbc8f;
+
+  --error-color: ;
+  --error-color-darker: rgba(90, 13, 13, 0.5);
+  --error-color-lighter: #f8a2ac;
+
+  --box-color: #ebebeb;
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  --link-color: #5a6fbd;
+  --link-color-hover: #5a6fbd;
+
+  --youtube-red: rgb(165, 19, 19);
+  --primary-color: #750020;
+  --primary-color-darker: #8a0022;
+  --primary-color-lighter: #be0048;
+  --secondary-color: #2f3640;
 }
 
 *,
@@ -37,7 +56,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #750020;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -67,7 +86,7 @@ ul {
 
 a {
   font-weight: 700;
-  color: #5a6fbd;
+  color: var(--link-color);
   text-decoration: none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -76,7 +95,7 @@ a {
 }
 
 a:hover {
-  color: #00f;
+  color: var(--link-color-hover);
   text-decoration: none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -92,7 +111,7 @@ a:hover {
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(47, 54, 64);
+  background-color: var(--secondary-color);
   padding: 0.3em 0 0.3em 1em;
 }
 
@@ -112,7 +131,7 @@ a:hover {
 .toggle .menue-bar-container__bar1 {
   -webkit-transform: rotate(-15deg) translate(-9px, 6px);
   transform: rotate(-15deg) translate(-9px, 6px);
-  background-color: #8a0022;
+  background-color: var(--primary-color-darker);
 }
 
 .toggle .menue-bar-container__bar2 {
@@ -122,7 +141,7 @@ a:hover {
 .toggle .menue-bar-container__bar3 {
   -webkit-transform: rotate(15deg) translate(-7px, -7px);
   transform: rotate(15deg) translate(-7px, -7px);
-  background-color: #be0048;
+  background-color: var(--primary-color-lighter);
 }
 
 @media (max-width: 768px) {
@@ -151,7 +170,7 @@ nav {
   z-index: 1;
   position: fixed;
   width: 100%;
-  background-color: #2f3640;
+  background-color: var(--secondary-color);
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -194,7 +213,7 @@ nav {
   height: 1px;
   content: ".";
   color: transparent;
-  background: #750020;
+  background: var(--primary-color);
   visibility: none;
   opacity: 0;
   z-index: -1;
@@ -268,7 +287,7 @@ nav {
   gap: 1rem;
   text-transform: uppercase;
   width: 100%;
-  background-color: #2f3640;
+  background-color: var(--secondary-color);
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -329,7 +348,7 @@ nav {
   width: 75%;
   height: auto;
   margin: 1rem;
-  background-color: #ebebeb;
+  background-color: var(--box-color);
   box-shadow: var(--box-shadow);
   border-radius: 0.4em 0.4em 0.4em 0.4em;
   padding: 1rem;
@@ -400,7 +419,7 @@ nav {
 .license-terms-contracts table {
   display: flex;
   text-align: left;
-  background-color: #ebebeb;
+  background-color: var(--box-color);
   box-shadow: var(--box-shadow);
   padding: 5px;
   margin-bottom: 0.5rem;
@@ -457,7 +476,7 @@ nav {
 .license-terms-contracts h3 {
   color: var(--white);
   text-align: center;
-  background-color: #2f3640;
+  background-color: var(--secondary-color);
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 5px;
@@ -485,8 +504,7 @@ nav {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
-  background-color: #ebebeb;
-  border: 1px solid #d9d9d9;
+  background-color: var(--box-color);
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
@@ -495,8 +513,8 @@ nav {
   font-size: 0.9em;
   font-weight: lighter;
   color: var(--white);
-  border: 1px solid #d9d9d9;
-  background-color: #2f3640;
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
   display: inline-block;
   border-radius: 5px;
   padding: 0.5rem;
@@ -504,7 +522,7 @@ nav {
 
 .license-terms-contracts__pdf-container a:hover {
   background-color: var(--white);
-  border: 1px solid var(--black);
+  box-shadow: var(--box-shadow);
   color: var(--black);
   transition: all 0.5s ease;
 }
@@ -530,7 +548,7 @@ nav {
 
 #lost_beats a {
   display: inline-block;
-  background-color: rgb(165, 19, 19);
+  background-color: var(--youtube-red);
   color: var(--white);
   box-shadow: 0 2px 2px -2px var(--gray);
   border-radius: 0.4em 0.4em 0.4em 0.4em;
@@ -565,8 +583,8 @@ nav {
 dt {
   display: inline-block;
   width: 95%;
-  background-color: #ebebeb;
-  border: 1px #2f3640 solid;
+  background-color: var(--box-color);
+  border: 1px var(--secondary-color) solid;
   margin: 0.5em;
   padding: 0.7em;
 }
@@ -647,7 +665,7 @@ input {
 
 .news {
   display: inline-block;
-  border: rgba(0, 128, 28, 0.5) 0.2em solid;
+  border: var(--success-color) 0.2em solid;
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -657,9 +675,9 @@ input {
 }
 
 .message-box {
-  background-color: #8fbc8f;
+  background-color: var(--success-color-lighter);
   display: inline-block;
-  border: rgba(0, 128, 28, 0.5) 0.2em solid;
+  border: var(--success-color-darker) 0.2em solid;
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -669,9 +687,9 @@ input {
 }
 
 .message-box-error {
-  background-color: #f8a2ac;
+  background-color: var(--error-color-lighter);
   display: inline-block;
-  border: rgba(90, 13, 13, 0.5) 0.2em solid;
+  border: var(--error-color-darker) 0.2em solid;
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -690,7 +708,7 @@ input {
 }
 
 .button:hover {
-  background-color: rgba(47, 54, 64, 0.9);
+  background-color: var(--secondary-color);
   color: var(--white);
   transition: 0.5s ease 0.2s;
   font-weight: lighter;
@@ -708,7 +726,7 @@ input {
 }
 
 footer {
-  background-color: #2f3640;
+  background-color: var(--secondary-color);
   vertical-align: center;
   color: var(--white);
   text-align: left;
@@ -823,7 +841,7 @@ input::selection {
   bottom: -100%;
   left: 0;
   right: 0;
-  background: #2f3640;
+  background: var(--secondary-color);
   color: var(--white);
   transition: 400ms;
   padding: 0 32px;
@@ -839,9 +857,9 @@ input::selection {
 }
 
 .cookie-btn {
-  background: #8a0022;
+  background: var(--primary-color-darker);
   border: 0;
-  color: #f5f6fa;
+  color: var(--box-color);
   font-size: 18px;
   margin-bottom: 16px;
   border-radius: 8px;
