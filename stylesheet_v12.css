@@ -533,19 +533,29 @@ nav {
   width: 50px;
   height: 50px;
 }
-
-.flex {
+/* -- services -- */
+.services {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-#left,
-#right,
-#freebeat,
-#lost_beats {
-  width: auto;
-  margin: 2rem;
+.services__custom-beats,
+.services__commercial-videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.services__custom-beats img,
+.services__commercial-videos img {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
 }
 
 #lost_beats a {
