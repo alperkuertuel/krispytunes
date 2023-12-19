@@ -810,12 +810,8 @@ footer div ul li a img {
 }
 
 #up img {
-  bottom: 0;
-  height: 50px;
-  width: 50px;
-  right: 0;
-  position: relative;
-  margin: 1em 0.3em;
+  height: 25px;
+  width: 25px;
 }
 
 .imprint_box h2 {
@@ -903,19 +899,6 @@ input::selection {
   #artistpage,
   #emailid {
     width: 90%;
-  }
-
-  footer {
-    letter-spacing: 0;
-  }
-
-  #up img {
-    width: 25px;
-    height: 25px;
-  }
-
-  footer div ul {
-    margin: 0 0.1em;
   }
 }
 
