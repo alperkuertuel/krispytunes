@@ -487,11 +487,13 @@ nav {
   cursor: pointer;
 }
 
+/* todo: find better naming */
 .option-heading:before {
   content: "\25b6";
   margin-right: 10px;
 }
 
+/* todo: find better naming */
 .option-heading.is-active:before {
   content: "\25bc";
   margin-right: 10px;
@@ -569,6 +571,7 @@ nav {
   scale: 75%;
 }
 
+/* -- faqs -- */
 #faqs {
   display: inline-block;
   text-align: center;
