@@ -1,4 +1,4 @@
-<section>
+<section id="Clients">
     <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> WHAT CLIENTS SAY</h1>
     <article class="carousel" data-flickity='{ "wrapAround": true}'>
         <div class="carousel-cell">
