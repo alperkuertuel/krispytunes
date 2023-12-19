@@ -1,6 +1,5 @@
-<div id="Freebeats">
+<section id="Freebeats">
 <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a>DOWNLOAD MORE THEN 30 FREEBEATS WITHOUT VOICE TAGS</h1>
-    <hr>
     <div class="flex">
         <div id="lost_beats">
             <h2>LOST BEATS VOL. 1</h2>
@@ -23,4 +22,4 @@
             <?php include './modules/freebeats/request.php'; ?>
         </div>
     </div>
-</div>
+</section>
