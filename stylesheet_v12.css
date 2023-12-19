@@ -882,10 +882,6 @@ input::selection {
 }
 
 @media (max-width: 768px) {
-  .flex {
-    flex-direction: column;
-  }
-
   #absendernameid,
   #absenderemailid,
   #nachrichtid,
@@ -924,9 +920,5 @@ input::selection {
 
   dd {
     width: 90%;
-  }
-
-  .flex {
-    flex-direction: column;
   }
 }
