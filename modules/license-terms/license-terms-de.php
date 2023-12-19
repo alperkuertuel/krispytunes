@@ -1,5 +1,5 @@
-<section class="license-terms">
-    <h1 id="Licenses"><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZBEDINGUNGEN</h1>
+<section id="Licenses" class="license-terms">
+    <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> LIZENZBEDINGUNGEN</h1>
     <article class="license-terms__description">
         <h2>Bitte lese dir die Lizenzbedingungen vor dem Kauf sorgfältig durch.</h2>
         <p class="license-terms__description__text">
