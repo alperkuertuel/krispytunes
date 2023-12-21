@@ -114,18 +114,12 @@ a {
   font-weight: 700;
   color: var(--link-color);
   text-decoration: none;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 a:hover {
   color: var(--link-color-hover);
   text-decoration: none;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -147,9 +141,6 @@ a:hover {
   width: 2rem;
   height: 0.2rem;
   background-color: var(--white);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin: 0.3rem 0;
 }
@@ -559,6 +550,7 @@ nav {
   width: 50px;
   height: 50px;
 }
+
 /* -- services -- */
 .services {
   display: flex;
@@ -647,9 +639,6 @@ dd {
 
 dt a {
   color: var(--black);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -664,6 +653,10 @@ dt a {
 }
 
 /* -- contact -- */
+.contact {
+  padding: 1rem;
+}
+
 #contabel div {
   display: inline-block;
   text-align: left;
@@ -673,8 +666,6 @@ textarea {
   display: inline-block;
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
-  -webkit-border-radius: 0.1em;
-  -moz-border-radius: 0.1em;
   border-radius: 0.1em;
   resize: none;
   background: 0 0;
@@ -772,9 +763,6 @@ footer div ul li a {
 footer div ul li a:hover {
   text-decoration: none;
   color: var(--gray);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -815,24 +803,16 @@ footer div ul li a img {
   color: var(--gray);
 }
 
-dt a:hover,
-::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
+dt a:hover {
   color: var(--black);
 }
 
 input:focus,
 input::selection {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 
-:invalid,
-:-moz-submit-invalid,
-:-moz-ui-invalid {
+:invalid {
   box-shadow: none;
 }
 
