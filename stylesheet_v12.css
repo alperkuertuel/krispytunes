@@ -86,6 +86,22 @@ img {
   border: 0;
 }
 
+/* -- used for send and request -- */
+button {
+  background-color: var(--gray);
+  color: var(--white);
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  transition: 0.5s ease 0.2s;
+}
+
 hr {
   border: 1px dashed #d3d3d3;
 }
@@ -715,33 +731,6 @@ input {
   border-radius: 5px;
   margin: 1rem;
   padding: 0.5rem;
-}
-
-.button {
-  text-decoration: none;
-  border: 0;
-  background-color: var(--gray);
-  width: auto;
-  color: var(--black);
-  padding: 0.8em;
-}
-
-.button:hover {
-  background-color: var(--secondary-color);
-  color: var(--white);
-  transition: 0.5s ease 0.2s;
-  font-weight: lighter;
-}
-
-.space {
-  font-size: 1em;
-  margin-bottom: 3em;
-}
-
-.space,
-#value_freebeat,
-#value_contact {
-  font-size: 1em;
 }
 
 footer {

@@ -23,7 +23,7 @@
             </div>
             <div class="space">
                 <input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
-                <input class="button" id="submit_contact" type="submit" value="SENDEN">
+                <button id="submit_contact" type="submit">SENDEN</button>
             </div>
         </form>
         <script>

@@ -17,9 +17,9 @@
             <input type="checkbox" value="THIS CONTACT SUBSCRIBED" name="subscriber_box" id="subscriber" class="subscribe_box">
             <label for="subscriber">Yes, I also want to subscribe for discounts and updates!</label>
         </div>
-        <div class="space">
+        <div>
             <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-            <input class="button" type="submit" name="submit_req" id="submit_req" value="REQUEST">
+            <button type="submit" name="submit_req" id="submit_req">REQUEST</button>
         </div>
     </form>
     <script>
