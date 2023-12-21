@@ -693,37 +693,28 @@ input {
 
 .news {
   display: inline-block;
-  border: var(--success-color) 0.2em solid;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.5em;
+  border: var(--success-color) 3px solid;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .message-box {
   background-color: var(--success-color-lighter);
-  display: inline-block;
-  border: var(--success-color-darker) 0.2em solid;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.5em;
+  display: block;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .message-box-error {
   background-color: var(--error-color-lighter);
-  display: inline-block;
-  border: var(--error-color-darker) 0.2em solid;
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.5em;
+  display: block;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .button {
