@@ -4,12 +4,9 @@
   --gray: gray;
 
   --success-color: rgba(0, 128, 28, 0.5);
-  --success-color-darker: rgba(0, 128, 28, 0.5);
   --success-color-lighter: #8fbc8f;
 
-  --error-color: ;
-  --error-color-darker: rgba(90, 13, 13, 0.5);
-  --error-color-lighter: #f8a2ac;
+  --error-color: #f8a2ac;
 
   --box-color: #ebebeb;
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -716,7 +713,7 @@ input {
 }
 
 .message-box-error {
-  background-color: var(--error-color-lighter);
+  background-color: var(--error-color);
   display: block;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
