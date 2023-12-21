@@ -17,7 +17,6 @@
                 <input type="checkbox" value="THIS CONTACT SUBSCRIBED" name="subscribe_box" class="subscribe_box" id="subscribe_box">
                 <label for="subscribe_box">Yes, I want to subscribe for discounts and updates!</label>
             </div>
-
             <div id="policy">
                 <input type="checkbox" name="dsgvo" id="dsgvo" required>
                 <label for="dsgvo">Did you read the <a href="privacy-policy" target="_blank">privacy policy</a>?</label>
