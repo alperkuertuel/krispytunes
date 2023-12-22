@@ -42,7 +42,6 @@ body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.05em;
   text-align: center;
-  width: 100%;
 }
 
 .main {
@@ -54,6 +53,7 @@ h2,
 h3,
 h4 {
   color: var(--primary-color);
+  width: 100%;
 }
 
 h1 {
@@ -576,9 +576,9 @@ nav {
 /* -- freebeats -- */
 .freebeats {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
   padding: 1rem;
 }
@@ -590,6 +590,15 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin: 1rem;
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .freebeats__lost-beats,
+  .freebeats__kriyptunes-vol-1 {
+    width: 100%;
+  }
 }
 
 .freebeats__lost-beats img,
@@ -597,7 +606,7 @@ nav {
   scale: 75%;
 }
 
-.freebeats__lost-beats a {
+.freebeats__lost-beats__playlist-button {
   display: inline-block;
   background-color: var(--youtube-red);
   color: var(--white);
@@ -606,6 +615,10 @@ nav {
   padding: 1rem;
 }
 
+.freebeats__lost-beats__playlist-button:hover {
+  color: var(--white);
+  background-color: var(--secondary-color);
+}
 /* -- faqs -- */
 #faqs {
   display: inline-block;
