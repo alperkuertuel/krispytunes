@@ -7,7 +7,6 @@
             <input type="text" name="absendername" id="nameid" placeholder="Name" autocomplete="off" maxlength="30" size="25" required>
 
         </div>
-
         <div>
             <label for="artistpage"></label>
             <input type="text" name="artistpage" id="artistpage" placeholder="Instagram oder Facebook" autocomplete="off" maxlength="30" size="25">
@@ -28,7 +27,6 @@
             <button type="submit" id="submit_req">ANFRAGEN</button>
         </div>
     </form>
-
     <script>
         $(document).ready(function () {
             $("#captcha").submit(function (event) {
