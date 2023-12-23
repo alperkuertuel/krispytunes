@@ -1,6 +1,8 @@
 <footer>
-    <div id="up">
-        <a href="#Instrumental-Store"><img src="img/up-arrow.svg" alt="MOVE UP" loading="lazy"/></a>
+    <div>
+        <a href="#Instrumental-Store">
+            <i class="fa-solid fa-angle-up" aria-label="Scroll to Top"></i>
+        </a>
     </div>
 	<div id="dfooter1">
         <ul>

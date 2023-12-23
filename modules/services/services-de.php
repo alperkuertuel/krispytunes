@@ -1,5 +1,10 @@
 <section id="Services" class="services">
-    <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> SERVICES</h1>
+    <h1>
+        <a href="#Instrumental-Store">
+            <i class="fa-solid fa-angle-up" aria-label="Scroll to Top"></i>
+        </a>
+        SERVICES
+    </h1>
     <article class="services__custom-beats">
         <h2>CUSTOM BEATS</h2>
         <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
