@@ -1,4 +1,4 @@
-<section id="Clients">
+<section id="Clients" class="clients">
     <h1>
         <a href="#Instrumental-Store">
             <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
