@@ -83,7 +83,7 @@ img {
   color: var(--black);
 }
 
-/* -- used for send and request -- */
+/* -- use for send and request -- */
 button {
   background-color: var(--gray);
   color: var(--white);
