@@ -9,7 +9,7 @@
         <p>
             I'm going to send you the 11 instrumentals on your purchasing e-mail right after your purchase. Listen to all 11 beats with a hit on the button below:
         </p>
-        <a href="https://www.youtube.com/watch?v=GFTXUxopAfo&list=PLk9TudZPTLnF8vPcMYroRju7WfPni9cGE&index=2" rel="noopener" target="_blank">YOUTUBE-PLAYLIST</a>
+        <a class="freebeats__lost-beats__playlist-button" href="https://www.youtube.com/watch?v=GFTXUxopAfo&list=PLk9TudZPTLnF8vPcMYroRju7WfPni9cGE&index=2" rel="noopener" target="_blank">YOUTUBE-PLAYLIST</a>
     </article>
     <article class="freebeats__kriyptunes-vol-1">
         <h2>KRISPYTUNES VOL. 1</h2>

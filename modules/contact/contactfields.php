@@ -17,14 +17,13 @@
                 <input type="checkbox" value="THIS CONTACT SUBSCRIBED" name="subscribe_box" class="subscribe_box" id="subscribe_box">
                 <label for="subscribe_box">Yes, I want to subscribe for discounts and updates!</label>
             </div>
-
             <div id="policy">
                 <input type="checkbox" name="dsgvo" id="dsgvo" required>
                 <label for="dsgvo">Did you read the <a href="privacy-policy" target="_blank">privacy policy</a>?</label>
             </div>
-            <div class="space">
+            <div>
                 <input type="hidden" name="recaptcha_response2" id="recaptchaResponse2">
-                <input class="button" id="submit_contact" type="submit" value="SEND">
+                <button id="submit_contact" type="submit">SEND</button>
             </div>
         </form>
         <script>
