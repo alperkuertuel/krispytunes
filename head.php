@@ -23,6 +23,9 @@
 
     <!-- stylesheet and jQuery -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
+
+    <!-- jQuery to vanilla JavaScript -->
+    <script src ="index.js"></script>
     <script src="jquery-3.5.0.min.js"></script>
 
     <!-- flickity: slideshow -->
