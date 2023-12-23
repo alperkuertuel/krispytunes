@@ -1,6 +1,6 @@
 <!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
-	<?php include './components/head/head.php'; ?>
+	<?php include './head.php'; ?>
 	<body>
         <?php include './components/header/header-de.php'; ?>
         <main class="main">
