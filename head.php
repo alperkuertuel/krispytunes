@@ -21,11 +21,10 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
 
-    <!-- stylesheet and jQuery -->
+    <!-- stylesheet -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
 
-    <!-- jQuery to vanilla JavaScript -->
-    <script src ="index.js"></script>
+    <!-- jQuery -->
     <script src="jquery-3.5.0.min.js"></script>
 
     <!-- flickity: slideshow -->
