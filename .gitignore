@@ -2,3 +2,6 @@ link
 dl
 docs
 .DS_Store
+.htaccess
+apple-touch-icon.png
+sitemap.xml
