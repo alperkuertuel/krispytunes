@@ -743,63 +743,44 @@ input {
   padding: 0.5rem;
 }
 
-footer {
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 1rem;
+  text-align: left;
   background-color: var(--secondary-color);
-  vertical-align: center;
   color: var(--white);
-  text-align: left;
   width: 100%;
-  padding: 0.5em;
 }
 
-#dfooter1,
-#dfooter2,
-#dfooter3 {
-  display: inline-block;
-  vertical-align: top;
-  height: auto;
-  text-align: left;
-}
-
-footer div ul {
-  text-align: left;
-  margin: 1em 0.5em;
-  padding: 0.5em;
-}
-
-footer div ul li {
-  list-style: none;
-  font-size: 0.7em;
-  padding: 0.3em;
-}
-
-footer div ul li a {
+.footer__up-button {
   color: var(--white);
-  text-decoration: none;
+}
+
+.footer ul li {
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+.footer ul li a {
+  color: var(--white);
   font-weight: lighter;
 }
 
-footer div ul li a:hover {
+.footer ul li a:hover {
   text-decoration: none;
   color: var(--gray);
   transition: all 0.5s ease;
 }
 
-footer div ul li a img {
+.footer ul li a img {
   width: 30px;
   height: 30px;
-  padding: 0.1em;
 }
 
-#dfooter3 ul li {
-  display: inline-block;
-}
-
-#up img {
-  height: 25px;
-  width: 25px;
-}
-
+/* -- imprint styling -- */
 .imprint_box h2 {
   font-weight: lighter;
   font-size: 1.5em;
@@ -819,10 +800,6 @@ footer div ul li a img {
 .icon_refer {
   font-size: 0.8em;
   color: var(--gray);
-}
-
-dt a:hover {
-  color: var(--black);
 }
 
 input:focus,
