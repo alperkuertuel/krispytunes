@@ -1,6 +1,6 @@
 :root {
   --white: #fff;
-  --black: #000;
+  --black: black;
   --gray: gray;
 
   --success-color: rgba(0, 128, 28, 0.5);
@@ -840,13 +840,15 @@ input::selection {
 
 .cookie-container {
   position: fixed;
-  bottom: -100%;
   left: 0;
   right: 0;
   background: var(--secondary-color);
   color: var(--white);
-  transition: 400ms;
-  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .cookie-container.active {
@@ -858,15 +860,15 @@ input::selection {
   color: var(--white);
 }
 
-.cookie-btn {
+.cookie-container__recaptcha-text {
+  font-size: 0.7rem;
+}
+
+.cookie-container__button {
   background: var(--primary-color-darker);
-  border: 0;
   color: var(--box-color);
-  font-size: 18px;
-  margin-bottom: 16px;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
-  padding: 12px 48px;
 }
 
 @media (max-width: 768px) {

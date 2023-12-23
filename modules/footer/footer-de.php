@@ -28,7 +28,7 @@
 <script>
     $(document).ready(function() {
         const cookieContainer = document.querySelector(".cookie-container");
-        const cookieButton = document.querySelector(".cookie-btn");
+        const cookieButton = document.querySelector(".cookie-container__button");
 
         cookieButton.addEventListener("click", () => {
         cookieContainer.classList.remove("active");

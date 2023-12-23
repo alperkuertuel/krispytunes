@@ -12,15 +12,13 @@
             <?php /* include '/modules/faq/faq-de.php'; */ ?>
             <!--googleoff: snippet-->
             <?php include './modules/contact/contact-de.php'; ?>
-            <div class="cookie-container">
+            <article class="cookie-container">
                 <p>
                     Diese Seite verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Wenn Sie meine Website nutzen, gehe ich davon aus, dass Sie mit der <a href="privacy-policy" target="_blank">Datenschutzerklärung</a> einverstanden sind.
-                    <br />
-                    <br />
-                    <span style="font-size: .8em;">Diese Seite ist durch Google reCaptcha geschützt. Somit gilt die <a href="https://policies.google.com/privacy">Datenschutzerklärung</a> und diese <a href="https://policies.google.com/terms">Geschäftsbedingungen</a>.</span>
                 </p>
-                <button class="cookie-btn">OK, WEITER</button>
-            </div>
+                <p class="cookie-container__recaptcha-text">Diese Seite ist durch Google reCaptcha geschützt. Somit gilt die <a href="https://policies.google.com/privacy">Datenschutzerklärung</a> und diese <a href="https://policies.google.com/terms">Geschäftsbedingungen</a>.</p>
+                <button class="cookie-container__button">OK, WEITER</button>
+            </article>
         </main>
         <?php include './modules/footer/footer-de.php'; ?>
     </body>
