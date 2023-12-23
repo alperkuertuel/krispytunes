@@ -1,5 +1,10 @@
-<section id="Clients">
-    <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a> WAS KUNDEN SAGEN</h1>
+<section id="Clients" class="clients">
+    <h1>
+        <a href="#Instrumental-Store">
+            <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
+        </a>
+        WAS KUNDEN SAGEN
+    </h1>
     <article class="carousel" data-flickity='{ "wrapAround": true}'>
         <div class="carousel-cell">
             <img src="img/quotation.svg" alt="quote" loading="lazy"/>

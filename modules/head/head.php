@@ -19,17 +19,17 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- fontawesome -->
-    <link rel="stylesheet" href="./fontawesome/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
 
-    <!-- stylesheet, fontAwesome and jQuery -->
+    <!-- stylesheet and jQuery -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
     <script src="jquery-3.5.0.min.js"></script>
 
-    <!-- Flickity -->
-    <link rel="stylesheet" href="./flickity/flickity.min.css">
-    <script src="./flickity/flickity.pkgd.min.js" defer></script>
+    <!-- flickity: slideshow -->
+    <link rel="stylesheet" href="./flickity-slideshow/flickity.min.css">
+    <script src="./flickity-slideshow/flickity.pkgd.min.js" defer></script>
 
-    <!-- Airbit -->
+    <!-- airbit -->
     <script async>
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
@@ -41,7 +41,7 @@
         }
     </script>
 
-    <!-- Google: reCaptcha -->
+    <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js" async></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script>
@@ -57,7 +57,7 @@
             });
     </script>
 
-    <!-- Google: Tag-Manager -->
+    <!-- google: Tag-Manager -->
     <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" async></script>
     <script>
         window.dataLayer = window.dataLayer || [];

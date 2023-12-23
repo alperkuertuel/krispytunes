@@ -1,5 +1,10 @@
 <section id="Freebeats" class="freebeats">
-    <h1><a href="#Instrumental-Store"><img src="img/up.svg" alt="&and;" loading="lazy"/></a>DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS</h1>
+    <h1>
+        <a href="#Instrumental-Store">
+            <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
+        </a>
+        DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS
+    </h1>
     <article class="freebeats__lost-beats">
         <h2>LOST BEATS VOL. 1</h2>
         <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" loading="lazy"/>

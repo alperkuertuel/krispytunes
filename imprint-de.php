@@ -2,8 +2,12 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
     <?php include './modules/head/head.php'; ?>
     <body>
-    <h1 id="start" class="back"><a href="https://www.krispytunes.com/de"><img src="img/back.svg" alt="<"/></a>IMPRINT</h1>
-        <hr>
+        <h1 id="start" class="back">
+            <a href="https://www.krispytunes.com">
+                <i class="fa-solid fa-angle-left" aria-label="Gehe zurück zur Hauptseite."></i>
+            </a>
+            IMPRINT
+        </h1>        <hr>
         <section class="imprint_box">
             <h2>Seiteninhaber, Webentwickler und Porduzent:</h2>
             Alper K&uuml;rt&uuml;l aka krispytunes
@@ -40,7 +44,12 @@
                 <a href="https://www.flaticon.com/authors/gregor-cresnar" target="_blank">Gregor Cresnar</a>
             </p>
         </section>
-        <h1><a href="#start"><img src="img/up.svg" alt="&and;"/></a> AGBs </h1>
+        <h1>
+            <a href="#start">
+                <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
+            </a> 
+            AGBs 
+        </h1>
         <hr>
         <section class="imprint_box">
             <h2>LICENSE AGREEMENT:</h2>
