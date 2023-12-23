@@ -26,8 +26,8 @@
     <script src="jquery-3.5.0.min.js"></script>
 
     <!-- flickity: slideshow -->
-    <link rel="stylesheet" href="./flickity/flickity.min.css">
-    <script src="./flickity/flickity.pkgd.min.js" defer></script>
+    <link rel="stylesheet" href="./flickity-slideshow/flickity.min.css">
+    <script src="./flickity-slideshow/flickity.pkgd.min.js" defer></script>
 
     <!-- airbit -->
     <script async>
