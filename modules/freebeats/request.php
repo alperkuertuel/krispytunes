@@ -38,14 +38,14 @@
                         subscriber_box: subscriber_box,
                         recaptcha_response: recaptcha_response,},
                     function(data){
-                        // Clear the form fields here
+                        // clear the form fields here
                         $("#nameid").val("");
                         $("#artistpage").val("");
                         $("#emailid").val("");
                         $("#subscriber").prop("checked", false);
                         $("#recaptchaResponse").val("");
                         $("#form-message").html(data);
-                        //Hide form after submitting.
+                        // hide form after submitting.
                         $('#subscribe').css('display', 'none');
                     })
             })

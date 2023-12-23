@@ -627,6 +627,7 @@ nav {
   color: var(--white);
   background-color: var(--secondary-color);
 }
+
 /* -- faqs -- */
 #faqs {
   display: inline-block;
