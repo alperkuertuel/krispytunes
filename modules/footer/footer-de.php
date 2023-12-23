@@ -1,7 +1,7 @@
 <footer>
     <div>
         <a href="#Instrumental-Store">
-            <i class="fa-solid fa-angle-up" aria-label="Scroll to Top"></i>
+            <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
         </a>
     </div>
 	<div id="dfooter1">

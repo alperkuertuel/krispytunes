@@ -2,7 +2,12 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
     <?php include './modules/head/head.php'; ?>
     <body>
-    <h1 id="start" class="back"><a href="https://www.krispytunes.com"><img src="img/back.svg" alt="<"/></a>IMPRINT</h1>
+        <h1 id="start" class="back">
+            <a href="https://www.krispytunes.com">
+                <i class="fa-solid fa-angle-left" aria-label="Go back."></i>
+            </a>
+            IMPRINT
+        </h1>
         <hr>
         <section class="imprint_box">
             <h2>Site Owner, Web-Developer and Producer:</h2>
@@ -47,7 +52,12 @@
                 <a href="https://www.flaticon.com/authors/gregor-cresnar" target="_blank">Gregor Cresnar</a>
             </p>
         </section>
-        <h1><a href="#start"><img src="img/up.svg" alt="&and;"/></a> TERMS &amp; CONDITIONS</h1>
+        <h1>
+            <a href="#start">
+                <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
+            </a> 
+            Terms & Conditions
+        </h1>
         <hr>
         <section class="imprint_box">
             <h2>LICENSE AGREEMENT:</h2>
