@@ -16,8 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response2']
 
     if ($recaptcha2->score >= 0.5) { // BOTS GET LOW SCORE; READ ABOUT SCORE HERE: https://developers.google.com/recaptcha/docs/v3
         mail($empfaenger, $betreff, $text, "From: $absenderemail");
-        echo "<span class='message-box'>Deine Nachricht wurde erfolgreich versendet!</span>";
+        echo "<span class='message-box'>Message sent successfully!</span>";
     } else {
-        echo "<span class='message-box-error'>Es ist etwas schief gelaufen! Lade die Seite erneut oder kontaktiere mich über Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>";
+        echo "<span class='message-box-error'>Something went wrong! Reload the page and try it again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>";
     }
 }
+
+?>

@@ -5,5 +5,5 @@
         </a>
         CONTACT
     </h1>
-    <?php include './modules/contact/contactfields.php'; ?>
+    <?php include './components/contact/contactfields.php'; ?>
 </section>
