@@ -16,7 +16,7 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 class="option-heading">WAV LEASING</h3>
+            <h3 class="option-heading" data-js="expand-licenses">WAV LEASING</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -167,7 +167,7 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 class="option-heading">UNLIMITED LEASING</h3>
+            <h3 class="option-heading" data-js="expand-licenses">UNLIMITED LEASING</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -244,7 +244,7 @@
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 class="option-heading">EXCLUSIVE LICENSE</h3>
+            <h3 class="option-heading" data-js="expand-licenses">EXCLUSIVE LICENSE</h3>
             <table class="option-content is-hidden">
                 <tr>
                     <td>Tagging me:</td>
