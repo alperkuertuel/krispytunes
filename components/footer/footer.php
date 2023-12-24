@@ -32,11 +32,6 @@
             $('nav ul').slideToggle('slow');
         });
 
-
-    function toggleMenueBars(event) {
-        event.classList.toggle("toggle");
-    }
-
     $('a[href*="#"]').on('click', function(e) {
         e.preventDefault()
             if ($(window).width() <= 1023 ) {
