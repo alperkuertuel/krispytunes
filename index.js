@@ -3,6 +3,19 @@ const phoneWidth = 320;
 const tabletWidth = 768;
 const desktopWidth = 1028;
 
+/* -- cookie functionality -- */
+const cookieContainer = document.querySelector('[data-js="cookie-container"]');
+const cookieButton = document.querySelector('[data-js="cookie-button"]');
+
+cookieButton.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookiesAccepted", true);
+});
+
+if (!localStorage.getItem("cookiesAccepted")) {
+  cookieContainer.classList.add("active");
+}
+
 /* -- license-terms functionality -- */
 const licenseButtons = document.querySelectorAll('[data-js="license-button"]');
 const licenseTables = document.querySelectorAll('[data-js="license-table"]');
@@ -16,16 +29,3 @@ licenseButtons.forEach((button, index) =>
       table.style.display = table.style.display === "block" ? "none" : "block";
   })
 );
-
-/* -- cookie functionality -- */
-const cookieContainer = document.querySelector('[data-js="cookie-container"]');
-const cookieButton = document.querySelector('[data-js="cookie-button"]');
-
-cookieButton.addEventListener("click", () => {
-  cookieContainer.classList.remove("active");
-  localStorage.setItem("cookiesAccepted", true);
-});
-
-if (!localStorage.getItem("cookiesAccepted")) {
-  cookieContainer.classList.add("active");
-}
