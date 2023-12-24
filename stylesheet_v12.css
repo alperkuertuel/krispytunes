@@ -138,21 +138,21 @@ a:hover {
   width: 2rem;
   height: 0.2rem;
   background-color: var(--white);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   margin: 0.3rem 0;
 }
 
-.toggle .menue-bar-container__bar1 {
+.set-cross .menue-bar-container__bar1 {
   -webkit-transform: rotate(-15deg) translate(-9px, 6px);
   transform: rotate(-15deg) translate(-9px, 6px);
   background-color: var(--primary-color-darker);
 }
 
-.toggle .menue-bar-container__bar2 {
+.set-cross .menue-bar-container__bar2 {
   opacity: 0;
 }
 
-.toggle .menue-bar-container__bar3 {
+.set-cross .menue-bar-container__bar3 {
   -webkit-transform: rotate(15deg) translate(-7px, -7px);
   transform: rotate(15deg) translate(-7px, -7px);
   background-color: var(--primary-color-lighter);

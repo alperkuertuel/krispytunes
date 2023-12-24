@@ -18,24 +18,3 @@
     </ul>
 </footer>
 <script src ="index.js"></script>
-<script>
-
-
-
-    $('a[href*="#"]').on('click', function(e) {
-        e.preventDefault()
-            if ($(window).width() <= 1023 ) {
-                $('.nav').hide();
-            }   else {
-                $('.nav').show();
-            }
-        $('html, body').animate(
-            {
-                scrollTop: $($(this).attr('href')).offset().top - 30
-
-            },
-            400,
-            'linear'
-        )
-    })
-</script>
