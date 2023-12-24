@@ -18,6 +18,7 @@
     </ul>    
 </footer>
 <script>
+    <script src ="index.js"></script>
     $(document).ready(function() {
         const cookieContainer = document.querySelector(".cookie-container");
         const cookieButton = document.querySelector(".cookie-container__button");

@@ -394,8 +394,7 @@ nav {
   background: var(--gray);
 }
 
-.flickity-page-dots,
-.is-hidden {
+.flickity-page-dots {
   display: none;
 }
 
@@ -435,7 +434,7 @@ nav {
 }
 
 .license-terms-contracts table {
-  display: flex;
+  display: block;
   text-align: left;
   background-color: var(--box-color);
   box-shadow: var(--box-shadow);
@@ -503,18 +502,6 @@ nav {
 
 .license-terms-contracts h3:hover {
   cursor: pointer;
-}
-
-/* todo: find better naming */
-.option-heading:before {
-  content: "\25b6";
-  margin-right: 10px;
-}
-
-/* todo: find better naming */
-.option-heading.is-active:before {
-  content: "\25bc";
-  margin-right: 10px;
 }
 
 /* pdf-container */
