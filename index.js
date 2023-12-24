@@ -1,5 +1,4 @@
 /* -- global variables -- */
-const phoneWidth = 320;
 const tabletWidth = 768;
 const desktopWidth = 1023;
 
