@@ -20,21 +20,6 @@
 <script src ="index.js"></script>
 <script>
 
-
-    $(document).ready(function() {
-        const cookieContainer = document.querySelector(".cookie-container");
-        const cookieButton = document.querySelector(".cookie-container__button");
-
-        cookieButton.addEventListener("click", () => {
-        cookieContainer.classList.remove("active");
-        localStorage.setItem("cookieBannerDisplayed", "true");
-    });
-        setTimeout(() => {
-            if (!localStorage.getItem("cookieBannerDisplayed")) {
-            cookieContainer.classList.add("active");
-        }
-    }, 2000);
-
         $(window).on('resize', function() {
             if ($(window).width() <= 1023 ) {
                 $('.nav').hide();
@@ -47,7 +32,6 @@
             $('nav ul').slideToggle('slow');
         });
 
-    });
 
     function toggleMenueBars(event) {
         event.classList.toggle("toggle");

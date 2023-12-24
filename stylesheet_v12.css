@@ -806,10 +806,10 @@ input::selection {
   visibility: hidden;
 }
 
-.cookie-container {
+.cookie-container.active {
   position: fixed;
-  left: 0;
-  right: 0;
+  width: 100%;
+  bottom: 0;
   background: var(--secondary-color);
   color: var(--white);
   display: flex;
@@ -817,10 +817,6 @@ input::selection {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-}
-
-.cookie-container.active {
-  bottom: 0;
 }
 
 .cookie-container a {
