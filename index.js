@@ -54,6 +54,7 @@ document.querySelectorAll('a[href*="#"]').forEach((anchor) => {
 
     if (window.innerWidth <= desktopWidth) {
       navigationBar.style.display = "none";
+      menueBar.classList.remove("set-cross");
     }
 
     const targetElement = document.querySelector(this.getAttribute("href"));
