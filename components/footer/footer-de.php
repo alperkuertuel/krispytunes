@@ -19,20 +19,6 @@
 </footer>
 <script src ="index.js"></script>
 <script>
-
-
-        $(window).on('resize', function() {
-            if ($(window).width() <= 1023 ) {
-                $('.nav').hide();
-            }   else {
-                $('.nav').show();
-            }
-        }).trigger("resize");
-
-        $('.menue-bar-container').on('click', function() {
-            $('nav ul').slideToggle('slow');
-        });
-
     $('a[href*="#"]').on('click', function(e) {
         e.preventDefault()
             if ($(window).width() <= 1023 ) {

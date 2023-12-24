@@ -1,7 +1,7 @@
 /* -- global variables -- */
 const phoneWidth = 320;
 const tabletWidth = 768;
-const desktopWidth = 1028;
+const desktopWidth = 1023;
 
 /* -- cookie functionality -- */
 const cookieContainer = document.querySelector('[data-js="cookie-container"]');
@@ -35,3 +35,18 @@ licenseButtons.forEach((button, index) =>
       table.style.display = table.style.display === "block" ? "none" : "block";
   })
 );
+
+/* -- -- */
+$(window)
+  .on("resize", function () {
+    if ($(window).width() <= 1023) {
+      $(".nav").hide();
+    } else {
+      $(".nav").show();
+    }
+  })
+  .trigger("resize");
+
+$(".menue-bar-container").on("click", function () {
+  $("nav ul").slideToggle("slow");
+});
