@@ -57,10 +57,11 @@ document.querySelectorAll('a[href*="#"]').forEach((anchor) => {
     }
 
     const targetElement = document.querySelector(this.getAttribute("href"));
-    const offset = 30; // set scroll offset
 
     if (targetElement) {
-      const offsetPosition = targetElement.offsetTop - offset;
+      const offsetPosition =
+        targetElement.offsetTop -
+        (window.screen.width <= tabletWidth ? 30 : 50);
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",

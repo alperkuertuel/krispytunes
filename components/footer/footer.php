@@ -17,4 +17,3 @@
         <li><a href="https://www.facebook.com/krispytunes" target="_blank" rel="noopener"><img src="img/facebook.svg" alt="Facebook" loading="lazy"/></a></li>
     </ul>
 </footer>
-<script src ="index.js"></script>
