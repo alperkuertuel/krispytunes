@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 	<?php include './head.php'; ?>
 	<body>
