@@ -69,3 +69,36 @@ document.querySelectorAll('a[href*="#"]').forEach((anchor) => {
     }
   });
 });
+
+/* -- request freebeats functionality -- */
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector('[data-js="request-form"]');
+  const responseMessage = document.querySelector(
+    '[data-js="response-message"]'
+  );
+  const formContainer = document.querySelector('[data-js="form-container"]');
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+
+    fetch(
+      location.href === "/" || location.href === "/index"
+        ? "./components/freebeats/req_free.php"
+        : "./components/freebeats/req_free-de.php",
+      {
+        method: "POST",
+        body: formData,
+      }
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        // console.log(data);
+        form.reset();
+        responseMessage.innerHTML = data;
+        formContainer.style.display = "none";
+      })
+      .catch((error) => console.error("Error:", error));
+  });
+});

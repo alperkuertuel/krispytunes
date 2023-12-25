@@ -44,19 +44,19 @@
     </script>
 
     <!-- google: reCaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async></script>
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script>
-            grecaptcha.ready(function() {
-                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+                if (token) {
                     document.getElementById('recaptchaResponse').value = token;
-                });
+                    console.log(document.getElementById('recaptchaResponse').value)
+                } else {
+                    console.error('ReCAPTCHA token is null or undefined.');
+                }
             });
-            grecaptcha.ready(function() {
-                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                    document.getElementById('recaptchaResponse2').value = token;
-                });
-            });
+        });
     </script>
 
     <!-- google: Tag-Manager -->

@@ -619,6 +619,13 @@ nav {
   background-color: var(--secondary-color);
 }
 
+.freebeats__request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* -- faqs -- */
 #faqs {
   display: inline-block;
@@ -703,19 +710,6 @@ input {
   padding: 0.3em;
 }
 
-.subscribe_box {
-  font-size: 1em;
-  margin: 0 1em 0 1em;
-}
-
-.news {
-  display: inline-block;
-  border: var(--success-color) 3px solid;
-  border-radius: 5px;
-  margin: 1rem;
-  padding: 0.5rem;
-}
-
 .message-box {
   background-color: var(--success-color-lighter);
   display: block;
@@ -798,10 +792,6 @@ input::selection {
   box-shadow: none;
 }
 
-:invalid {
-  box-shadow: none;
-}
-
 .grecaptcha-badge {
   visibility: hidden;
 }
@@ -833,25 +823,4 @@ input::selection {
   color: var(--box-color);
   border-radius: 5px;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  #absendernameid,
-  #absenderemailid,
-  #nachrichtid,
-  #nameid,
-  #artistpage,
-  #emailid {
-    width: 90%;
-  }
-}
-
-@media (min-width: 1023px) {
-  dt {
-    width: 80%;
-  }
-
-  dd {
-    width: 90%;
-  }
 }
