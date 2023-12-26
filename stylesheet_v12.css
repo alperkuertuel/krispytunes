@@ -1,3 +1,5 @@
+@import "./components/clients/clients.css";
+
 :root {
   --white: #fff;
   --black: black;
@@ -340,58 +342,6 @@ nav {
   to {
     transform: scale(1.1);
   }
-}
-
-/* -- client-section -- */
-.clients {
-  margin: 2rem 0;
-}
-
-.carousel {
-  position: relative;
-}
-
-.carousel-cell img {
-  position: absolute;
-  top: -4px;
-  right: 0;
-  width: 30px;
-  height: 30px;
-}
-
-.carousel-cell {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 75%;
-  height: auto;
-  margin: 1rem;
-  background-color: var(--box-color);
-  box-shadow: var(--box-shadow);
-  border-radius: 0.4em 0.4em 0.4em 0.4em;
-  padding: 1rem;
-}
-
-.flickity-prev-next-button.previous {
-  left: 20px;
-}
-
-.flickity-prev-next-button.next {
-  right: 20px;
-}
-
-.flickity-prev-next-button.previous:focus,
-.flickity-prev-next-button.next:focus {
-  background-color: var(--gray);
-}
-
-.flickity-button,
-.flickity-prev-next-button:hover {
-  background: var(--gray);
-}
-
-.flickity-page-dots {
-  display: none;
 }
 
 /* -- license-terms -- */
