@@ -34,13 +34,13 @@
 
     <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" async></script>
     <script>
         grecaptcha.ready(function() {
             grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
                 if (token) {
                     document.getElementById('recaptchaResponse').value = token;
-                    console.log(document.getElementById('recaptchaResponse').value)
+                    // console.log(document.getElementById('recaptchaResponse').value)
                 } else {
                     console.error('ReCAPTCHA token is null or undefined.');
                 }

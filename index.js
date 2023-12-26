@@ -81,7 +81,7 @@ form.addEventListener("submit", function (event) {
   const formData = new FormData(form);
 
   fetch(
-    location.href === "/" || location.href === "/index"
+    location.pathname === "/" || location.pathname === "/index"
       ? "./components/freebeats/freebeats-req-endpoint.php"
       : "./components/freebeats/freebeats-req-endpoint-de.php",
     {
