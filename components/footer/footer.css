@@ -12,7 +12,7 @@
 }
 
 .footer__up-button {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .footer ul li {
