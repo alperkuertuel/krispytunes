@@ -5,6 +5,7 @@
 @import "./components/services/services.css";
 @import "./components/freebeats/freebeats.css";
 @import "./components/footer/footer.css";
+@import "./components/cookie-container/cookie-container.css";
 
 :root {
   --white: #fff;
@@ -128,6 +129,10 @@ a:hover {
   transition: all 0.5s ease;
 }
 
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
 /* -- faqs -- */
 /* tbd */
 
@@ -205,38 +210,4 @@ input {
 
 .imprint_box a {
   font-weight: 400;
-}
-
-/* -- cookie-container & recaptcha-- */
-.grecaptcha-badge {
-  visibility: hidden;
-}
-
-.cookie-container {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  background: var(--secondary-color);
-  color: var(--white);
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.cookie-container a {
-  font-weight: lighter;
-  color: var(--white);
-}
-
-.cookie-container__recaptcha-text {
-  font-size: 0.7rem;
-}
-
-.cookie-container__button {
-  background: var(--primary-color-darker);
-  color: var(--box-color);
-  border-radius: 5px;
-  cursor: pointer;
 }
