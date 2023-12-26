@@ -2,7 +2,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 	<?php include './head.php'; ?>
 	<body>
-        <?php include './components/header/header-de.php'; ?>
+        <?php include './components/header-and-nav/header-and-nav-de.php'; ?>
         <main class="main">
             <?php include './components/store/store-de.php'; ?>
             <?php include './components/clients/clients-de.php'; ?>
