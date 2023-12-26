@@ -4,6 +4,7 @@
 @import "./components/license-terms/license-terms.css";
 @import "./components/services/services.css";
 @import "./components/freebeats/freebeats.css";
+@import "./components/footer/footer.css";
 
 :root {
   --white: #fff;
@@ -187,44 +188,6 @@ input {
   border-radius: 5px;
   margin: 1rem;
   padding: 0.5rem;
-}
-
-/* -- footer -- */
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  padding: 1rem;
-  text-align: left;
-  background-color: var(--secondary-color);
-  color: var(--white);
-  width: 100%;
-}
-
-.footer__up-button {
-  color: var(--white);
-}
-
-.footer ul li {
-  font-size: 0.7rem;
-  padding: 0.5rem;
-}
-
-.footer ul li a {
-  color: var(--white);
-  font-weight: lighter;
-}
-
-.footer ul li a:hover {
-  text-decoration: none;
-  color: var(--gray);
-  transition: all 0.5s ease;
-}
-
-.footer ul li a img {
-  width: 30px;
-  height: 30px;
 }
 
 /* -- imprint styling -- */
