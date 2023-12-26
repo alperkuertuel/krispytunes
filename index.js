@@ -85,8 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     fetch(
       location.href === "/" || location.href === "/index"
-        ? "./components/freebeats/req_free.php"
-        : "./components/freebeats/req_free-de.php",
+        ? "./components/freebeats/freebeats-req-endpoint.php"
+        : "./components/freebeats/freebeats-req-endpoint-de.php",
       {
         method: "POST",
         body: formData,
