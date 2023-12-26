@@ -40,7 +40,7 @@ window.addEventListener("resize", () => {
 });
 window.dispatchEvent(new Event("resize"));
 
-/* nav-bar set-cross menue-bar and display nav-list*/
+/* -- nav-bar set-cross the menue-bar and display nav-list -- */
 menueBar.addEventListener("click", () => {
   menueBar.classList.toggle("set-cross");
   navigationBar.style.display =

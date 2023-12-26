@@ -21,6 +21,5 @@
             </article>
         </main>
         <?php include './components/footer/footer-de.php'; ?>
-        <script src ="index.js"></script>
     </body>
 </html>
