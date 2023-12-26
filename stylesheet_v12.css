@@ -710,7 +710,7 @@ input {
   padding: 0.3em;
 }
 
-.message-box {
+.message-box-success {
   background-color: var(--success-color-lighter);
   display: block;
   box-shadow: var(--box-shadow);
