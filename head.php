@@ -41,26 +41,23 @@
                 grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
                     if (token) {
                         document.getElementById('recaptchaResponse').value = token;
-                        console.log("recaptcha1", document.getElementById('recaptchaResponse').value);
+                        console.log("recaptcha-response-freebeats", document.getElementById('recaptchaResponse').value);
                     } else {
-                        console.error('ReCAPTCHA token is null or undefined.');
+                        console.error('Freebeats request ReCAPTCHA token is null or undefined.');
                     }
                 });
 
                 grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
                     if (token) {
                         document.getElementById('recaptchaResponse2').value = token;
-                        console.log("recaptcha2", document.getElementById('recaptchaResponse2').value);
+                        console.log("recaptcha-response-contact-form", document.getElementById('recaptchaResponse2').value);
                     } else {
-                        console.error('Second ReCAPTCHA token is null or undefined.');
+                        console.error('Contact form ReCAPTCHA token is null or undefined.');
                     }
                 });
             });
         });
     </script>
-
-    <!-- jQuery -->
-    <script src="jquery-3.5.0.min.js"></script>
 
     <!-- flickity: slideshow -->
     <link rel="stylesheet" href="./modules/flickity-slideshow/flickity.min.css">
