@@ -98,3 +98,36 @@ form.addEventListener("submit", function (event) {
     })
     .catch((error) => console.error("Error:", error));
 });
+
+/* -- contact request functionality -- */
+const contactForm = document.querySelector('[data-js="contact-form"]');
+const contactResponseMessage = document.querySelector(
+  '[data-js="contact-response-message"]'
+);
+const contactFormContainer = document.querySelector(
+  '[data-js="contact-form-container"]'
+);
+
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const contactFormData = new FormData(contactForm);
+
+  fetch(
+    location.pathname === "/" || location.pathname === "/index"
+      ? "./components/contact/contact-form-endpoint.php"
+      : "./components/contact/contact-form-endpoint-de.php",
+    {
+      method: "POST",
+      body: contactFormData,
+    }
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      // console.log(data);
+      form.reset();
+      contactResponseMessage.innerHTML = data;
+      contactFormContainer.style.display = "none";
+    })
+    .catch((error) => console.error("Error:", error));
+});

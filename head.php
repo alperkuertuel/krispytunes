@@ -36,18 +36,29 @@
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" async></script>
     <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                if (token) {
-                    document.getElementById('recaptchaResponse').value = token;
-                    // console.log(document.getElementById('recaptchaResponse').value)
-                } else {
-                    console.error('ReCAPTCHA token is null or undefined.');
-                }
+        document.addEventListener("DOMContentLoaded", function () {
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+                    if (token) {
+                        document.getElementById('recaptchaResponse').value = token;
+                        console.log("recaptcha1", document.getElementById('recaptchaResponse').value);
+                    } else {
+                        console.error('ReCAPTCHA token is null or undefined.');
+                    }
+                });
+
+                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
+                    if (token) {
+                        document.getElementById('recaptchaResponse2').value = token;
+                        console.log("recaptcha2", document.getElementById('recaptchaResponse2').value);
+                    } else {
+                        console.error('Second ReCAPTCHA token is null or undefined.');
+                    }
+                });
             });
         });
     </script>
-    
+
     <!-- jQuery -->
     <script src="jquery-3.5.0.min.js"></script>
 
