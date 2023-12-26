@@ -4,10 +4,10 @@ $betreff = 'NEW DOWNLOAD REQUEST';
 $header = $_POST['email'];
 $text = $_POST['name'] . "\r\n" . $_POST['email'] . "\r\n\r\n" . $_POST['freebeats-subscriber'];
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptchaResponse'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-freebeats'])) {
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
     $recaptcha_secret = '6Lc74uQZAAAAAJYNuqh8Iv-JLARL4BIryzP6ZgHo';
-    $recaptcha_response = $_POST['recaptchaResponse'];
+    $recaptcha_response = $_POST['recaptcha-response-freebeats'];
 
     $recaptcha_result = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
     $recaptcha_data = json_decode($recaptcha_result);

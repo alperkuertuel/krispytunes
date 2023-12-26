@@ -38,7 +38,7 @@
                     Ja, ich will auch &uuml;ber Updates informiert werden!
                 </label>
                 
-                <input type="hidden" name="recaptchaResponse" id="recaptchaResponse">
+                <input type="hidden" name="recaptcha-response-freebeats" id="recaptcha-response-freebeats">
                 <button type="submit">ANFRAGEN</button>
             </form>
         </div>

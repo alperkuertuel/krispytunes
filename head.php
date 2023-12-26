@@ -40,8 +40,8 @@
             grecaptcha.ready(function() {
                 grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
                     if (token) {
-                        document.getElementById('recaptchaResponse').value = token;
-                        console.log("recaptcha-response-freebeats", document.getElementById('recaptchaResponse').value);
+                        document.getElementById('recaptcha-response-freebeats').value = token;
+                        console.log("recaptcha-response-freebeats", document.getElementById('recaptcha-response-freebeats').value);
                     } else {
                         console.error('Freebeats request ReCAPTCHA token is null or undefined.');
                     }
@@ -49,8 +49,8 @@
 
                 grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
                     if (token) {
-                        document.getElementById('recaptchaResponse2').value = token;
-                        console.log("recaptcha-response-contact-form", document.getElementById('recaptchaResponse2').value);
+                        document.getElementById('recaptcha-response-contact-form').value = token;
+                        console.log("recaptcha-response-contact-form", document.getElementById('recaptcha-response-contact-form').value);
                     } else {
                         console.error('Contact form ReCAPTCHA token is null or undefined.');
                     }

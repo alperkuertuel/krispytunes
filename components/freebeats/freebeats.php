@@ -38,7 +38,7 @@
                     Yes, I also want to subscribe for discounts and updates!    
                 </label>
                     
-                <input type="hidden" name="recaptchaResponse" id="recaptchaResponse">
+                <input type="hidden" name="recaptcha-response-freebeats" id="recaptcha-response-freebeats">
                 <button type="submit">REQUEST</button>
             </form>
         </div>

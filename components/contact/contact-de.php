@@ -27,7 +27,7 @@
             <input type="checkbox" name="dsgvo" id="dsgvo" required>
             <label for="dsgvo">Hast du dir die <a href="privacy-policy" target="_blank">Datenschutzbestimmungen</a> durchgelesen?</label>
 
-            <input type="hidden" name="recaptchaResponse2" id="recaptchaResponse2">
+            <input type="hidden" name="recaptcha-response-contact-form" id="recaptcha-response-contact-form">
             <button type="submit">SENDEN</button>
         </form>
     </div>
