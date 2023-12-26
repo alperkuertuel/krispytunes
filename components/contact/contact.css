@@ -1,0 +1,40 @@
+/* -- contact form -- */
+.contact {
+  padding: 1rem;
+}
+
+#contabel div {
+  display: inline-block;
+  text-align: left;
+}
+
+textarea {
+  display: inline-block;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0.1em;
+  resize: none;
+  background: 0 0;
+  border: 0.1em solid var(--black);
+  color: var(--black);
+  height: auto;
+  width: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+textarea:focus {
+  outline: 0;
+}
+
+input {
+  font-size: 1em;
+  background: 0 0;
+  border: 0;
+  border-bottom: 0.1em solid var(--black);
+  border-radius: 0;
+  color: var(--black);
+  outline: 0;
+  margin: 1em;
+  padding: 0.3em;
+}
