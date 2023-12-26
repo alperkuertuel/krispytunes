@@ -16,8 +16,8 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 class="option-heading">WAV LEASING</h3>
-            <table class="option-content is-hidden">
+            <h3 data-js="license-button">WAV LEASING</h3>
+            <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
@@ -92,8 +92,8 @@
         <div class="license-terms-contracts__premium-leasing">
             <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Popular<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
-            <h3 class="option-heading">PREMIUM LEASING</h3>
-            <table class="option-content is-hidden">
+            <h3 data-js="license-button">PREMIUM LEASING</h3>
+            <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
@@ -167,8 +167,8 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 class="option-heading">UNLIMITED LEASING</h3>
-            <table class="option-content is-hidden">
+            <h3 data-js="license-button">UNLIMITED LEASING</h3>
+            <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
@@ -244,8 +244,8 @@
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 class="option-heading">EXCLUSIVE LICENSE</h3>
-            <table class="option-content is-hidden">
+            <h3 data-js="license-button">EXCLUSIVE LICENSE</h3>
+            <table data-js="license-table">
                 <tr>
                     <td>Tagging me:</td>
                     <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
@@ -313,11 +313,4 @@
             </p>
         </div>
     </article>
-    <script>
-        jQuery(function($) {
-            $(".option-heading").on('click', function() {
-                $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
-            });
-        });
-    </script>
 </section>

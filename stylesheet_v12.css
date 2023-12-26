@@ -138,21 +138,21 @@ a:hover {
   width: 2rem;
   height: 0.2rem;
   background-color: var(--white);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   margin: 0.3rem 0;
 }
 
-.toggle .menue-bar-container__bar1 {
+.set-cross .menue-bar-container__bar1 {
   -webkit-transform: rotate(-15deg) translate(-9px, 6px);
   transform: rotate(-15deg) translate(-9px, 6px);
   background-color: var(--primary-color-darker);
 }
 
-.toggle .menue-bar-container__bar2 {
+.set-cross .menue-bar-container__bar2 {
   opacity: 0;
 }
 
-.toggle .menue-bar-container__bar3 {
+.set-cross .menue-bar-container__bar3 {
   -webkit-transform: rotate(15deg) translate(-7px, -7px);
   transform: rotate(15deg) translate(-7px, -7px);
   background-color: var(--primary-color-lighter);
@@ -380,10 +380,6 @@ nav {
   right: 20px;
 }
 
-.icon_refer a {
-  color: var(--gray);
-}
-
 .flickity-prev-next-button.previous:focus,
 .flickity-prev-next-button.next:focus {
   background-color: var(--gray);
@@ -394,8 +390,7 @@ nav {
   background: var(--gray);
 }
 
-.flickity-page-dots,
-.is-hidden {
+.flickity-page-dots {
   display: none;
 }
 
@@ -435,7 +430,7 @@ nav {
 }
 
 .license-terms-contracts table {
-  display: flex;
+  display: block;
   text-align: left;
   background-color: var(--box-color);
   box-shadow: var(--box-shadow);
@@ -503,18 +498,6 @@ nav {
 
 .license-terms-contracts h3:hover {
   cursor: pointer;
-}
-
-/* todo: find better naming */
-.option-heading:before {
-  content: "\25b6";
-  margin-right: 10px;
-}
-
-/* todo: find better naming */
-.option-heading.is-active:before {
-  content: "\25bc";
-  margin-right: 10px;
 }
 
 /* pdf-container */
@@ -632,50 +615,17 @@ nav {
   background-color: var(--secondary-color);
 }
 
+.freebeats__request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* -- faqs -- */
-#faqs {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  height: auto;
-}
+/* tbd */
 
-#faqs .margin {
-  margin-bottom: 0.5em;
-}
-
-dt {
-  display: inline-block;
-  width: 95%;
-  background-color: var(--box-color);
-  border: 1px var(--secondary-color) solid;
-  margin: 0.5em;
-  padding: 0.7em;
-}
-
-dd {
-  text-align: justify;
-  display: none;
-  width: 80%;
-  padding: 0.5em 1em 0.3em 3em;
-}
-
-dt a {
-  color: var(--black);
-  transition: all 0.5s ease;
-}
-
-#pp {
-  text-align: left;
-  padding: 0 2em 2em;
-}
-
-#pp p {
-  text-align: justify;
-  padding: 0 1em;
-}
-
-/* -- contact -- */
+/* -- request & contact form -- */
 .contact {
   padding: 1rem;
 }
@@ -716,20 +666,7 @@ input {
   padding: 0.3em;
 }
 
-.subscribe_box {
-  font-size: 1em;
-  margin: 0 1em 0 1em;
-}
-
-.news {
-  display: inline-block;
-  border: var(--success-color) 3px solid;
-  border-radius: 5px;
-  margin: 1rem;
-  padding: 0.5rem;
-}
-
-.message-box {
+.message-box-success {
   background-color: var(--success-color-lighter);
   display: block;
   box-shadow: var(--box-shadow);
@@ -747,6 +684,7 @@ input {
   padding: 0.5rem;
 }
 
+/* -- footer -- */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -801,39 +739,22 @@ input {
   font-weight: 400;
 }
 
-.icon_refer {
-  font-size: 0.8em;
-  color: var(--gray);
-}
-
-input:focus,
-input::selection {
-  box-shadow: none;
-}
-
-:invalid {
-  box-shadow: none;
-}
-
+/* -- cookie-container & recaptcha-- */
 .grecaptcha-badge {
   visibility: hidden;
 }
 
 .cookie-container {
   position: fixed;
-  left: 0;
-  right: 0;
+  width: 100%;
+  bottom: 0;
   background: var(--secondary-color);
   color: var(--white);
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-}
-
-.cookie-container.active {
-  bottom: 0;
 }
 
 .cookie-container a {
@@ -850,25 +771,4 @@ input::selection {
   color: var(--box-color);
   border-radius: 5px;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  #absendernameid,
-  #absenderemailid,
-  #nachrichtid,
-  #nameid,
-  #artistpage,
-  #emailid {
-    width: 90%;
-  }
-}
-
-@media (min-width: 1023px) {
-  dt {
-    width: 80%;
-  }
-
-  dd {
-    width: 90%;
-  }
 }
