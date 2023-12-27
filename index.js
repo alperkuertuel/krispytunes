@@ -43,7 +43,7 @@ if (mainLocation) {
 
   /* -- nav-bar functionality -- */
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
-  const menueBar = document.querySelector('[data-js="menue-bar"]');
+  const menueBars = document.querySelector('[data-js="menue-bar"]');
 
   window.addEventListener("resize", () => {
     navigationBar.style.display =
@@ -52,8 +52,8 @@ if (mainLocation) {
   window.dispatchEvent(new Event("resize"));
 
   /* -- nav-bar set-cross the menue-bar and display nav-list -- */
-  menueBar.addEventListener("click", () => {
-    menueBar.classList.toggle("set-cross");
+  menueBars.addEventListener("click", () => {
+    menueBars.classList.toggle("set-cross");
     navigationBar.style.display =
       navigationBar.style.display === "none" ? "block" : "none";
   });
@@ -64,7 +64,7 @@ if (mainLocation) {
 
       if (window.innerWidth <= desktopWidth) {
         navigationBar.style.display = "none";
-        menueBar.classList.remove("set-cross");
+        menueBars.classList.remove("set-cross");
       }
 
       const targetElement = document.querySelector(this.getAttribute("href"));
@@ -82,16 +82,20 @@ if (mainLocation) {
   });
 
   /* -- request freebeats functionality -- */
-  const form = document.querySelector('[data-js="request-form"]');
-  const responseMessage = document.querySelector(
-    '[data-js="response-message"]'
+  const freebeatsForm = document.querySelector(
+    '[data-js="freebeats-request-form"]'
   );
-  const formContainer = document.querySelector('[data-js="form-container"]');
+  const freebeatsResponseMessage = document.querySelector(
+    '[data-js="freebeats-response-message"]'
+  );
+  const freebeatsFormContainer = document.querySelector(
+    '[data-js="freebeats-form-container"]'
+  );
 
-  form.addEventListener("submit", function (event) {
+  freebeatsForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const formData = new FormData(form);
+    const formData = new FormData(freebeatsForm);
 
     fetch(
       location.pathname === "/" || location.pathname === "/index"
@@ -105,9 +109,9 @@ if (mainLocation) {
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
-        form.reset();
-        responseMessage.innerHTML = data;
-        formContainer.style.display = "none";
+        freebeatsForm.reset();
+        freebeatsResponseMessage.innerHTML = data;
+        freebeatsFormContainer.style.display = "none";
       })
       .catch((error) => console.error("Error:", error));
   });
