@@ -1,6 +1,6 @@
 <?php
 $receiver = 'contact@krispytunes.com';
-$reference = 'krispytunes.com - DL REQUEST';
+$reference = 'krispytunes.com - DL REQUEST ';
 $contact_email = $_POST['email'];
 $message = $_POST['name'] . "\r\n" . $_POST['email'] . "\r\n\r\n" . $_POST['freebeats-subscriber'];
 $currentPathname = $_POST['currentPathname'];
