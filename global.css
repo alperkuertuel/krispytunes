@@ -100,12 +100,12 @@ button {
   background: var(--secondary-color);
   line-height: 1.15;
   font-size: 16px;
+  width: 100%;
 }
 
 button:hover {
   transition: all 0.1s ease;
-  box-shadow: 0 0 0 0 var(--primary-color),
-    0 0 0 3px var(--primary-color-lighter);
+  box-shadow: 0 0 0 3px var(--primary-color);
 }
 
 hr {
@@ -127,6 +127,46 @@ a:hover {
   color: var(--link-color-hover);
   text-decoration: none;
   transition: all 0.5s ease;
+}
+
+/* -- form css -- */
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  border: 2px solid var(--secondary-color);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin: 4px;
+  transform: scale(0);
+  background-color: var(--primary-color);
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="text"],
+input[type="email"] {
+  font-size: 1rem;
+  border: 0;
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--black);
+  outline: 0;
+  width: 100%;
 }
 
 .grecaptcha-badge {
@@ -151,8 +191,9 @@ a:hover {
   padding: 0.5rem;
 }
 
-/* PAGES: */
-/* -- imprint styling -- */
+/* PAGES CSS: */
+
+/* -- imprint -- */
 .imprint_box h2 {
   font-weight: lighter;
   font-size: 1.5em;

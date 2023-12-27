@@ -48,6 +48,8 @@
 .freebeats__request-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  gap: 1rem;
+  max-width: 390px;
 }

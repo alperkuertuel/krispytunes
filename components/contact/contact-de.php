@@ -9,11 +9,11 @@
         <!-- response message after submission -->
     </p> 
     <div data-js="contact-form-container">
-        <form data-js="contact-form" method="post">
-            <label for="contact-name"></label>
+        <form data-js="contact-form" method="post" class="contact__form">
+            <label for="contact-name">Name</label>
             <input type="text" name="contact-name" id="contact-name" autocomplete="on" maxlength="30" size="35" required>
 
-            <label for="contact-email"></label>
+            <label for="contact-email">E-Mail</label>
             <input type="email" name="contact-email" id="contact-email" autocomplete="on" maxlength="40" size="35" required>
 
             <label for="contact-message"></label>
@@ -21,11 +21,13 @@
 
             <label for="contact-subscriber">
                 <input type="checkbox" value="Dieser Kontakt hat dich abonniert." name="contact-subscriber" id="contact-subscriber">
-                Ja, ich will auch &uuml;ber Updates informiert werden!
+                Ich will einen Newsletter und Rabattcodes erhalten.
             </label>
 
-            <input type="checkbox" name="dsgvo" id="dsgvo" required>
-            <label for="dsgvo">Hast du dir die <a href="privacy-policy" target="_blank">Datenschutzbestimmungen</a> durchgelesen?</label>
+            <label for="dsgvo">
+                <input type="checkbox" name="dsgvo" id="dsgvo" required>
+                Ich habe die <a href="privacy-policy" target="_blank">Datenschutzbestimmungen</a> durchgelesen.
+            </label>
 
             <input type="hidden" name="recaptcha-response-contact-form" id="recaptcha-response-contact-form">
             <button type="submit">SENDEN</button>
