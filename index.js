@@ -142,7 +142,7 @@ if (mainLocation) {
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
-        form.reset();
+        contactForm.reset();
         contactResponseMessage.innerHTML = data;
         contactFormContainer.style.display = "none";
       })

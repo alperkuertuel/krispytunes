@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-co
 
     if ($recaptcha_data->score >= 0.5) { 
         mail($receiver, $reference, $message, "From: $contact_email");
-        echo json_encode("<span class='message-box-success'>Message sent successfully!</span>");
+        echo json_encode("<span class='message-box-success'>Message sent successfully.</span>");
     } else {
         echo json_encode("<span class='message-box-error'>Something went wrong! Reload the page and try it again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
     }
