@@ -10,7 +10,7 @@
         <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
         <h2>Are you looking for a unique beat?</h2>
         <p>
-            Then <a href="#cont">contact</a> me to get your custom instrumental!
+            Then <a href="#Contact">contact</a> me to get your custom instrumental!
             I'm going to start from scratch to deliver you an unique and 100% handmade beat.
         </p>
     </article>
@@ -19,7 +19,7 @@
         <img src="img/videos.svg" alt="COMMERCIAL VIDEOS" loading="lazy"/>
         <p> Are you looking for a special vibe in your videos?</p>
         <p>
-            <a href="#cont">Get at me</a> and convince yourself with the commercial videos below!
+            <a href="#Contact">Get at me</a> and convince yourself with the commercial videos below!
         </p>
         <p>
             <a href="https://www.youtube.com/watch?v=NRdXrIWCX_c" target="_blank" rel="noopener">VAUDE</a>

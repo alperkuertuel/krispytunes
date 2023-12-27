@@ -10,7 +10,7 @@
         <p class="license-terms__description__text">
             Please note that the license terms listed below are a quick overview.
             For more details I recommend you to download the sample terms.
-            If you want to buy a exclusive license contact me via the <a href="#contable">contact form</a>.
+            If you want to buy a exclusive license contact me via the <a href="#Contact">contact form</a>.
         </p>
     </article>
     <article class="license-terms-contracts">

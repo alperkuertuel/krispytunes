@@ -10,7 +10,7 @@
         <p class="license-terms__description__text">
             Bitte beachten, dass die unten aufgeführten Lizenzbedingungen einen kurzen Überblick bieten.
             Für weitere Details empfehle ich dir, die Beispiellizenzen herunterzuladen.
-            Wenn Sie eine exklusive Lizenz erwerben möchten, kontaktieren Sie mich über das <a href="#contable">Kontaktformular</a>.
+            Wenn Sie eine exklusive Lizenz erwerben möchten, kontaktieren Sie mich über das <a href="#Contact">Kontaktformular</a>.
         </p>
     </article>
     <article class="license-terms-contracts">
