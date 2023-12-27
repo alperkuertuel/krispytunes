@@ -37,25 +37,27 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" async></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-        const freebeatsToken = document.getElementById('recaptcha-response-freebeats');
-        const contactToken = document.getElementById('recaptcha-response-contact-form');
-            if(freebeatsToken || contactToken){
-                grecaptcha.ready(function() {
-                    grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                        if (token) {
-                            freebeatsToken.value = token;
-                            console.log("recaptcha-response-freebeats", freebeatsToken.value);
+            const freebeatsToken = document.getElementById('recaptcha-response-freebeats');
+            const contactToken = document.getElementById('recaptcha-response-contact-form');
+
+            if (freebeatsToken && contactToken) {
+                grecaptcha.ready(function () {
+                    grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token1) {
+                        if (token1) {
+                            freebeatsToken.value = token1;
+                            // console.log("freebeatsToken", token1)
+                            grecaptcha.ready(function () {
+                                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token2) {
+                                    if (token2) {
+                                        contactToken.value = token2;
+                                        // console.log("contactToken", token2)
+                                    } else {
+                                        console.error('Contact form ReCAPTCHA token is null or undefined.');
+                                    }
+                                });
+                            });
                         } else {
                             console.error('Freebeats request ReCAPTCHA token is null or undefined.');
-                        }
-                    });
-
-                    grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                        if (token) {
-                            contactToken.value = token;
-                            console.log("recaptcha-response-contact-form", contactToken.value);
-                        } else {
-                            console.error('Contact form ReCAPTCHA token is null or undefined.');
                         }
                     });
                 });
