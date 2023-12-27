@@ -27,6 +27,9 @@
         }
     </script>
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
+
     <!-- stylesheet -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
     <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
@@ -34,7 +37,7 @@
 
     <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" async></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const freebeatsToken = document.getElementById('recaptcha-response-freebeats');
@@ -68,9 +71,6 @@
     <!-- flickity: slideshow -->
     <link rel="stylesheet" href="./modules/flickity-slideshow/flickity.min.css">
     <script src="./modules/flickity-slideshow/flickity.pkgd.min.js" defer></script>
-
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" defer></script>
 
     <!-- google: Tag-Manager -->
     <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" defer></script>
