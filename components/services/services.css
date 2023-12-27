@@ -1,0 +1,32 @@
+/* -- services -- */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.services__custom-beats,
+.services__commercial-videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .services__custom-beats,
+  .services__commercial-videos {
+    width: 100%;
+  }
+}
+
+.services__custom-beats img,
+.services__commercial-videos img {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+}

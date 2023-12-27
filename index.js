@@ -1,133 +1,145 @@
 /* -- global variables -- */
 const tabletWidth = 768;
 const desktopWidth = 1023;
+const mainLocation =
+  document.location.pathname === "/" ||
+  document.location.pathname === "/index" ||
+  document.location.pathname === "/de" ||
+  document.location.pathname === "/index.php" ||
+  document.location.pathname === "/de.php";
 
-/* -- cookie functionality -- */
-const cookieContainer = document.querySelector('[data-js="cookie-container"]');
-const cookieButton = document.querySelector('[data-js="cookie-button"]');
-const cookiesAreAccepted = localStorage.getItem("cookiesAreAccepted");
+// all event listeners will be active when in main location
+if (mainLocation) {
+  /* -- cookie functionality -- */
+  const cookieContainer = document.querySelector(
+    '[data-js="cookie-container"]'
+  );
+  const cookieButton = document.querySelector('[data-js="cookie-button"]');
+  const cookiesAreAccepted = localStorage.getItem("cookiesAreAccepted");
 
-cookieButton.addEventListener("click", () => {
-  cookieContainer.style.display = "none";
-  localStorage.setItem("cookiesAreAccepted", true);
-});
+  cookieButton.addEventListener("click", () => {
+    cookieContainer.style.display = "none";
+    localStorage.setItem("cookiesAreAccepted", true);
+  });
 
-if (!cookiesAreAccepted) {
-  cookieContainer.style.display = "flex";
-}
+  if (!cookiesAreAccepted) {
+    cookieContainer.style.display = "flex";
+  }
 
-/* -- license-terms functionality -- */
-const licenseButtons = document.querySelectorAll('[data-js="license-button"]');
-const licenseTables = document.querySelectorAll('[data-js="license-table"]');
+  /* -- license-terms functionality -- */
+  const licenseButtons = document.querySelectorAll(
+    '[data-js="license-button"]'
+  );
+  const licenseTables = document.querySelectorAll('[data-js="license-table"]');
 
-licenseButtons.forEach((button, index) =>
-  button.addEventListener("click", () => {
-    const table = licenseTables[index];
-    if (window.screen.width > tabletWidth) {
-      table.style.display = table.style.display === "none" ? "block" : "none";
-    } else
-      table.style.display = table.style.display === "block" ? "none" : "block";
-  })
-);
+  licenseButtons.forEach((button, index) =>
+    button.addEventListener("click", () => {
+      const table = licenseTables[index];
+      if (window.screen.width > tabletWidth) {
+        table.style.display = table.style.display === "none" ? "block" : "none";
+      } else
+        table.style.display =
+          table.style.display === "block" ? "none" : "block";
+    })
+  );
 
-/* -- nav-bar functionality -- */
-const navigationBar = document.querySelector('[data-js="navigation-bar"]');
-const menueBar = document.querySelector('[data-js="menue-bar"]');
+  /* -- nav-bar functionality -- */
+  const navigationBar = document.querySelector('[data-js="navigation-bar"]');
+  const menueBars = document.querySelector('[data-js="menue-bar"]');
 
-window.addEventListener("resize", () => {
-  navigationBar.style.display =
-    window.screen.width <= desktopWidth ? "none" : "flex";
-});
-window.dispatchEvent(new Event("resize"));
+  window.addEventListener("resize", () => {
+    navigationBar.style.display =
+      window.screen.width <= desktopWidth ? "none" : "flex";
+  });
+  window.dispatchEvent(new Event("resize"));
 
-/* -- nav-bar set-cross the menue-bar and display nav-list -- */
-menueBar.addEventListener("click", () => {
-  menueBar.classList.toggle("set-cross");
-  navigationBar.style.display =
-    navigationBar.style.display === "none" ? "block" : "none";
-});
+  /* -- nav-bar set-cross the menue-bar and display nav-list -- */
+  menueBars.addEventListener("click", () => {
+    menueBars.classList.toggle("set-cross");
+    navigationBar.style.display =
+      navigationBar.style.display === "none" ? "block" : "none";
+  });
 
-document.querySelectorAll('a[href*="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (event) {
+  document.querySelectorAll('a[href*="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (event) {
+      event.preventDefault();
+
+      if (window.innerWidth <= desktopWidth) {
+        navigationBar.style.display = "none";
+        menueBars.classList.remove("set-cross");
+      }
+
+      const targetElement = document.querySelector(this.getAttribute("href"));
+
+      if (targetElement) {
+        const offsetPosition =
+          targetElement.offsetTop -
+          (window.screen.width <= tabletWidth ? 30 : 50);
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    });
+  });
+
+  /* -- request freebeats functionality -- */
+  const freebeatsForm = document.querySelector(
+    '[data-js="freebeats-request-form"]'
+  );
+  const freebeatsResponseMessage = document.querySelector(
+    '[data-js="freebeats-response-message"]'
+  );
+  const freebeatsFormContainer = document.querySelector(
+    '[data-js="freebeats-form-container"]'
+  );
+
+  freebeatsForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    if (window.innerWidth <= desktopWidth) {
-      navigationBar.style.display = "none";
-      menueBar.classList.remove("set-cross");
-    }
+    const freebeatsFormData = new FormData(freebeatsForm);
+    freebeatsFormData.append("currentPathname", document.location.pathname);
 
-    const targetElement = document.querySelector(this.getAttribute("href"));
-
-    if (targetElement) {
-      const offsetPosition =
-        targetElement.offsetTop -
-        (window.screen.width <= tabletWidth ? 30 : 50);
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
-  });
-});
-
-/* -- request freebeats functionality -- */
-const form = document.querySelector('[data-js="request-form"]');
-const responseMessage = document.querySelector('[data-js="response-message"]');
-const formContainer = document.querySelector('[data-js="form-container"]');
-
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
-
-  const formData = new FormData(form);
-
-  fetch(
-    location.pathname === "/" || location.pathname === "/index"
-      ? "./components/freebeats/freebeats-req-endpoint.php"
-      : "./components/freebeats/freebeats-req-endpoint-de.php",
-    {
+    fetch("./endpoints/freebeats-req-endpoint.php", {
       method: "POST",
-      body: formData,
-    }
-  )
-    .then((response) => response.json())
-    .then((data) => {
-      // console.log(data);
-      form.reset();
-      responseMessage.innerHTML = data;
-      formContainer.style.display = "none";
+      body: freebeatsFormData,
     })
-    .catch((error) => console.error("Error:", error));
-});
+      .then((response) => response.json())
+      .then((data) => {
+        // console.log(data);
+        freebeatsForm.reset();
+        freebeatsResponseMessage.innerHTML = data;
+        freebeatsFormContainer.style.display = "none";
+      })
+      .catch((error) => console.error("Error:", error));
+  });
 
-/* -- contact request functionality -- */
-const contactForm = document.querySelector('[data-js="contact-form"]');
-const contactResponseMessage = document.querySelector(
-  '[data-js="contact-response-message"]'
-);
-const contactFormContainer = document.querySelector(
-  '[data-js="contact-form-container"]'
-);
+  /* -- contact request functionality -- */
+  const contactForm = document.querySelector('[data-js="contact-form"]');
+  const contactResponseMessage = document.querySelector(
+    '[data-js="contact-response-message"]'
+  );
+  const contactFormContainer = document.querySelector(
+    '[data-js="contact-form-container"]'
+  );
 
-contactForm.addEventListener("submit", function (event) {
-  event.preventDefault();
+  contactForm.addEventListener("submit", function (event) {
+    event.preventDefault();
 
-  const contactFormData = new FormData(contactForm);
+    const contactFormData = new FormData(contactForm);
+    contactFormData.append("currentPathname", document.location.pathname);
 
-  fetch(
-    location.pathname === "/" || location.pathname === "/index"
-      ? "./components/contact/contact-form-endpoint.php"
-      : "./components/contact/contact-form-endpoint-de.php",
-    {
+    fetch("./endpoints/contact-form-endpoint.php", {
       method: "POST",
       body: contactFormData,
-    }
-  )
-    .then((response) => response.json())
-    .then((data) => {
-      // console.log(data);
-      form.reset();
-      contactResponseMessage.innerHTML = data;
-      contactFormContainer.style.display = "none";
     })
-    .catch((error) => console.error("Error:", error));
-});
+      .then((response) => response.json())
+      .then((data) => {
+        // console.log(data);
+        contactForm.reset();
+        contactResponseMessage.innerHTML = data;
+        contactFormContainer.style.display = "none";
+      })
+      .catch((error) => console.error("Error:", error));
+  });
+}

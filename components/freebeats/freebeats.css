@@ -1,0 +1,53 @@
+/* -- freebeats -- */
+.freebeats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.freebeats__lost-beats,
+.freebeats__kriyptunes-vol-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .freebeats__lost-beats,
+  .freebeats__kriyptunes-vol-1 {
+    width: 100%;
+  }
+}
+
+.freebeats__lost-beats img,
+.freebeats__kriyptunes-vol-1 img {
+  scale: 75%;
+}
+
+.freebeats__lost-beats__playlist-button {
+  display: inline-block;
+  background-color: var(--youtube-red);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.freebeats__lost-beats__playlist-button:hover {
+  color: var(--white);
+  background-color: var(--secondary-color);
+}
+
+.freebeats__request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

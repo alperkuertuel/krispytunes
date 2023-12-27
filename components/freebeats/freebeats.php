@@ -22,11 +22,11 @@
         <p>
             Fill in the form to request a download-link, I will get back at you asap! You will receive 25 instrumentals in mp3-format for non-commercial use.
         </p>
-        <p data-js="response-message">
+        <p data-js="freebeats-response-message">
             <!-- response message after submission -->
         </p>
-        <div data-js="form-container">
-            <form data-js="request-form" method="post" class="freebeats__request-form">
+        <div data-js="freebeats-form-container">
+            <form data-js="freebeats-request-form" method="post" class="freebeats__request-form">
                 <label for="name">name</label>
                 <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
 

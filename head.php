@@ -27,44 +27,50 @@
         }
     </script>
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
+
     <!-- stylesheet -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
-    <link type="image/ico" rel="icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
 
     <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo" async></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            grecaptcha.ready(function() {
-                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                    if (token) {
-                        document.getElementById('recaptcha-response-freebeats').value = token;
-                        // console.log("recaptcha-response-freebeats", document.getElementById('recaptcha-response-freebeats').value);
-                    } else {
-                        console.error('Freebeats request ReCAPTCHA token is null or undefined.');
-                    }
-                });
+            const freebeatsToken = document.getElementById('recaptcha-response-freebeats');
+            const contactToken = document.getElementById('recaptcha-response-contact-form');
 
-                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function(token) {
-                    if (token) {
-                        document.getElementById('recaptcha-response-contact-form').value = token;
-                        // console.log("recaptcha-response-contact-form", document.getElementById('recaptcha-response-contact-form').value);
-                    } else {
-                        console.error('Contact form ReCAPTCHA token is null or undefined.');
-                    }
+            if (freebeatsToken && contactToken) {
+                grecaptcha.ready(function () {
+                    grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token1) {
+                        if (token1) {
+                            freebeatsToken.value = token1;
+                            // console.log("freebeatsToken", token1)
+                            grecaptcha.ready(function () {
+                                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token2) {
+                                    if (token2) {
+                                        contactToken.value = token2;
+                                        // console.log("contactToken", token2)
+                                    } else {
+                                        console.error('Contact form ReCAPTCHA token is null or undefined.');
+                                    }
+                                });
+                            });
+                        } else {
+                            console.error('Freebeats request ReCAPTCHA token is null or undefined.');
+                        }
+                    });
                 });
-            });
+            }
         });
     </script>
 
     <!-- flickity: slideshow -->
     <link rel="stylesheet" href="./modules/flickity-slideshow/flickity.min.css">
     <script src="./modules/flickity-slideshow/flickity.pkgd.min.js" defer></script>
-
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" defer></script>
 
     <!-- google: Tag-Manager -->
     <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" defer></script>

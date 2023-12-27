@@ -22,11 +22,11 @@
         <p>
             F&uuml;lle das Formular aus, um die 25 Freebeats im MP3-Format zugesendet zu bekommen.
         </p>
-        <p data-js="response-message">
+        <p data-js="freebeats-response-message">
             <!-- response message after submission -->
         </p>
-        <div data-js="form-container">
-            <form data-js="request-form" method="post" class="freebeats__request-form">
+        <div data-js="freebeats-form-container">
+            <form data-js="freebeats-request-form" method="post" class="freebeats__request-form">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
                 
