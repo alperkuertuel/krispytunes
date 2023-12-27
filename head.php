@@ -29,8 +29,8 @@
 
     <!-- stylesheet -->
     <link href="stylesheet_v12.css" rel="stylesheet" media="screen" type="text/css">
-    <link type="image/ico" rel="icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
 
     <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
