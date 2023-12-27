@@ -89,18 +89,23 @@ img {
 
 /* -- use for send and request -- */
 button {
-  background-color: var(--gray);
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
   color: var(--white);
-  padding: 0.8rem;
-  font-size: 1rem;
-  border: none;
-  text-decoration: none;
-  width: fit-content;
+  background: var(--secondary-color);
+  line-height: 1.15;
+  font-size: 16px;
 }
 
 button:hover {
-  background-color: var(--secondary-color);
-  transition: 0.5s ease 0.2s;
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 var(--primary-color),
+    0 0 0 3px var(--primary-color-lighter);
 }
 
 hr {
