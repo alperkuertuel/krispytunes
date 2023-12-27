@@ -128,9 +128,6 @@ a:hover {
   visibility: hidden;
 }
 
-/* -- faqs -- */
-/* tbd */
-
 .message-box-success {
   background-color: var(--success-color-lighter);
   display: block;
@@ -149,6 +146,7 @@ a:hover {
   padding: 0.5rem;
 }
 
+/* PAGES: */
 /* -- imprint styling -- */
 .imprint_box h2 {
   font-weight: lighter;
