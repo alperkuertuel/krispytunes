@@ -4,7 +4,9 @@ const desktopWidth = 1023;
 const mainLocation =
   document.location.pathname === "/" ||
   document.location.pathname === "/index" ||
-  document.location.pathname === "/de";
+  document.location.pathname === "/de" ||
+  document.location.pathname === "/index.php" ||
+  document.location.pathname === "/de.php";
 
 // all event listeners will be active when in main location
 if (mainLocation) {
@@ -95,17 +97,13 @@ if (mainLocation) {
   freebeatsForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const formData = new FormData(freebeatsForm);
+    const freebeatsFormData = new FormData(freebeatsForm);
+    freebeatsFormData.append("currentPathname", document.location.pathname);
 
-    fetch(
-      location.pathname === "/" || location.pathname === "/index"
-        ? "./components/freebeats/freebeats-req-endpoint.php"
-        : "./components/freebeats/freebeats-req-endpoint-de.php",
-      {
-        method: "POST",
-        body: formData,
-      }
-    )
+    fetch("./endpoints/freebeats-req-endpoint.php", {
+      method: "POST",
+      body: freebeatsFormData,
+    })
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
@@ -129,16 +127,12 @@ if (mainLocation) {
     event.preventDefault();
 
     const contactFormData = new FormData(contactForm);
+    contactFormData.append("currentPathname", document.location.pathname);
 
-    fetch(
-      location.pathname === "/" || location.pathname === "/index"
-        ? "./components/contact/contact-form-endpoint.php"
-        : "./components/contact/contact-form-endpoint-de.php",
-      {
-        method: "POST",
-        body: contactFormData,
-      }
-    )
+    fetch("./endpoints/contact-form-endpoint.php", {
+      method: "POST",
+      body: contactFormData,
+    })
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
