@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
-    <?php include './modules/head/head.php'; ?>
+    <?php include './head.php'; ?>
     <body>
         <h1>
             <a href="https://www.krispytunes.com">

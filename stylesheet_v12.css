@@ -12,18 +12,13 @@
   --white: #fff;
   --black: black;
   --gray: gray;
-
   --success-color: rgba(0, 128, 28, 0.5);
   --success-color-lighter: #8fbc8f;
-
   --error-color: #f8a2ac;
-
   --box-color: #ebebeb;
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-
   --link-color: #5a6fbd;
   --link-color-hover: navy;
-
   --youtube-red: rgb(165, 19, 19);
   --primary-color: #750020;
   --primary-color-darker: #8a0022;
@@ -50,7 +45,6 @@ body {
   color: var(--black);
   -webkit-tap-highlight-color: transparent;
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.05em;
   text-align: center;
 }
 
@@ -63,11 +57,11 @@ h2,
 h3,
 h4 {
   color: var(--primary-color);
-  width: 100%;
 }
 
 h1 {
   font-size: 2rem;
+  width: 100%;
 }
 
 h2 {
@@ -83,7 +77,7 @@ article p {
   text-align: justify;
 }
 
-/* -- img and fontawesome-manipulation --*/
+/* -- img and fontawesome-manipulation -- */
 img {
   border: 0;
 }
@@ -173,4 +167,12 @@ a:hover {
 }
 
 /* -- privacy policy -- */
-/* tbd */
+#pp {
+  text-align: left;
+  padding: 0 2em 2em;
+}
+
+#pp p {
+  text-align: justify;
+  padding: 0 1em;
+}
