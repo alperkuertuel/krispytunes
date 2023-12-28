@@ -46,7 +46,3 @@
 .flickity-prev-next-button:hover {
   background: var(--gray);
 }
-
-.flickity-page-dots {
-  display: none;
-}
