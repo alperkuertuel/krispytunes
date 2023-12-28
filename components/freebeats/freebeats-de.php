@@ -3,7 +3,7 @@
         <a href="#Instrumental-Store">
             <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
         </a>
-        DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS
+        MEHR ALS 30 FREEBEATS OHNE VOICE TAGS
     </h1>
     <article class="freebeats__lost-beats">
         <h2>LOST BEATS VOL. 1</h2>

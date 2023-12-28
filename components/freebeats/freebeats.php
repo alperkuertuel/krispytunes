@@ -3,7 +3,7 @@
         <a href="#Instrumental-Store">
             <i class="fa-solid fa-angle-up" aria-label="Scroll to Top"></i>
         </a>
-        DOWNLOAD MORE THEN 30 FREEBEATS WITHOUT VOICE TAGS
+        MORE THEN 30 FREEBEATS WITHOUT VOICE TAGS
     </h1>
     <article class="freebeats__lost-beats">
         <h2>LOST BEATS VOL. 1</h2>
