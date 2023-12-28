@@ -33,6 +33,12 @@
   margin: 1rem auto;
 }
 
+@media (max-width: 768px) {
+  .license-terms-contracts div {
+    width: 100%;
+  }
+}
+
 .license-terms-contracts table {
   display: block;
   text-align: left;
@@ -83,7 +89,7 @@
 
 .license-terms-contracts h2 {
   color: var(--white);
-  background-color: #8a0022;
+  background-color: var(--secondary-color);
   border-bottom: none;
   border-radius: 5px;
   padding: 5px;
@@ -93,7 +99,7 @@
 .license-terms-contracts h3 {
   color: var(--white);
   text-align: center;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 5px;
