@@ -162,6 +162,7 @@
             <p class="license-terms-contracts__pdf-container">
                 KANN ERNEUT VERKAUFT WERDEN
                 <a href="docs/pl.pdf" target="_blank">LIZENZ DOWNLOAD</a>
+                <img src="img/premium.svg" alt="premium" loading="lazy"/>
             </p>
         </div>
         <div class="license-terms-contracts__unlimited-leasing">

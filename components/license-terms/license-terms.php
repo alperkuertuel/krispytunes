@@ -162,6 +162,7 @@
             <p class="license-terms-contracts__pdf-container">
                 CAN BE SOLD AGAIN
                 <a href="docs/pl.pdf" target="_blank">TERMS DOWNLOAD</a>
+                <img src="img/premium.svg" alt="premium" loading="lazy"/>
             </p>
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
