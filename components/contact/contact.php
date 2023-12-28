@@ -8,8 +8,8 @@
     <p data-js="contact-response-message">
         <!-- response message after submission -->
     </p> 
-    <div data-js="contact-form-container">
-        <form data-js="contact-form" method="post" class="contact__form">
+    <div data-js="contact-form-container" class="contact__form-container">
+        <form data-js="contact-form" method="post" class="contact__form-container__form">
             <label for="contact-name">Name</label>
             <input type="text" name="contact-name" id="contact-name" autocomplete="on" maxlength="30" size="35" required>
 

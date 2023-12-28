@@ -1,19 +1,24 @@
 /* -- contact form -- */
 .contact {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
 }
 
-.contact__form {
+.contact__form-container {
+  width: 100%;
+  max-width: 390px;
+}
+
+.contact__form-container__form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
-  max-width: 390px;
 }
 
 textarea {

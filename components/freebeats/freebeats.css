@@ -15,7 +15,6 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin: 1rem;
   width: 45%;
 }
 
@@ -52,4 +51,5 @@
   justify-content: center;
   gap: 1rem;
   max-width: 390px;
+  width: 100%;
 }
