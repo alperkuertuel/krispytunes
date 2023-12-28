@@ -8,8 +8,8 @@
     <p data-js="contact-response-message">
         <!-- response message after submission -->
     </p> 
-    <div data-js="contact-form-container">
-        <form data-js="contact-form" method="post" class="contact__form">
+    <div data-js="contact-form-container" class="contact__form-container">
+        <form data-js="contact-form" method="post" class="contact__form-container__form">
             <label for="contact-name">Name</label>
             <input type="text" name="contact-name" id="contact-name" autocomplete="on" maxlength="30" size="35" required>
 
@@ -26,7 +26,7 @@
 
             <label for="dsgvo">
                 <input type="checkbox" name="dsgvo" id="dsgvo" required>
-                Ich habe die <a href="privacy-policy" target="_blank">Datenschutzbestimmungen</a> durchgelesen.
+                Ich habe die <a href="privacy-policy" target="_blank">Datenschutz- bestimmungen</a> durchgelesen.
             </label>
 
             <input type="hidden" name="recaptcha-response-contact-form" id="recaptcha-response-contact-form">
