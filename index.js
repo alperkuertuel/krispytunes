@@ -47,11 +47,13 @@ if (mainLocation) {
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
   const menueBars = document.querySelector('[data-js="menue-bar"]');
 
-  window.addEventListener("resize", () => {
+  function updateNavigationBar() {
     navigationBar.style.display =
-      window.screen.width <= desktopWidth ? "none" : "flex";
-  });
-  window.dispatchEvent(new Event("resize"));
+      window.innerWidth <= desktopWidth ? "none" : "flex";
+  }
+  // initial update
+  updateNavigationBar();
+  window.addEventListener("resize", updateNavigationBar);
 
   /* -- nav-bar set-cross the menue-bar and display nav-list -- */
   menueBars.addEventListener("click", () => {
