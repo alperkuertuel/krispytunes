@@ -35,7 +35,7 @@ if (mainLocation) {
   licenseButtons.forEach((button, index) =>
     button.addEventListener("click", () => {
       const table = licenseTables[index];
-      if (window.screen.width > tabletWidth) {
+      if (window.innerWidth > tabletWidth) {
         table.style.display = table.style.display === "none" ? "block" : "none";
       } else
         table.style.display =
@@ -76,7 +76,7 @@ if (mainLocation) {
       if (targetElement) {
         const offsetPosition =
           targetElement.offsetTop -
-          (window.screen.width <= tabletWidth ? 30 : 50);
+          (window.innerWidth <= tabletWidth ? 30 : 50);
         window.scrollTo({
           top: offsetPosition,
           behavior: "smooth",
