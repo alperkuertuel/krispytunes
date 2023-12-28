@@ -169,15 +169,15 @@
             <h3 data-js="license-button">UNLIMITED LEASING</h3>
             <table data-js="license-table">
                 <tr>
-                    <td><b>100% lizenzfrei</b></td>
+                    <td><b>100% Gebührenfrei</b></td>
                     <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
                 </tr>
                 <tr>
-                    <td>Mir zuordnen:</td>
+                    <td>Erwähnung:</td>
                     <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes-Stimme</td>
+                    <td>Beat-Kennzeichnung</td>
                     <td><i class="fa fa-times" title="Deaktiviert"></i></td>
                 </tr>
                 <tr>
@@ -246,11 +246,11 @@
             <h3 data-js="license-button">EXKLUSIVLIZENZ</h3>
             <table data-js="license-table">
                 <tr>
-                    <td>Mir zuordnen:</td>
+                    <td>Erwähnung:</td>
                     <td><i class="fa fa-fw fa-check" title="Aktiviert"></i></td>
                 </tr>
                 <tr>
-                    <td>krispytunes-Stimme</td>
+                    <td>Beat-Kennzeichnung</td>
                     <td><i class="fa fa-times" title="Deaktiviert"></i></td>
                 </tr>
                 <tr>
