@@ -34,9 +34,7 @@ if (mainLocation) {
     navigationBar.style.display =
       window.innerWidth <= tabletWidth ? "none" : "flex";
   }
-
   updateNavigationBarVisibilty();
-
   window.addEventListener("resize", updateNavigationBarVisibilty);
 
   /* -- nav-bar set-cross the menue-bar and display nav-list -- */
@@ -69,6 +67,7 @@ if (mainLocation) {
     });
   });
 
+  /* -- license-button functionality -- */
   const licenseButtons = document.querySelectorAll(
     '[data-js="license-button"]'
   );
@@ -94,7 +93,7 @@ if (mainLocation) {
   });
 
   window.addEventListener("resize", () => {
-    licenseButtons.forEach((_, index) => {
+    licenseButtons.forEach((button, index) => {
       toggleLicenseTable(index);
     });
   });
