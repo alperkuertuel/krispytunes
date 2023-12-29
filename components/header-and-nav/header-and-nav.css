@@ -44,8 +44,8 @@
 
 /* -- flags -- */
 .flags-container {
-  top: 0.5rem;
-  right: 1rem;
+  top: 5px;
+  right: 7px;
   position: fixed;
   display: flex;
   gap: 0.5rem;
