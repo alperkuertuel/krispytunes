@@ -27,8 +27,13 @@
             const store = document.querySelector('[data-js="store"]');
             iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
             iframe.title = "Instrumental Store";
-            iframe.classList.add("store__player");
+            iframe.classList.add("store__player", "store__player-skeleton"); // Add loading class
             store.appendChild(iframe);
+            // Attach 'load' event listener to the iframe
+            iframe.addEventListener("load", () => {
+                // Remove the loading class once the content is loaded
+                iframe.classList.remove("store__player-skeleton");
+            });
         }
     </script>
 
