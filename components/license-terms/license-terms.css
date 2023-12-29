@@ -117,6 +117,7 @@
   box-shadow: var(--box-shadow);
 }
 
+/* -- h3 button -- */
 .license-terms-contracts h3 {
   color: var(--white);
   text-align: center;
@@ -141,7 +142,13 @@
   right: 15px;
 }
 
-/* pdf-container */
+@media (min-width: 768px) {
+  .license-terms-contracts div h3 i {
+    visibility: hidden;
+  }
+}
+
+/* -- pdf-container -- */
 .license-terms-contracts__pdf-container {
   display: flex;
   flex-direction: column;

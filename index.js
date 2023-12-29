@@ -26,23 +26,6 @@ if (mainLocation) {
     cookieContainer.style.display = "flex";
   }
 
-  /* -- license-terms functionality -- */
-  const licenseButtons = document.querySelectorAll(
-    '[data-js="license-button"]'
-  );
-  const licenseTables = document.querySelectorAll('[data-js="license-table"]');
-
-  licenseButtons.forEach((button, index) =>
-    button.addEventListener("click", () => {
-      const table = licenseTables[index];
-      if (window.innerWidth > tabletWidth) {
-        table.style.display = table.style.display === "none" ? "block" : "none";
-      } else
-        table.style.display =
-          table.style.display === "block" ? "none" : "block";
-    })
-  );
-
   /* -- nav-bar functionality -- */
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
   const menueBars = document.querySelector('[data-js="menue-bar"]');
@@ -84,6 +67,23 @@ if (mainLocation) {
       }
     });
   });
+
+  /* -- license-terms functionality -- */
+  const licenseButtons = document.querySelectorAll(
+    '[data-js="license-button"]'
+  );
+  const licenseTables = document.querySelectorAll('[data-js="license-table"]');
+
+  licenseButtons.forEach((button, index) =>
+    button.addEventListener("click", () => {
+      const table = licenseTables[index];
+      if (window.innerWidth > tabletWidth) {
+        table.style.display = table.style.display === "none" ? "block" : "none";
+      } else
+        table.style.display =
+          table.style.display === "block" ? "none" : "block";
+    })
+  );
 
   /* -- request freebeats functionality -- */
   const freebeatsForm = document.querySelector(

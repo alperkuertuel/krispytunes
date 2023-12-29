@@ -15,6 +15,11 @@
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
 
+    <!-- stylesheet -->
+    <link href="global.css" rel="stylesheet" media="screen" type="text/css">
+    <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
+
     <!-- airbit -->
     <script async>
         function loadAirbitPlayer() {
@@ -29,11 +34,6 @@
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
-
-    <!-- stylesheet -->
-    <link href="global.css" rel="stylesheet" media="screen" type="text/css">
-    <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
-    <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
 
     <!-- google: reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
