@@ -142,12 +142,6 @@
   right: 15px;
 }
 
-@media (min-width: 768px) {
-  .license-terms-contracts div h3 i {
-    visibility: hidden;
-  }
-}
-
 /* -- pdf-container -- */
 .license-terms-contracts__pdf-container {
   display: flex;

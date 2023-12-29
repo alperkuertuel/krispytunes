@@ -34,7 +34,7 @@ if (mainLocation) {
     navigationBar.style.display =
       window.innerWidth <= desktopWidth ? "none" : "flex";
   }
-  // initial update
+  // initial call
   updateNavigationBar();
   window.addEventListener("resize", updateNavigationBar);
 
@@ -68,22 +68,31 @@ if (mainLocation) {
     });
   });
 
-  /* -- license-terms functionality -- */
   const licenseButtons = document.querySelectorAll(
     '[data-js="license-button"]'
   );
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
+  const downArrows = document.querySelectorAll(".fa-angle-down");
 
-  licenseButtons.forEach((button, index) =>
-    button.addEventListener("click", () => {
-      const table = licenseTables[index];
-      if (window.innerWidth > tabletWidth) {
-        table.style.display = table.style.display === "none" ? "block" : "none";
-      } else
+  licenseButtons.forEach((button, index) => {
+    const arrow = downArrows[index];
+    const table = licenseTables[index];
+
+    if (window.innerWidth <= tabletWidth) {
+      arrow.classList.add("fa-angle-down");
+      button.addEventListener("click", () => {
         table.style.display =
           table.style.display === "block" ? "none" : "block";
-    })
-  );
+        arrow.classList.toggle("fa-angle-down");
+      });
+    } else if (window.innerWidth >= tabletWidth) {
+      arrow.classList.remove("fa-angle-down");
+      button.addEventListener("click", () => {
+        table.style.display = table.style.display === "none" ? "block" : "none";
+        arrow.classList.toggle("fa-angle-down");
+      });
+    }
+  });
 
   /* -- request freebeats functionality -- */
   const freebeatsForm = document.querySelector(
