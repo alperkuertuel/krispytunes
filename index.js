@@ -30,13 +30,14 @@ if (mainLocation) {
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
   const menueBars = document.querySelector('[data-js="menue-bar"]');
 
-  function updateNavigationBar() {
+  function updateNavigationBarVisibilty() {
     navigationBar.style.display =
-      window.innerWidth <= desktopWidth ? "none" : "flex";
+      window.innerWidth <= tabletWidth ? "none" : "flex";
   }
-  // initial call
-  updateNavigationBar();
-  window.addEventListener("resize", updateNavigationBar);
+
+  updateNavigationBarVisibilty();
+
+  window.addEventListener("resize", updateNavigationBarVisibilty);
 
   /* -- nav-bar set-cross the menue-bar and display nav-list -- */
   menueBars.addEventListener("click", () => {
@@ -49,7 +50,7 @@ if (mainLocation) {
     anchor.addEventListener("click", function (event) {
       event.preventDefault();
 
-      if (window.innerWidth <= desktopWidth) {
+      if (window.innerWidth <= tabletWidth) {
         navigationBar.style.display = "none";
         menueBars.classList.remove("set-cross");
       }
@@ -74,24 +75,28 @@ if (mainLocation) {
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
   const downArrows = document.querySelectorAll(".fa-angle-down");
 
-  licenseButtons.forEach((button, index) => {
+  function toggleLicenseTable(index) {
+    const button = licenseButtons[index];
     const arrow = downArrows[index];
     const table = licenseTables[index];
 
-    if (window.innerWidth <= tabletWidth) {
-      arrow.classList.add("fa-angle-down");
-      button.addEventListener("click", () => {
-        table.style.display =
-          table.style.display === "block" ? "none" : "block";
-        arrow.classList.toggle("fa-angle-down");
-      });
-    } else if (window.innerWidth >= tabletWidth) {
-      arrow.classList.remove("fa-angle-down");
-      button.addEventListener("click", () => {
-        table.style.display = table.style.display === "none" ? "block" : "none";
-        arrow.classList.toggle("fa-angle-down");
-      });
-    }
+    table.style.display = window.innerWidth <= tabletWidth ? "none" : "block";
+    arrow.classList.toggle("fa-angle-down", window.innerWidth <= tabletWidth);
+
+    button.addEventListener("click", () => {
+      table.style.display = table.style.display === "none" ? "block" : "none";
+      arrow.classList.toggle("fa-angle-down");
+    });
+  }
+
+  licenseButtons.forEach((button, index) => {
+    toggleLicenseTable(index);
+  });
+
+  window.addEventListener("resize", () => {
+    licenseButtons.forEach((_, index) => {
+      toggleLicenseTable(index);
+    });
   });
 
   /* -- request freebeats functionality -- */

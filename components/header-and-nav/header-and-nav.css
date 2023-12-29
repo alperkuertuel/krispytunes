@@ -52,6 +52,18 @@
   z-index: 3;
 }
 
+@media (max-width: 1023px) {
+  .flags-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .flags-container {
+    display: flex;
+  }
+}
+
 .flags-container__image {
   height: 1.5rem;
   width: 1.5rem;
@@ -69,6 +81,13 @@ nav {
 .nav {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    margin-top: 2em;
+    flex-direction: column;
+  }
 }
 
 .nav__item {
@@ -115,13 +134,6 @@ nav {
   opacity: 1;
   visibility: visible;
   height: 100%;
-}
-
-@media (max-width: 1023px) {
-  .nav {
-    margin-top: 2em;
-    flex-direction: column;
-  }
 }
 
 /* -- header -- */
