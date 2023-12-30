@@ -35,7 +35,7 @@
   background-color: var(--youtube-red);
   color: var(--white);
   box-shadow: var(--box-shadow);
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 1rem;
 }
 
