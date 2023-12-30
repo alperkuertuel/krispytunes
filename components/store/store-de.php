@@ -1,7 +1,7 @@
 <section id="Instrumental-Store">
     <article class="store" >
         <div data-js="store">
-            <script async>window.onload = loadAirbitPlayer;</script>
+            <script>loadAirbitPlayer();</script>
         </div>
         <p class="store__payment-methods">
             <span>
