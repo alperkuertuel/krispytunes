@@ -74,28 +74,24 @@ if (mainLocation) {
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
   const downArrows = document.querySelectorAll(".fa-angle-down");
 
-  function toggleLicenseTable(index) {
-    const button = licenseButtons[index];
+  licenseButtons.forEach((button, index) => {
     const arrow = downArrows[index];
     const table = licenseTables[index];
 
-    table.style.display = window.innerWidth <= tabletWidth ? "none" : "block";
-    arrow.classList.toggle("fa-angle-down", window.innerWidth <= tabletWidth);
-
-    button.addEventListener("click", () => {
-      table.style.display = table.style.display === "none" ? "block" : "none";
+    const clickHandler = () => {
+      table.style.display = table.style.display === "block" ? "none" : "block";
       arrow.classList.toggle("fa-angle-down");
-    });
-  }
+    };
 
-  licenseButtons.forEach((button, index) => {
-    toggleLicenseTable(index);
-  });
-
-  window.addEventListener("resize", () => {
-    licenseButtons.forEach((button, index) => {
-      toggleLicenseTable(index);
-    });
+    if (window.innerWidth <= tabletWidth) {
+      arrow.classList.add("fa-angle-down");
+      button.removeEventListener("click", clickHandler);
+      button.addEventListener("click", clickHandler);
+    } else if (window.innerWidth >= tabletWidth) {
+      arrow.classList.remove("fa-angle-down");
+      button.removeEventListener("click", clickHandler);
+      button.addEventListener("click", clickHandler);
+    }
   });
 
   /* -- request freebeats functionality -- */
