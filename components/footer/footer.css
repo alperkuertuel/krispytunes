@@ -13,6 +13,7 @@
 
 .footer__up-button {
   color: var(--white) !important;
+  font-size: 3rem;
 }
 
 .footer ul li {

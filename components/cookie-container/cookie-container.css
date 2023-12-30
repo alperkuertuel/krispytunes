@@ -24,6 +24,6 @@
 .cookie-container__button {
   background: var(--primary-color-darker);
   color: var(--box-color);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   cursor: pointer;
 }

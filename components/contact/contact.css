@@ -1,40 +1,38 @@
 /* -- contact form -- */
 .contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   padding: 1rem;
 }
 
-#contabel div {
-  display: inline-block;
-  text-align: left;
+.contact__form-container {
+  width: 100%;
+  max-width: 390px;
+}
+
+.contact__form-container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
 }
 
 textarea {
   display: inline-block;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
-  border-radius: 0.1em;
   resize: none;
-  background: 0 0;
-  border: 0.1em solid var(--black);
+  border: 2px solid var(--secondary-color);
   color: var(--black);
   height: auto;
-  width: auto;
-  margin: 1em;
-  padding: 1em;
+  width: 100%;
+  padding: 5px;
 }
 
 textarea:focus {
   outline: 0;
-}
-
-input {
-  font-size: 1em;
-  background: 0 0;
-  border: 0;
-  border-bottom: 0.1em solid var(--black);
-  border-radius: 0;
-  color: var(--black);
-  outline: 0;
-  margin: 1em;
-  padding: 0.3em;
 }

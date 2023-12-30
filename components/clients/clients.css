@@ -13,6 +13,7 @@
   right: 0;
   width: 30px;
   height: 30px;
+  border-top-right-radius: 12px;
 }
 
 .carousel-cell {
@@ -44,8 +45,4 @@
 .flickity-button,
 .flickity-prev-next-button:hover {
   background: var(--gray);
-}
-
-.flickity-page-dots {
-  display: none;
 }

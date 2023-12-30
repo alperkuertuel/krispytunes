@@ -1,0 +1,65 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.socials li a {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.socials .fab {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+/* -- transition for social icon hover animation -- */
+.fa-facebook,
+.fa-youtube,
+.fa-instagram,
+.fa-github {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* -- social media icons hover color -- */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}

@@ -10,7 +10,7 @@
         <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
         <h2 >Suchst du nach etwas Einzigartigem?</h2>
         <p>
-            Dann <a href="#cont">kontaktiere </a> mich, um einen auf dich zugeschnittenen Beat zu bekommen.
+            Dann <a href="#Contact">kontaktiere </a> mich, um einen auf dich zugeschnittenen Beat zu bekommen.
         </p>
     </article>
     <article class="services__commercial-videos">

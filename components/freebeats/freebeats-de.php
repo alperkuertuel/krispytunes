@@ -3,7 +3,7 @@
         <a href="#Instrumental-Store">
             <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
         </a>
-        DOWNLOADE MEHR ALS 30 FREEBEATS OHNE VOICE TAGS
+        MEHR ALS 30 FREEBEATS OHNE VOICE TAGS
     </h1>
     <article class="freebeats__lost-beats">
         <h2>LOST BEATS VOL. 1</h2>
@@ -27,11 +27,15 @@
         </p>
         <div data-js="freebeats-form-container">
             <form data-js="freebeats-request-form" method="post" class="freebeats__request-form">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
-                
-                <label for="email">E-Mail</label>
-                <input type="email" name="email" id="email" autocomplete="on" maxlength="40" size="25" required>
+                <div class="form-item">
+                    <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="email" name="email" id="email" placeholder="" autocomplete="on" maxlength="40" size="25" required>
+                    <label for="email">E-Mail</label>
+                </div>
 
                 <label for="freebeats-subscriber">
                     <input type="checkbox" value="Dieser Kontakt hat dich abonniert." name="freebeats-subscriber" id="freebeats-subscriber" class="subscribe_box">

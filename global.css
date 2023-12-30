@@ -5,6 +5,7 @@
 @import "./components/services/services.css";
 @import "./components/freebeats/freebeats.css";
 @import "./components/contact/contact.css";
+@import "./components/socials/socials.css";
 @import "./components/footer/footer.css";
 @import "./components/cookie-container/cookie-container.css";
 
@@ -16,7 +17,8 @@
   --success-color-lighter: #8fbc8f;
   --error-color: #f8a2ac;
   --box-color: #ebebeb;
-  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+  --border-radius: 3px;
   --link-color: #5a6fbd;
   --link-color-hover: navy;
   --youtube-red: rgb(165, 19, 19);
@@ -89,18 +91,23 @@ img {
 
 /* -- use for send and request -- */
 button {
-  background-color: var(--gray);
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  padding: 12px 24px;
+  border: 0;
   color: var(--white);
-  padding: 0.8rem;
-  font-size: 1rem;
-  border: none;
-  text-decoration: none;
-  width: fit-content;
+  background: var(--primary-color);
+  line-height: 1.15;
+  font-size: 16px;
+  width: 100%;
 }
 
 button:hover {
-  background-color: var(--secondary-color);
-  transition: 0.5s ease 0.2s;
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 3px var(--secondary-color);
 }
 
 hr {
@@ -124,6 +131,73 @@ a:hover {
   transition: all 0.5s ease;
 }
 
+/* -- form css -- */
+.form-item {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-item label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: text;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-size: 1rem;
+  border: 0;
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--black);
+  outline: 0;
+}
+
+.form-item label,
+.form-item input {
+  width: 100%;
+  height: 25px;
+}
+
+.form-item input[type="email"]:not(:placeholder-shown) + label,
+.form-item input:focus + label,
+.form-item input:valid + label {
+  font-size: 0.9rem;
+  top: -25px;
+  pointer-events: none;
+  color: var(--primary-color);
+  transition: 0.3s ease;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  border: 2px solid var(--secondary-color);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin: 4px;
+  transform: scale(0);
+  background-color: var(--primary-color);
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
 .grecaptcha-badge {
   visibility: hidden;
 }
@@ -132,7 +206,7 @@ a:hover {
   background-color: var(--success-color-lighter);
   display: block;
   box-shadow: var(--box-shadow);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   margin: 1rem;
   padding: 0.5rem;
 }
@@ -141,13 +215,14 @@ a:hover {
   background-color: var(--error-color);
   display: block;
   box-shadow: var(--box-shadow);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   margin: 1rem;
   padding: 0.5rem;
 }
 
-/* PAGES: */
-/* -- imprint styling -- */
+/* PAGES CSS: */
+
+/* -- imprint -- */
 .imprint_box h2 {
   font-weight: lighter;
   font-size: 1.5em;

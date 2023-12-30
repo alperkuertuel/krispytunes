@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -15,7 +15,6 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin: 1rem;
   width: 45%;
 }
 
@@ -36,7 +35,7 @@
   background-color: var(--youtube-red);
   color: var(--white);
   box-shadow: var(--box-shadow);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   padding: 1rem;
 }
 
@@ -48,6 +47,9 @@
 .freebeats__request-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  gap: 1rem;
+  max-width: 390px;
+  width: 100%;
 }

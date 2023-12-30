@@ -44,12 +44,24 @@
 
 /* -- flags -- */
 .flags-container {
-  top: 0.5rem;
-  right: 1rem;
+  top: 5px;
+  right: 7px;
   position: fixed;
   display: flex;
   gap: 0.5rem;
   z-index: 3;
+}
+
+@media (max-width: 1023px) {
+  .flags-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .flags-container {
+    display: flex;
+  }
 }
 
 .flags-container__image {
@@ -69,6 +81,13 @@ nav {
 .nav {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    margin-top: 2em;
+    flex-direction: column;
+  }
 }
 
 .nav__item {
@@ -115,13 +134,6 @@ nav {
   opacity: 1;
   visibility: visible;
   height: 100%;
-}
-
-@media (max-width: 1023px) {
-  .nav {
-    margin-top: 2em;
-    flex-direction: column;
-  }
 }
 
 /* -- header -- */

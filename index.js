@@ -26,32 +26,16 @@ if (mainLocation) {
     cookieContainer.style.display = "flex";
   }
 
-  /* -- license-terms functionality -- */
-  const licenseButtons = document.querySelectorAll(
-    '[data-js="license-button"]'
-  );
-  const licenseTables = document.querySelectorAll('[data-js="license-table"]');
-
-  licenseButtons.forEach((button, index) =>
-    button.addEventListener("click", () => {
-      const table = licenseTables[index];
-      if (window.screen.width > tabletWidth) {
-        table.style.display = table.style.display === "none" ? "block" : "none";
-      } else
-        table.style.display =
-          table.style.display === "block" ? "none" : "block";
-    })
-  );
-
   /* -- nav-bar functionality -- */
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
   const menueBars = document.querySelector('[data-js="menue-bar"]');
 
-  window.addEventListener("resize", () => {
+  function updateNavigationBarVisibilty() {
     navigationBar.style.display =
-      window.screen.width <= desktopWidth ? "none" : "flex";
-  });
-  window.dispatchEvent(new Event("resize"));
+      window.innerWidth <= tabletWidth ? "none" : "flex";
+  }
+  updateNavigationBarVisibilty();
+  window.addEventListener("resize", updateNavigationBarVisibilty);
 
   /* -- nav-bar set-cross the menue-bar and display nav-list -- */
   menueBars.addEventListener("click", () => {
@@ -64,7 +48,7 @@ if (mainLocation) {
     anchor.addEventListener("click", function (event) {
       event.preventDefault();
 
-      if (window.innerWidth <= desktopWidth) {
+      if (window.innerWidth <= tabletWidth) {
         navigationBar.style.display = "none";
         menueBars.classList.remove("set-cross");
       }
@@ -74,13 +58,40 @@ if (mainLocation) {
       if (targetElement) {
         const offsetPosition =
           targetElement.offsetTop -
-          (window.screen.width <= tabletWidth ? 30 : 50);
+          (window.innerWidth <= tabletWidth ? 30 : 50);
         window.scrollTo({
           top: offsetPosition,
           behavior: "smooth",
         });
       }
     });
+  });
+
+  /* -- license-button functionality -- */
+  const licenseButtons = document.querySelectorAll(
+    '[data-js="license-button"]'
+  );
+  const licenseTables = document.querySelectorAll('[data-js="license-table"]');
+  const downArrows = document.querySelectorAll(".fa-angle-down");
+
+  licenseButtons.forEach((button, index) => {
+    const arrow = downArrows[index];
+    const table = licenseTables[index];
+
+    const clickHandler = () => {
+      table.style.display = table.style.display === "block" ? "none" : "block";
+      arrow.classList.toggle("fa-angle-down");
+    };
+
+    if (window.innerWidth <= tabletWidth) {
+      arrow.classList.add("fa-angle-down");
+      button.removeEventListener("click", clickHandler);
+      button.addEventListener("click", clickHandler);
+    } else if (window.innerWidth >= tabletWidth) {
+      arrow.classList.remove("fa-angle-down");
+      button.removeEventListener("click", clickHandler);
+      button.addEventListener("click", clickHandler);
+    }
   });
 
   /* -- request freebeats functionality -- */

@@ -10,13 +10,13 @@
         <p class="license-terms__description__text">
             Please note that the license terms listed below are a quick overview.
             For more details I recommend you to download the sample terms.
-            If you want to buy a exclusive license contact me via the <a href="#contable">contact form</a>.
+            If you want to buy a exclusive license contact me via the <a href="#Contact">contact form</a>.
         </p>
     </article>
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 data-js="license-button">WAV LEASING</h3>
+            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-angle-down"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -92,7 +92,7 @@
         <div class="license-terms-contracts__premium-leasing">
             <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Popular<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
-            <h3 data-js="license-button">PREMIUM LEASING</h3>
+            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-angle-down"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -167,7 +167,7 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 data-js="license-button">UNLIMITED LEASING</h3>
+            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-angle-down"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -244,7 +244,7 @@
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 data-js="license-button">EXCLUSIVE LICENSE</h3>
+            <h3 data-js="license-button">EXCLUSIVE LICENSE<i class="fa-solid fa-angle-down"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td>Tagging me:</td>
@@ -310,6 +310,7 @@
             <p class="license-terms-contracts__pdf-container">
                 CAN'T BE SOLD AGAIN
                 <a href="docs/ex.pdf" target="_blank">TERMS DOWNLOAD</a>
+                <img src="img/exclusive.svg" alt="exclusive" loading="lazy"/>
             </p>
         </div>
     </article>

@@ -21,6 +21,7 @@
 .license-terms-contracts {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -29,8 +30,36 @@
 .license-terms-contracts__premium-leasing,
 .license-terms-contracts__unlimited-leasing,
 .license-terms-contracts__exclusive {
-  width: 17rem;
-  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  width: 18rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .license-terms-contracts div {
+    width: 100%;
+  }
+}
+
+.popular {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--black);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+}
+
+.popular img {
+  width: 20px;
+  height: 20px;
 }
 
 .license-terms-contracts table {
@@ -39,14 +68,32 @@
   background-color: var(--box-color);
   box-shadow: var(--box-shadow);
   padding: 5px;
-  margin-bottom: 0.5rem;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }
 
 @media (max-width: 768px) {
   .license-terms-contracts table {
     display: none;
   }
+}
+
+.popular {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--black);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+}
+
+.popular img {
+  width: 20px;
+  height: 20px;
 }
 
 .license-terms-contracts table tr td {
@@ -61,42 +108,22 @@
   color: green;
 }
 
-.popular {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem;
-  color: var(--white);
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: var(--black);
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  padding: 5px;
-  margin: 5px 0;
-}
-
-.popular img {
-  width: 20px;
-  height: 20px;
-}
-
 .license-terms-contracts h2 {
   color: var(--white);
-  background-color: #8a0022;
+  background-color: var(--secondary-color);
   border-bottom: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   padding: 5px;
   box-shadow: var(--box-shadow);
 }
 
+/* -- h3 button -- */
 .license-terms-contracts h3 {
   color: var(--white);
   text-align: center;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
 
@@ -104,7 +131,18 @@
   cursor: pointer;
 }
 
-/* pdf-container */
+.license-terms-contracts div h3 {
+  position: relative;
+}
+
+.fa-angle-down {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+/* -- pdf-container -- */
 .license-terms-contracts__pdf-container {
   display: flex;
   flex-direction: column;
@@ -112,7 +150,7 @@
   gap: 0.5rem;
   padding: 0.5rem;
   background-color: var(--box-color);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
 
@@ -123,7 +161,7 @@
   background-color: var(--secondary-color);
   box-shadow: var(--box-shadow);
   display: inline-block;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   padding: 0.5rem;
 }
 
