@@ -98,7 +98,7 @@ button {
   padding: 12px 24px;
   border: 0;
   color: var(--white);
-  background: var(--secondary-color);
+  background: var(--primary-color);
   line-height: 1.15;
   font-size: 16px;
   width: 100%;
@@ -106,7 +106,7 @@ button {
 
 button:hover {
   transition: all 0.1s ease;
-  box-shadow: 0 0 0 3px var(--primary-color);
+  box-shadow: 0 0 0 3px var(--secondary-color);
 }
 
 hr {
