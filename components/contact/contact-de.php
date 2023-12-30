@@ -10,11 +10,15 @@
     </p> 
     <div data-js="contact-form-container" class="contact__form-container">
         <form data-js="contact-form" method="post" class="contact__form-container__form">
-            <label for="contact-name">Name</label>
-            <input type="text" name="contact-name" id="contact-name" autocomplete="on" maxlength="30" size="35" required>
+            <div class="form-item">
+                <input type="text" name="contact-name" id="contact-name" autocomplete="on" maxlength="30" size="35" required>
+                <label for="contact-name">Name</label>
+            </div>
 
-            <label for="contact-email">E-Mail</label>
-            <input type="email" name="contact-email" id="contact-email" autocomplete="on" maxlength="40" size="35" required>
+            <div class="form-item">
+                <input type="email" name="contact-email" id="contact-email" placeholder="" autocomplete="on" maxlength="40" size="35" required>
+                <label for="contact-email">E-Mail</label>
+            </div>
 
             <label for="contact-message"></label>
             <textarea rows="10" cols="35" name="contact-message" id="contact-message" required></textarea>

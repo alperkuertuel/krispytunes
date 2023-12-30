@@ -27,12 +27,16 @@
         </p>
         <div data-js="freebeats-form-container">
             <form data-js="freebeats-request-form" method="post" class="freebeats__request-form">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
+                <div class="form-item">
+                    <input type="text" name="name" id="name" autocomplete="on" maxlength="30" size="25" required>
+                    <label for="name">Name</label>
+                </div>
 
-                <label for="email">E-Mail</label>
-                <input type="email" name="email" id="email" autocomplete="on" maxlength="40" size="25" required>
-                
+                <div class="form-item">
+                    <input type="email" name="email" id="email" placeholder="" autocomplete="on" maxlength="40" size="25" required>
+                    <label for="email">E-Mail</label>
+                </div>
+
                 <label for="freebeats-subscriber">
                     <input type="checkbox" value="This contact subscribed." name="freebeats-subscriber" id="freebeats-subscriber">
                     I want to subscribe for discounts and updates.   
