@@ -18,7 +18,7 @@
   padding: 1rem;
 }
 
-/* transition for social icon hover animation */
+/* -- transition for social icon hover animation -- */
 .fa-facebook,
 .fa-youtube,
 .fa-instagram,
@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 
-/* social media icons hover color */
+/* -- social media icons hover color -- */
 .fa-facebook:hover,
 .fa-facebook:focus {
   color: #1877f2;

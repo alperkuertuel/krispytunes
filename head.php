@@ -27,11 +27,11 @@
             const store = document.querySelector('[data-js="store"]');
             iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
             iframe.title = "Instrumental Store";
-            iframe.classList.add("store__player", "store__player-skeleton"); // Add loading class
+            iframe.classList.add("store__player", "store__player-skeleton"); // add loading class
             store.appendChild(iframe);
-            // Attach 'load' event listener to the iframe
+            // attach 'load' event listener to the iframe
             iframe.addEventListener("load", () => {
-                // Remove the loading class once the content is loaded
+                // remove the loading class once the content is loaded
                 iframe.classList.remove("store__player-skeleton");
             });
         }
@@ -40,7 +40,7 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
 
-    <!-- google: reCaptcha -->
+    <!-- google: recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script>
@@ -77,7 +77,7 @@
     <link rel="stylesheet" href="./modules/flickity-slideshow/flickity.min.css">
     <script src="./modules/flickity-slideshow/flickity.pkgd.min.js" defer></script>
 
-    <!-- google: Tag-Manager -->
+    <!-- google: tag-manager -->
     <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" defer></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -86,6 +86,6 @@
         gtag('config', 'G-3DRE0P6CM3');
     </script>
 
-    <!-- custom script for dom-manipulation -->
+    <!-- my custom script for dom-manipulation -->
     <script src="index.js" defer></script>
 </head>
