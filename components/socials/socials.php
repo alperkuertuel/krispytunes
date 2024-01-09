@@ -15,10 +15,5 @@
                 <i class="fab fa-facebook" aria-label="facebook"></i>
             </a>
         </li>
-        <li>
-            <a href="https://github.com/alper92" target="_blank" rel="noopener">
-                <i class="fab fa-github" aria-label="github"></i>
-            </a>
-        </li>
     </ul>
 </section>

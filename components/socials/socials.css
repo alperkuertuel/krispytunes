@@ -21,8 +21,7 @@
 /* -- transition for social icon hover animation -- */
 .fa-facebook,
 .fa-youtube,
-.fa-instagram,
-.fa-github {
+.fa-instagram {
   transition: 0.5s;
   cursor: pointer;
 }
@@ -49,17 +48,5 @@
 .fa-instagram:hover,
 .fa-instagram:focus {
   color: #bd22a2;
-  transform: scale(1.1);
-}
-
-.fa-github:hover,
-.fa-github:focus {
-  color: #000;
-  transform: scale(1.1);
-}
-
-.fa-github:hover,
-.fa-github:focus {
-  color: #000;
   transform: scale(1.1);
 }
