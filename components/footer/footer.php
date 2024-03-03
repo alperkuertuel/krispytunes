@@ -1,6 +1,6 @@
 <footer class="footer">
     <a href="#Instrumental-Store">
-        <i class="fa-solid fa-angle-up footer__up-button" aria-label="Scroll to Top"></i>
+        <i class="fa-solid fa-angle-up footer__up-button" aria-label="scroll to top"></i>
     </a>
     <ul>
         <li><a href="imprint" target="_blank">Imprint</a></li>
