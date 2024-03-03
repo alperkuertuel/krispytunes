@@ -1,6 +1,6 @@
 <section id="Contact" class="contact">
     <h1>
-        <a href="#Instrumental-Store">
+        <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
             <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
         </a>
         CONTACT

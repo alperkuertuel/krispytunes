@@ -1,6 +1,6 @@
 <section id="Freebeats" class="freebeats">
     <h1>
-        <a href="#Instrumental-Store">
+        <a href="#Instrumental-Store" aria-label="Scrolle nach oben zum Instrumental-Store.">
             <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
         </a>
         MEHR ALS 30 FREEBEATS OHNE VOICE TAGS

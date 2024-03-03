@@ -1,5 +1,5 @@
 <footer class="footer">
-    <a href="#Instrumental-Store">
+    <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
         <i class="fa-solid fa-angle-up footer__up-button" aria-label="scroll to top"></i>
     </a>
     <ul>
