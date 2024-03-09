@@ -15,13 +15,16 @@
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
 
+    <!-- my custom script for dom-manipulation -->
+    <script src="index.js" defer></script>
+
     <!-- stylesheet -->
     <link href="global.css" rel="stylesheet" media="screen" type="text/css">
     <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
     <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
 
     <!-- airbit -->
-    <script async>
+    <script defer>
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
             const store = document.querySelector('[data-js="store"]');
@@ -34,7 +37,7 @@
             });
         }
     </script>
-
+    
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
 
@@ -83,7 +86,4 @@
         gtag('js', new Date());
         gtag('config', 'G-3DRE0P6CM3');
     </script>
-
-    <!-- my custom script for dom-manipulation -->
-    <script src="index.js" defer></script>
 </head>
