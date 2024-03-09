@@ -47,7 +47,6 @@
   text-transform: uppercase;
   width: 100%;
   background-color: var(--store-color);
-  border-radius: var(--border-radius);
   padding: 0.5rem;
 }
 
