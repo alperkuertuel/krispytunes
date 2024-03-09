@@ -1,4 +1,4 @@
-<section id="Socials">
+<section id="Socials" class="seperator">
     <ul class="socials">
         <li>
             <a href="https://www.instagram.com/krispy.tunes" target="_blank" rel="noopener">

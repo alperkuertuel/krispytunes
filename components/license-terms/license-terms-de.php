@@ -1,4 +1,4 @@
-<section id="Licenses" class="license-terms">
+<section id="Licenses" class="license-terms seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="Scrolle nach oben zum Instrumental-Store.">
             <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>

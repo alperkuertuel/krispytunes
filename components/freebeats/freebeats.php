@@ -1,4 +1,4 @@
-<section id="Freebeats" class="freebeats">
+<section id="Freebeats" class="freebeats seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
             <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
