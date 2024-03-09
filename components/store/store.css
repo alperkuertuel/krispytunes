@@ -20,7 +20,6 @@
   width: 100%;
   height: 70vh;
   border: none;
-  border-radius: 5%;
   background: var(--black);
   background: linear-gradient(to right, #000, #222, #000);
   background-size: 200%;
@@ -46,8 +45,7 @@
   gap: 1rem;
   text-transform: uppercase;
   width: 100%;
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius);
+  background-color: var(--store-color);
   padding: 0.5rem;
 }
 
@@ -83,6 +81,6 @@
     transform: scale(1);
   }
   to {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 }

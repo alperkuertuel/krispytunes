@@ -15,28 +15,29 @@
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
 
+    <!-- my custom script for dom-manipulation -->
+    <script src="index.js" defer></script>
+
     <!-- stylesheet -->
     <link href="global.css" rel="stylesheet" media="screen" type="text/css">
     <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
     <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
 
     <!-- airbit -->
-    <script async>
+    <script defer>
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
             const store = document.querySelector('[data-js="store"]');
-            iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
+            iframe.src = "https://airbit.com/widgets/html5/?uid=197830&config=796900";
             iframe.title = "Instrumental Store";
-            iframe.classList.add("store__player", "store__player-skeleton"); // add loading class
+            iframe.classList.add("store__player", "store__player-skeleton");
             store.appendChild(iframe);
-            // attach 'load' event listener to the iframe
             iframe.addEventListener("load", () => {
-                // remove the loading class once the content is loaded
                 iframe.classList.remove("store__player-skeleton");
             });
         }
     </script>
-
+    
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
 
@@ -85,7 +86,4 @@
         gtag('js', new Date());
         gtag('config', 'G-3DRE0P6CM3');
     </script>
-
-    <!-- my custom script for dom-manipulation -->
-    <script src="index.js" defer></script>
 </head>

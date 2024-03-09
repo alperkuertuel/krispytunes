@@ -1,4 +1,4 @@
-<section id="Socials">
+<section id="Socials" class="seperator">
     <ul class="socials">
         <li>
             <a href="https://www.instagram.com/krispy.tunes" target="_blank" rel="noopener">
@@ -13,11 +13,6 @@
         <li>
             <a href="https://www.facebook.com/krispytunes" target="_blank" rel="noopener">
                 <i class="fab fa-facebook" aria-label="facebook"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/alper92" target="_blank" rel="noopener">
-                <i class="fab fa-github" aria-label="github"></i>
             </a>
         </li>
     </ul>

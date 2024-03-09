@@ -1,7 +1,7 @@
-<section id="Licenses" class="license-terms">
+<section id="Licenses" class="license-terms seperator">
     <h1>
-        <a href="#Instrumental-Store">
-            <i class="fa-solid fa-angle-up" aria-label="Scroll to Top"></i>
+        <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
+            <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
         </a> 
         LICENSE TERMS
     </h1>
