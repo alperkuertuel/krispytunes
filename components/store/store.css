@@ -20,7 +20,6 @@
   width: 100%;
   height: 70vh;
   border: none;
-  border-radius: var(--border-radius);
   background: var(--black);
   background: linear-gradient(to right, #000, #222, #000);
   background-size: 200%;
