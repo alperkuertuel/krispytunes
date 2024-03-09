@@ -25,13 +25,11 @@
         function loadAirbitPlayer() {
             const iframe = document.createElement("iframe");
             const store = document.querySelector('[data-js="store"]');
-            iframe.src = "https://krispytunes.infinity.airbit.com?config_id=11468&embed=1";
+            iframe.src = "https://airbit.com/widgets/html5/?uid=197830&config=796900";
             iframe.title = "Instrumental Store";
-            iframe.classList.add("store__player", "store__player-skeleton"); // add loading class
+            iframe.classList.add("store__player", "store__player-skeleton");
             store.appendChild(iframe);
-            // attach 'load' event listener to the iframe
             iframe.addEventListener("load", () => {
-                // remove the loading class once the content is loaded
                 iframe.classList.remove("store__player-skeleton");
             });
         }
