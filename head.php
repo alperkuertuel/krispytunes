@@ -5,7 +5,6 @@
     <meta name="robots" content="all" />
 	<title>krispytunes - INSTRUMENTAL STORE</title>
 	<meta name="description" content="Instrumentals For Sale | Freebeats | Custom Instrumentals | Beats For Commercial Videos" />
-	<meta name="page-topic" content="QUALITY INSTRUMENTALS FOR SALE | INSTANT DELIVERY | FREE DOWNLOAD INSTRUMENTALS WITHOUT VOICE TAG" />
 	<meta name='keywords' content="krispytunes, kirpsytunes.com, instrumental, freebeats, free instrumentals, free instrumentals download, freebeats download, beats without voicetag" />
 	<meta name="author" content="krispytunes" />
 	<meta name="copyright" content="krispytunes">
