@@ -13,12 +13,16 @@
 }
 
 .cookie-container a {
-  font-weight: lighter;
   color: var(--white);
 }
 
 .cookie-container__recaptcha-text {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.cookie-container__button-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .cookie-container__button {
@@ -26,4 +30,5 @@
   color: var(--box-color);
   border-radius: var(--border-radius);
   cursor: pointer;
+  max-width: 150px;
 }

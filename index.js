@@ -14,12 +14,23 @@ if (mainLocation) {
   const cookieContainer = document.querySelector(
     '[data-js="cookie-container"]'
   );
-  const cookieButton = document.querySelector('[data-js="cookie-button"]');
+  const acceptButton = document.querySelector(
+    '[data-js="accept-cookie-button"]'
+  );
+  const declineButton = document.querySelector(
+    '[data-js="decline-cookie-button"]'
+  );
   const cookiesAreAccepted = localStorage.getItem("cookiesAreAccepted");
 
-  cookieButton.addEventListener("click", () => {
+  acceptButton.addEventListener("click", () => {
     cookieContainer.style.display = "none";
     localStorage.setItem("cookiesAreAccepted", true);
+    window.location.reload();
+  });
+
+  declineButton.addEventListener("click", () => {
+    cookieContainer.style.display = "none";
+    localStorage.setItem("cookiesAreAccepted", false);
   });
 
   if (!cookiesAreAccepted) {
