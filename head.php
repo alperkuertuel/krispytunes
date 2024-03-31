@@ -1,3 +1,34 @@
+<?php
+// function that parses the .env file
+function parseEnv($filePath)
+{
+    $file = fopen($filePath, 'r');
+    $envVariables = [];
+    while (!feof($file)) {
+        $line = fgets($file);
+        $line = trim($line);
+
+        if ($line && strpos($line, '=') !== false && substr($line, 0, 1) !== '#') {
+            list($key, $value) = explode('=', $line, 2);
+            $envVariables[$key] = $value;
+        }
+    }
+    fclose($file);
+    return $envVariables;
+}
+// load the .env file
+$envFile = __DIR__ . '/.env';
+if (file_exists($envFile)) {
+    $envVariables = parseEnv($envFile);
+    // Set the environment variables
+    foreach ($envVariables as $key => $value) {
+        putenv("$key=$value");
+    }
+} else {
+    die('.env file not found');
+}
+?>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,52 +55,45 @@
 
     <!-- airbit -->
     <script defer>
-        function loadAirbitPlayer() {
-            const iframe = document.createElement("iframe");
-            const store = document.querySelector('[data-js="store"]');
-            iframe.src = "https://airbit.com/widgets/html5/?uid=197830&config=796900";
-            iframe.title = "Instrumental Store";
-            iframe.classList.add("store__player", "store__player-skeleton");
-            store.appendChild(iframe);
-            iframe.addEventListener("load", () => {
-                iframe.classList.remove("store__player-skeleton");
-            });
-        }
+    function loadAirbitPlayer() {
+        const iframe = document.createElement("iframe");
+        const store = document.querySelector('[data-js="store"]');
+        iframe.src = "https://airbit.com/widgets/html5/?uid=197830&config=796900";
+        iframe.title = "Instrumental Store";
+        iframe.classList.add("store__player", "store__player-skeleton");
+        store.appendChild(iframe);
+    }
     </script>
-    
+
     <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" async></script>
+    <script src="https://kit.fontawesome.com/<?php echo getenv('FAWESOME'); ?>.js" crossorigin="anonymous" defer></script>
 
     <!-- google: recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
-    <script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo getenv('RECAPTCHA'); ?>"></script>
+    <script defer>
         document.addEventListener("DOMContentLoaded", function () {
-            const freebeatsToken = document.getElementById('recaptcha-response-freebeats');
-            const contactToken = document.getElementById('recaptcha-response-contact-form');
-
-            if (freebeatsToken && contactToken) {
-                grecaptcha.ready(function () {
-                    grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token1) {
-                        if (token1) {
-                            freebeatsToken.value = token1;
-                            // console.log("freebeatsToken", token1)
-                            grecaptcha.ready(function () {
-                                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (token2) {
-                                    if (token2) {
-                                        contactToken.value = token2;
-                                        // console.log("contactToken", token2)
-                                    } else {
-                                        console.error('Contact form ReCAPTCHA token is null or undefined.');
-                                    }
-                                });
-                            });
-                        } else {
-                            console.error('Freebeats request ReCAPTCHA token is null or undefined.');
-                        }
-                    });
+            const freebeatsTokenInput = document.getElementById('recaptcha-response-freebeats');
+            const contactTokenInput = document.getElementById('recaptcha-response-contact-form');
+            grecaptcha.ready(function () {
+                grecaptcha.execute('<?php echo getenv('RECAPTCHA'); ?>', { action: 'submit' }).then(function (freebeatsToken) {
+                    if (freebeatsToken) {
+                        freebeatsTokenInput.value = freebeatsToken;
+                        // console.log("Freebeats reCAPTCHA Token", freebeatsToken);
+                            
+                        grecaptcha.execute('<?php echo getenv('RECAPTCHA'); ?>', { action: 'submit' }).then(function (contactToken) {
+                            if (contactToken) {
+                                contactTokenInput.value = contactToken;
+                                // console.log("Contact Form reCAPTCHA Token", contactToken);
+                            } else {
+                                console.error('contact form reCAPTCHA token is null or undefined.');
+                            }
+                        });
+                    } else {
+                        console.error('freebeats request reCAPTCHA token is null or undefined.');
+                    }
                 });
-            }
+            });
         });
     </script>
 
@@ -78,11 +102,13 @@
     <script src="./modules/flickity-slideshow/flickity.pkgd.min.js" defer></script>
 
     <!-- google: tag-manager -->
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" defer></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-3DRE0P6CM3');
+    <script src="https://www.googletagmanager.com/gtag/js?id=<?php echo getenv('TAGMANAGER'); ?>" defer></script>
+    <script defer>
+        if (localStorage.getItem("cookiesAreAccepted") === "true") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '<?php echo getenv('TAGMANAGER'); ?>');
+        }
     </script>
 </head>
