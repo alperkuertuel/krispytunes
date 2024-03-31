@@ -90,7 +90,6 @@
             </p>
         </div>
         <div class="license-terms-contracts__premium-leasing">
-            <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Beliebt<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
             <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-angle-down"></i></h3>
             <table data-js="license-table">
