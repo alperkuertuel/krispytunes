@@ -20,7 +20,7 @@ function parseEnv($filePath)
 $envFile = __DIR__ . '/.env';
 if (file_exists($envFile)) {
     $envVariables = parseEnv($envFile);
-    // Set the environment variables
+    // set the environment variables
     foreach ($envVariables as $key => $value) {
         putenv("$key=$value");
     }
