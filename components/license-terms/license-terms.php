@@ -16,7 +16,7 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-angle-up"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -91,7 +91,7 @@
         </div>
         <div class="license-terms-contracts__premium-leasing">
             <h2>80 $</h2>
-            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-angle-up"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -166,7 +166,7 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-angle-up"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
@@ -243,7 +243,7 @@
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 data-js="license-button">EXCLUSIVE LICENSE<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">EXCLUSIVE LICENSE<i class="fa-solid fa-angle-up"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td>Tagging me:</td>

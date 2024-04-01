@@ -83,23 +83,24 @@ if (mainLocation) {
     '[data-js="license-button"]'
   );
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
-  const downArrows = document.querySelectorAll(".fa-angle-down");
 
   licenseButtons.forEach((button, index) => {
-    const arrow = downArrows[index];
+    const arrow = button.querySelector(".fa-angle-up");
     const table = licenseTables[index];
 
     const clickHandler = () => {
       table.style.display = table.style.display === "block" ? "none" : "block";
-      arrow.classList.toggle("fa-angle-down");
+      if (table.style.display === "block") {
+        arrow.style.transform = "rotate(180deg)";
+      } else {
+        arrow.style.transform = "rotate(0deg)";
+      }
     };
 
     if (window.innerWidth <= tabletWidth) {
-      arrow.classList.add("fa-angle-down");
       button.removeEventListener("click", clickHandler);
       button.addEventListener("click", clickHandler);
     } else if (window.innerWidth >= tabletWidth) {
-      arrow.classList.remove("fa-angle-down");
       button.removeEventListener("click", clickHandler);
       button.addEventListener("click", clickHandler);
     }

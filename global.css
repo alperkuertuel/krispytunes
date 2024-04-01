@@ -89,7 +89,7 @@ img {
   border: 0;
 }
 
-.fa-angle-up,
+a.fa-angle-up,
 .fa-angle-left {
   color: var(--black);
 }
