@@ -85,24 +85,24 @@ if (mainLocation) {
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
 
   licenseButtons.forEach((button, index) => {
-    const arrow = button.querySelector(".fa-angle-up");
+    const arrow = button.querySelector(".fa-toggle-off");
     const table = licenseTables[index];
 
     const clickHandler = () => {
       table.style.display = table.style.display === "block" ? "none" : "block";
       if (table.style.display === "block") {
         arrow.style.transform = "rotate(180deg)";
-      } else {
+      } else if (table.style.display === "none") {
         arrow.style.transform = "rotate(0deg)";
       }
     };
 
     if (window.innerWidth <= tabletWidth) {
-      button.removeEventListener("click", clickHandler);
       button.addEventListener("click", clickHandler);
+      button.addEventListener("resize", clickHandler);
     } else if (window.innerWidth >= tabletWidth) {
-      button.removeEventListener("click", clickHandler);
       button.addEventListener("click", clickHandler);
+      button.addEventListener("resize", clickHandler);
     }
   });
 

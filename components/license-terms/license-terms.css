@@ -98,11 +98,11 @@
   position: relative;
 }
 
-.fa-angle-up {
-  font-size: 1.5rem;
+h3 .fa-toggle-off {
+  font-size: 2rem;
   position: absolute;
-  top: 12px;
-  right: 15px;
+  top: 8px;
+  right: 10px;
 }
 
 /* -- pdf-container -- */
