@@ -7,7 +7,7 @@
     </h1>
     <article class="freebeats__kriyptunes-vol-1">
         <h2>KRISPYTUNES VOL. 1</h2>
-        <img src="img/krispytunes_vol_1.png" alt="krispytunes vol 1" loading="lazy"/>
+        <img src="./img/krispytunes-vol-1.png" alt="krispytunes vol 1" loading="lazy"/>
         <p>
             F&uuml;lle das Formular aus, um die 25 Freebeats im MP3-Format zugesendet zu bekommen.
         </p>
@@ -36,9 +36,9 @@
             </form>
         </div>
     </article>
-    <article class="freebeats__lost-beats">
+    <article class="freebeats__lost-beats-vol-1">
         <h2>LOST BEATS VOL. 1</h2>
-        <img src="img/lost_beats_vol_1.png" alt="lost beats vol. 1" loading="lazy"/>
+        <img src="./img/lost-beats-vol-1.png" alt="lost beats vol. 1" loading="lazy"/>
         <p>
             Kaufe einen beliebigen Beat aus dem Store und erhalte das Lost Beats Tape Vol. 1 mit <b>11 Beats im wav-Format gratis dazu!</b>
         </p>
