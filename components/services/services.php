@@ -8,7 +8,7 @@
     <article class="services__custom-beats">
         <h2>ORDER YOUR CUSTOM BEAT NOW</h2>
         <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
-        <h2>Are you looking for a unique beat?</h2>
+        <p>Are you looking for a unique beat?</p>
         <p>
             Then <a href="#Contact">contact</a> me to get your custom instrumental!
             I'm going to start from scratch to deliver you an unique and 100% handmade beat.
