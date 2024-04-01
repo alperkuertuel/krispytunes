@@ -11,9 +11,9 @@
   width: 100%;
 }
 
-.footer__up-button {
-  color: var(--white) !important;
+.footer .fa-angle-up {
   font-size: 3rem;
+  color: var(--white);
 }
 
 .footer ul li {

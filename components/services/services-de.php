@@ -8,7 +8,7 @@
     <article class="services__custom-beats">
         <h2>CUSTOM BEATS</h2>
         <img src="img/custom.svg" alt="CUSTOM INSTRUMENTALS" loading="lazy"/>
-        <h2 >Suchst du nach etwas Einzigartigem?</h2>
+        <p>Suchst du nach etwas Einzigartigem?</p>
         <p>
             Dann <a href="#Contact">kontaktiere </a> mich, um einen auf dich zugeschnittenen Beat zu bekommen.
         </p>

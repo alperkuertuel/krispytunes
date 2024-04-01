@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 3rem;
   padding: 1rem;
 }
 
@@ -12,6 +12,7 @@
 .services__commercial-videos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   width: 45%;
@@ -26,7 +27,7 @@
 
 .services__custom-beats img,
 .services__commercial-videos img {
-  width: 100px;
-  height: 100px;
-  margin: 0.5rem;
+  width: 80px;
+  height: 80px;
+  margin: 1rem;
 }

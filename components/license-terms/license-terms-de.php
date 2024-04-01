@@ -16,7 +16,7 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-toggle-off"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Gebührenfrei</b></td>
@@ -90,9 +90,8 @@
             </p>
         </div>
         <div class="license-terms-contracts__premium-leasing">
-            <span class="popular"><img src="img/fire.svg" alt="!FIRE!" loading="lazy"/>Beliebt<img src="img/fire.svg" alt="!FIRE!" loading="lazy"/></span>
             <h2>80 $</h2>
-            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-toggle-off"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Gebührenfrei</b></td>
@@ -167,7 +166,7 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-toggle-off"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Gebührenfrei</b></td>
@@ -244,7 +243,7 @@
             <h2>
                 IHR ANGEBOT
             </h2>
-            <h3 data-js="license-button">EXKLUSIVLIZENZ<i class="fa-solid fa-angle-down"></i></h3>
+            <h3 data-js="license-button">EXKLUSIVLIZENZ<i class="fa-solid fa-toggle-off"></i></h3>
             <table data-js="license-table">
                 <tr>
                     <td>Erwähnung:</td>
@@ -308,7 +307,7 @@
                 </tr>
             </table>
             <p class="license-terms-contracts__pdf-container">
-                KANN ERNEUT VERKAUFT WERDEN
+                KANN NICHT ERNEUT VERKAUFT WERDEN
                 <a href="docs/ex.pdf" target="_blank">LIZENZ DOWNLOAD</a>
                 <img src="img/exclusive.svg" alt="exclusive" loading="lazy"/>
             </p>
