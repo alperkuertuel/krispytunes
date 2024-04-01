@@ -307,7 +307,7 @@
                 </tr>
             </table>
             <p class="license-terms-contracts__pdf-container">
-                KANN ERNEUT VERKAUFT WERDEN
+                KANN NICHT ERNEUT VERKAUFT WERDEN
                 <a href="docs/ex.pdf" target="_blank">LIZENZ DOWNLOAD</a>
                 <img src="img/exclusive.svg" alt="exclusive" loading="lazy"/>
             </p>
