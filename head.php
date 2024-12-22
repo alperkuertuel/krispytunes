@@ -1,34 +1,3 @@
-<?php
-// function that parses the .env file
-function parseEnv($filePath)
-{
-    $file = fopen($filePath, 'r');
-    $envVariables = [];
-    while (!feof($file)) {
-        $line = fgets($file);
-        $line = trim($line);
-
-        if ($line && strpos($line, '=') !== false && substr($line, 0, 1) !== '#') {
-            list($key, $value) = explode('=', $line, 2);
-            $envVariables[$key] = $value;
-        }
-    }
-    fclose($file);
-    return $envVariables;
-}
-// load the .env file
-$envFile = __DIR__ . '/.env';
-if (file_exists($envFile)) {
-    $envVariables = parseEnv($envFile);
-    // set the environment variables
-    foreach ($envVariables as $key => $value) {
-        putenv("$key=$value");
-    }
-} else {
-    die('.env file not found');
-}
-?>
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -66,22 +35,22 @@ if (file_exists($envFile)) {
     </script>
 
     <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/<?php echo getenv('FAWESOME'); ?>.js" crossorigin="anonymous" defer></script>
+    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" defer></script>
 
     <!-- google: recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo getenv('RECAPTCHA'); ?>"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script defer>
         document.addEventListener("DOMContentLoaded", function () {
             const freebeatsTokenInput = document.getElementById('recaptcha-response-freebeats');
             const contactTokenInput = document.getElementById('recaptcha-response-contact-form');
             grecaptcha.ready(function () {
-                grecaptcha.execute('<?php echo getenv('RECAPTCHA'); ?>', { action: 'submit' }).then(function (freebeatsToken) {
+                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (freebeatsToken) {
                     if (freebeatsToken) {
                         freebeatsTokenInput.value = freebeatsToken;
                         // console.log("Freebeats reCAPTCHA Token", freebeatsToken);
                             
-                        grecaptcha.execute('<?php echo getenv('RECAPTCHA'); ?>', { action: 'submit' }).then(function (contactToken) {
+                        grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (contactToken) {
                             if (contactToken) {
                                 contactTokenInput.value = contactToken;
                                 // console.log("Contact Form reCAPTCHA Token", contactToken);
@@ -102,13 +71,13 @@ if (file_exists($envFile)) {
     <script src="./modules/flickity-slideshow/flickity.pkgd.min.js" defer></script>
 
     <!-- google: tag-manager -->
-    <script src="https://www.googletagmanager.com/gtag/js?id=<?php echo getenv('TAGMANAGER'); ?>" defer></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-3DRE0P6CM3" defer></script>
     <script defer>
         if (localStorage.getItem("cookiesAreAccepted") === "true") {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '<?php echo getenv('TAGMANAGER'); ?>');
+            gtag('config', 'G-3DRE0P6CM3');
         }
     </script>
 </head>
