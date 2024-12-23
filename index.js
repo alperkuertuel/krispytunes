@@ -3,10 +3,7 @@ const tabletWidth = 768;
 const desktopWidth = 1023;
 const mainLocation =
   document.location.pathname === "/" ||
-  document.location.pathname === "/index" ||
-  document.location.pathname === "/de" ||
-  document.location.pathname === "/index.php" ||
-  document.location.pathname === "/de.php";
+  document.location.pathname === "/index.php";
 
 // all event listeners will be active when in main location
 if (mainLocation) {

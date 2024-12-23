@@ -1,8 +1,5 @@
 dl
 docs
 .DS_Store
-.htaccess
-apple-touch-icon.png
-favicon.ico
 sitemap.xml
 .env
