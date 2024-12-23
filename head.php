@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Language" content="en">
     <meta name="theme-color" content="#2f3640" />
     <meta name="robots" content="all" />
 	<title>krispytunes - INSTRUMENTAL STORE</title>
