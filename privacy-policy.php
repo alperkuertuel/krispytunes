@@ -4,7 +4,7 @@
     <body>
         <h1>
             <a href="https://www.krispytunes.com">
-                <i class="fa-solid fa-angle-left" aria-label="Go back."></i>
+                <img src="/img/fa-icons/angle-left-solid.svg" class="fa-icon" aria-label="Go back." />
             </a>
             Privacy Policy
         </h1>

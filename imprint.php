@@ -4,7 +4,7 @@
     <body>
         <h1 id="start" class="back">
             <a href="https://www.krispytunes.com">
-                <i class="fa-solid fa-angle-left" aria-label="Go back."></i>
+                <img src="/img/fa-icons/angle-left-solid.svg" class="fa-icon" aria-label="Go back." />
             </a>
             IMPRINT
         </h1>
@@ -54,7 +54,8 @@
         </section>
         <h1>
             <a href="#start">
-                <i class="fa-solid fa-angle-up" aria-label="Scrolle nach oben."></i>
+                <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
+            </a>
             </a> 
             Terms & Conditions
         </h1>

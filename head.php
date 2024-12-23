@@ -20,8 +20,8 @@
 
     <!-- stylesheet -->
     <link href="global.css" rel="stylesheet" media="screen" type="text/css">
-    <link type="image/ico" rel="icon" href="./favicons/favicon.ico">
-    <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
+    <link type="image/ico" rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- airbit -->
     <script defer>
@@ -34,9 +34,6 @@
         store.appendChild(iframe);
     }
     </script>
-
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/d5eb725262.js" crossorigin="anonymous" defer></script>
 
     <!-- google: recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>

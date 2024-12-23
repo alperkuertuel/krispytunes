@@ -11,9 +11,9 @@
   width: 100%;
 }
 
-.footer .fa-angle-up {
-  font-size: 3rem;
-  color: var(--white);
+.footer a .fa-icon {
+  width: 48px;
+  height: 48px;
 }
 
 .footer ul li {

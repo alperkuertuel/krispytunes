@@ -1,11 +1,11 @@
 <footer class="footer">
     <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-        <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
+        <img src="/img/fa-icons/angle-up-solid-footer.svg" class="fa-icon" aria-label="scroll to top" />
     </a>
     <ul>
-        <li><a href="imprint" target="_blank">Imprint</a></li>
-        <li><a href="imprint" target="_blank">Terms &amp; Conditions</a></li>
-        <li><a href="privacy-policy" target="_blank">Privacy Policy</a></li>
+        <li><a href="imprint.php" target="_blank">Imprint</a></li>
+        <li><a href="imprint.php" target="_blank">Terms &amp; Conditions</a></li>
+        <li><a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
 	</ul>
     <ul>
         <li><a href="whatsapp://send?text=Listen%20to%20the%20instrumentals%20I%20found%20here%3A%20https%3A%2F%2Fkrispytunes.com">Share on WhatsApp</a></li>

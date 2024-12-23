@@ -1,7 +1,7 @@
 <section id="Services" class="services seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-            <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
+            <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
         </a> 
         SERVICES
     </h1>
@@ -22,9 +22,14 @@
             <a href="#Contact">Get at me</a> and convince yourself with the commercial videos below!
         </p>
         <p>
-            <a href="https://www.youtube.com/watch?v=NRdXrIWCX_c" target="_blank" rel="noopener">VAUDE</a>
-            <br />
-            <a href="https://www.youtube.com/watch?v=wwDMefv_5nc" target="_blank" rel="noopener">Don't Drop Crossfit</a>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=NRdXrIWCX_c" target="_blank" rel="noopener">VAUDE</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=wwDMefv_5nc" target="_blank" rel="noopener">Don't Drop Crossfit</a>
+            </li>
+        </ul>
         </p>
     </article>
 </section>

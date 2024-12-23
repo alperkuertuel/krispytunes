@@ -1,5 +1,6 @@
 .socials {
   display: flex;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -19,34 +20,37 @@
 }
 
 /* -- transition for social icon hover animation -- */
-.fa-facebook,
-.fa-youtube,
-.fa-instagram {
+.facebook-fa,
+.x-fa,
+.tiktok-fa,
+.youtube-fa,
+.instagram-fa {
   transition: 0.5s;
   cursor: pointer;
 }
 
 /* -- social media icons hover color -- */
-.fa-facebook:hover,
-.fa-facebook:focus {
-  color: #1877f2;
+.facebook-fa:hover,
+.facebook-fa:focus {
   transform: scale(1.1);
 }
 
-.fa-twitter:hover,
-.fa-twitter:focus {
-  color: #1da1f2;
+.tiktok-fa:hover,
+.tiktok-fa:focus {
   transform: scale(1.1);
 }
 
-.fa-youtube:hover,
-.fa-youtube:focus {
-  color: #df2426;
+.x-fa:hover,
+.x-fa:focus {
   transform: scale(1.1);
 }
 
-.fa-instagram:hover,
-.fa-instagram:focus {
-  color: #bd22a2;
+.youtube-fa:hover,
+.youtube-fa:focus {
+  transform: scale(1.1);
+}
+
+.instagram-fa:hover,
+.instagram-fa:focus {
   transform: scale(1.1);
 }

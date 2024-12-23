@@ -1,7 +1,7 @@
 <section id="Clients" class="clients seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-            <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
+            <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
         </a>
         WHAT CLIENTS SAY
     </h1>
