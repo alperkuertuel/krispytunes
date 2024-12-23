@@ -1,7 +1,7 @@
 <section id="Licenses" class="license-terms seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-            <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
+            <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
         </a> 
         LICENSE TERMS
     </h1>
@@ -16,31 +16,31 @@
     <article class="license-terms-contracts">
         <div class="license-terms-contracts__wav-leasing">
             <h2>20 $</h2>
-            <h3 data-js="license-button">WAV LEASING<i class="fa-solid fa-toggle-off"></i></h3>
+            <h3 data-js="license-button">WAV LEASING</h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Tagging me:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Beat tags</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>WAV:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Trackouts:</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>Sales:</td>
@@ -72,11 +72,11 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>Duration:</td>
@@ -91,31 +91,31 @@
         </div>
         <div class="license-terms-contracts__premium-leasing">
             <h2>80 $</h2>
-            <h3 data-js="license-button">PREMIUM LEASING<i class="fa-solid fa-toggle-off"></i></h3>
+            <h3 data-js="license-button">PREMIUM LEASING</h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Tagging me:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Beat tags</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>WAV:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Trackouts:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Sales:</td>
@@ -147,11 +147,11 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>Duration:</td>
@@ -166,31 +166,31 @@
         </div>
         <div class="license-terms-contracts__unlimited-leasing">
             <h2>280 $</h2>
-            <h3 data-js="license-button">UNLIMITED LEASING<i class="fa-solid fa-toggle-off"></i></h3>
+            <h3 data-js="license-button">UNLIMITED LEASING</h3>
             <table data-js="license-table">
                 <tr>
                     <td><b>100% Royalty Free</b></td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Tagging me:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Beat tags</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>WAV:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Trackouts:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Sales:</td>
@@ -222,7 +222,7 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>
@@ -243,27 +243,27 @@
             <h2>
                 YOUR OFFER
             </h2>
-            <h3 data-js="license-button">EXCLUSIVE LICENSE<i class="fa-solid fa-toggle-off"></i></h3>
+            <h3 data-js="license-button">EXCLUSIVE LICENSE</h3>
             <table data-js="license-table">
                 <tr>
                     <td>Tagging me:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Beat tags</td>
-                    <td><i class="fa fa-times" title="Disabled"></i></td>
+                    <td><img src="/img/fa-icons/xmark-solid.svg" class="fa-icon" title="Disabled"/></td>
                 </tr>
                 <tr>
                     <td>MP3:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>WAV:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Trackouts:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Sales:</td>
@@ -295,7 +295,7 @@
                 </tr>
                 <tr>
                     <td>Broadcasting Rights:</td>
-                    <td><i class="fa fa-fw fa-check" title="Enabled"></i></td>
+                    <td><img src="/img/fa-icons/check-solid.svg" class="fa-icon" title="Enabled"/></td>
                 </tr>
                 <tr>
                     <td>Radio Stations:</td>

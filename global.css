@@ -89,9 +89,15 @@ img {
   border: 0;
 }
 
-h1 a .fa-angle-up,
-.fa-angle-left {
-  color: var(--black);
+/* -- fa-icon base -- */
+.fa-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.fa-icon-big {
+  width: 48px;
+  height: 48px;
 }
 
 /* -- use for send and request -- */

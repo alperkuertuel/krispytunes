@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-co
     header('Content-Type: application/json');
 
     if ($recaptcha_data->score >= 0.5) {
-        if ($currentPathname === '/' || $currentPathname === '/index' || $currentPathname === '/index.php') {
+        if ($currentPathname === '/' || $currentPathname === '/index.php') {
             mail($receiver, $reference, $message, "From: $contact_email");
             echo json_encode("<span class='message-box-success'>Message sent successfully!</span>");
         } else if ($currentPathname === '/de' || $currentPathname === '/de.php') {
@@ -27,12 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-co
             error_log($error_message);
             echo json_encode("<span class='message-box-error'>Something went wrong! Reload the page and try again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
         }
-    } else {
-        if ($currentPathname === '/de' || $currentPathname === '/de.php') {
-            echo json_encode("<span class='message-box-error'>Etwas ist schief gelaufen! Lade die Seite erneut oder kontaktiere mich über Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
-        } else {
-            echo json_encode("<span class='message-box-error'>Something went wrong! Reload the page and try it again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
-        }
-    }
+    } 
 }
 ?>

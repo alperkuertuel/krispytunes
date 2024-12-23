@@ -1,0 +1,6 @@
+# allow all crawlers to access the entire site
+User-agent: *
+Disallow:
+
+# specify the sitemap URL
+Sitemap: https://www.krispytunes.com/sitemap.xml

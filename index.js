@@ -3,10 +3,7 @@ const tabletWidth = 768;
 const desktopWidth = 1023;
 const mainLocation =
   document.location.pathname === "/" ||
-  document.location.pathname === "/index" ||
-  document.location.pathname === "/de" ||
-  document.location.pathname === "/index.php" ||
-  document.location.pathname === "/de.php";
+  document.location.pathname === "/index.php";
 
 // all event listeners will be active when in main location
 if (mainLocation) {
@@ -85,16 +82,10 @@ if (mainLocation) {
   const licenseTables = document.querySelectorAll('[data-js="license-table"]');
 
   licenseButtons.forEach((button, index) => {
-    const arrow = button.querySelector(".fa-toggle-off");
     const table = licenseTables[index];
 
     const clickHandler = () => {
       table.style.display = table.style.display === "block" ? "none" : "block";
-      if (table.style.display === "block") {
-        arrow.style.transform = "rotate(180deg)";
-      } else if (table.style.display === "none") {
-        arrow.style.transform = "rotate(0deg)";
-      }
     };
 
     if (window.innerWidth <= tabletWidth) {

@@ -1,7 +1,7 @@
 <section id="Contact" class="contact seperator">
     <h1>
         <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-            <i class="fa-solid fa-angle-up" aria-label="scroll to top"></i>
+            <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
         </a>
         CONTACT
     </h1>
@@ -20,12 +20,12 @@
                 <label for="contact-email">E-Mail</label>
             </div>
 
-            <label for="contact-message"></label>
+            <label for="contact-message">Your message:</label>
             <textarea rows="10" cols="35" name="contact-message" id="contact-message" required></textarea>
             
             <label for="contact-subscriber">
                 <input type="checkbox" value="This contact subscribed." name="contact-subscriber" id="contact-subscriber">    
-                I subscribe for discounts and updates.
+                I want to subscribe for discounts and updates.
             </label>
 
             <label for="dsgvo">

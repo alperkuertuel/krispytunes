@@ -31,3 +31,9 @@
   height: 80px;
   margin: 1rem;
 }
+
+.services__commercial-videos ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
