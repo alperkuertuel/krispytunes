@@ -15,6 +15,10 @@
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
 
+    <!-- google: recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
+
     <!-- my custom script for dom-manipulation -->
     <script src="index.js" defer></script>
 
@@ -33,35 +37,6 @@
         iframe.classList.add("store__player", "store__player-skeleton");
         store.appendChild(iframe);
     }
-    </script>
-
-    <!-- google: recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
-    <script defer>
-        document.addEventListener("DOMContentLoaded", function () {
-            const freebeatsTokenInput = document.getElementById('recaptcha-response-freebeats');
-            const contactTokenInput = document.getElementById('recaptcha-response-contact-form');
-            grecaptcha.ready(function () {
-                grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (freebeatsToken) {
-                    if (freebeatsToken) {
-                        freebeatsTokenInput.value = freebeatsToken;
-                        // console.log("Freebeats reCAPTCHA Token", freebeatsToken);
-                            
-                        grecaptcha.execute('6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo', { action: 'submit' }).then(function (contactToken) {
-                            if (contactToken) {
-                                contactTokenInput.value = contactToken;
-                                // console.log("Contact Form reCAPTCHA Token", contactToken);
-                            } else {
-                                console.error('contact form reCAPTCHA token is null or undefined.');
-                            }
-                        });
-                    } else {
-                        console.error('freebeats request reCAPTCHA token is null or undefined.');
-                    }
-                });
-            });
-        });
     </script>
 
     <!-- flickity: slideshow -->

@@ -1,7 +1,7 @@
 /* -- global variables -- */
 const tabletWidth = 768;
 const desktopWidth = 1023;
-const mainLocation =
+let mainLocation =
   document.location.pathname === "/" ||
   document.location.pathname === "/index.php";
 
@@ -33,6 +33,57 @@ if (mainLocation) {
   if (!cookiesAreAccepted) {
     cookieContainer.style.display = "flex";
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const mainLocation =
+      document.location.pathname === "/" ||
+      document.location.pathname === "/index.php";
+    if (mainLocation) {
+      const freebeatsTokenInput = document.getElementById(
+        "recaptcha-response-freebeats"
+      );
+      const contactTokenInput = document.getElementById(
+        "recaptcha-response-contact-form"
+      );
+
+      if (!freebeatsTokenInput || !contactTokenInput) {
+        console.error("Required input elements not found.");
+        return;
+      }
+
+      grecaptcha.ready(function () {
+        grecaptcha
+          .execute("6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo", {
+            action: "submit",
+          })
+          .then(function (freebeatsToken) {
+            if (freebeatsToken) {
+              freebeatsTokenInput.value = freebeatsToken;
+              // console.log("Freebeats reCAPTCHA Token", freebeatsToken);
+
+              grecaptcha
+                .execute("6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo", {
+                  action: "submit",
+                })
+                .then(function (contactToken) {
+                  if (contactToken) {
+                    contactTokenInput.value = contactToken;
+                    // console.log("Contact Form reCAPTCHA Token", contactToken);
+                  } else {
+                    console.error(
+                      "Contact form reCAPTCHA token is null or undefined."
+                    );
+                  }
+                });
+            } else {
+              console.error(
+                "Freebeats request reCAPTCHA token is null or undefined."
+              );
+            }
+          });
+      });
+    }
+  });
 
   /* -- nav-bar functionality -- */
   const navigationBar = document.querySelector('[data-js="navigation-bar"]');
