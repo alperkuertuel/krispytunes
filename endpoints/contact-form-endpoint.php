@@ -19,10 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-co
         if ($currentPathname === '/' || $currentPathname === '/index.php') {
             mail($receiver, $reference, $message, "From: $contact_email");
             echo json_encode("<span class='message-box-success'>Message sent successfully!</span>");
-        } else if ($currentPathname === '/de' || $currentPathname === '/de.php') {
-            mail($receiver, $reference, $message, "From: $contact_email");
-            echo json_encode("<span class='message-box-success'>Deine Nachricht wurde erfolgreich versendet.</span>");
-        } else {
+        }  else {
             $error_message = "Error: Something went wrong. Current URL: " . $currentPathname;
             error_log($error_message);
             echo json_encode("<span class='message-box-error'>Something went wrong! Reload the page and try again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
