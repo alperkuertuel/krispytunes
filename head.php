@@ -39,7 +39,9 @@
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc74uQZAAAAALiJPavxE5e2X5iTltduKn-mYYCo"></script>
     <script defer>
-        document.addEventListener("DOMContentLoaded", function () {
+        mainLocation = document.location.pathname === "/" || document.location.pathname === "/index.php";
+        if (mainLocation){
+            document.addEventListener("DOMContentLoaded", function () {
             const freebeatsTokenInput = document.getElementById('recaptcha-response-freebeats');
             const contactTokenInput = document.getElementById('recaptcha-response-contact-form');
             grecaptcha.ready(function () {
@@ -62,6 +64,7 @@
                 });
             });
         });
+        }
     </script>
 
     <!-- flickity: slideshow -->

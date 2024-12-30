@@ -1,7 +1,7 @@
 /* -- global variables -- */
 const tabletWidth = 768;
 const desktopWidth = 1023;
-const mainLocation =
+let mainLocation =
   document.location.pathname === "/" ||
   document.location.pathname === "/index.php";
 
