@@ -1,5 +1,5 @@
 <?php
-$receiver = 'alperkuertuel@gmail.com';
+$receiver = 'alperkuertuel@hotmail.de';
 $reference = 'krispytunes.com - DL REQUEST ';
 $contact_email = $_POST['email'];
 $message = $_POST['name'] . "\r\n" . $_POST['email'] . "\r\n\r\n" . $_POST['freebeats-subscriber'];
@@ -19,10 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha-response-fr
         if ($currentPathname === '/' || $currentPathname === '/index.php') {
             mail($receiver, $reference, $message, "From: $contact_email");
             echo json_encode("<span class='message-box-success'>Message sent successfully. Please be patient, you are going to receive your personal download e-mail!</span>");
-        } else if ($currentPathname === '/de' || $currentPathname === '/de.php') {
-            mail($receiver, $reference, $message, "From: $contact_email");
-            echo json_encode("<span class='message-box-success'>Deine Anfrage wurde erfolgreich versendet. Bitte habe Geduld, du wirst in Kürze deine persönliche Download-E-Mail erhalten!</span>");
-        } else {
+        }  else {
             $error_message = "Error EN: Something went wrong. Current URL: " . $currentPathname;
             error_log($error_message);
             echo json_encode("<span class='message-box-error'>Something went wrong! Reload the page and try again or contact me via Instagram: <a href='https://www.instagram.com/krispy.tunes' target='_blank'>@krispy.tunes</a></span>");
