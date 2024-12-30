@@ -1,5 +1,5 @@
 <?php
-$receiver = 'alperkuertuel@gmail.com';
+$receiver = 'alperkuertuel@hotmail.de';
 $reference = 'krispytunes.com - CONTACT ' . $_POST['contact-name'];
 $contact_email = $_POST['contact-email'];
 $message = $_POST['contact-message'] . "\r\n\r\n" . $_POST['contact-subscriber'];

@@ -1,5 +1,5 @@
 <?php
-$receiver = 'alperkuertuel@gmail.com';
+$receiver = 'alperkuertuel@hotmail.de';
 $reference = 'krispytunes.com - DL REQUEST ';
 $contact_email = $_POST['email'];
 $message = $_POST['name'] . "\r\n" . $_POST['email'] . "\r\n\r\n" . $_POST['freebeats-subscriber'];
