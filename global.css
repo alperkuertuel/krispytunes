@@ -4,13 +4,14 @@
 @import "./components/license-terms/license-terms.css";
 @import "./components/services/services.css";
 @import "./components/freebeats/freebeats.css";
+@import "./components/faq/faq.css";
 @import "./components/contact/contact.css";
 @import "./components/socials/socials.css";
 @import "./components/footer/footer.css";
 @import "./components/cookie-container/cookie-container.css";
 
 :root {
-  --white: #fff;
+  --white: rgb(248 250 252);
   --black: black;
   --gray: gray;
   --success-color: rgba(0, 128, 28, 0.5);
@@ -21,7 +22,7 @@
   --border-radius: 3px;
   --link-color: #5a6fbd;
   --link-color-hover: navy;
-  --store-color: #343035;
+  --store-color: #2f3640;
   --youtube-red: rgb(165, 19, 19);
   --primary-color: #750020;
   --primary-color-darker: #8a0022;
@@ -169,6 +170,7 @@ input[type="email"] {
   border: 0;
   border-bottom: 2px solid var(--secondary-color);
   color: var(--black);
+  background-color: var(--white);
   outline: 0;
 }
 
@@ -186,6 +188,7 @@ input[type="email"] {
   pointer-events: none;
   color: var(--primary-color);
   transition: 0.3s ease;
+  background-color: var(--white);
 }
 
 input[type="checkbox"] {
@@ -193,6 +196,7 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   display: flex;
   border: 2px solid var(--secondary-color);
+  background-color: var(--white);
 }
 
 input[type="checkbox"]::before {

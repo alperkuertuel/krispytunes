@@ -9,6 +9,7 @@
             <?php include './components/license-terms/license-terms.php'; ?>
             <?php include './components/services/services.php'; ?>
             <?php include './components/freebeats/freebeats.php'; ?>
+            <?php include './components/faq/faq.php'; ?>
             <?php include './components/contact/contact.php'; ?>
             <?php include "./components/socials/socials.php"; ?>
             <?php include './components/cookie-container/cookie-container.php'; ?>
