@@ -37,11 +37,6 @@
   right: 20px;
 }
 
-.flickity-prev-next-button.previous:focus,
-.flickity-prev-next-button.next:focus {
-  background-color: var(--gray);
-}
-
 .flickity-button,
 .flickity-prev-next-button:hover {
   background: var(--gray);

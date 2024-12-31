@@ -1,10 +1,10 @@
-<h1>
-    <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
-        <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
-    </a>
-    FAQ
-</h1>
-<section class="accordion">
+<section id="FAQ">
+    <h1>
+        <a href="#Instrumental-Store" aria-label="scroll up to instrumental store">
+            <img src="/img/fa-icons/angle-up-solid.svg" class="fa-icon" aria-label="scroll to top" />
+        </a>
+        FAQ
+    </h1>
     <details class="accordion__item">
         <summary class="accordion__item-title">What does a purchase include?</summary>
         <p class="accordion__item-content">
@@ -38,7 +38,7 @@
     <details class="accordion__item">
         <summary class="accordion__item-title">Do you offer other payment methods than PayPal or Master/Debit card?</summary>
         <p class="accordion__item-content">
-            YES! I also accept payments from any bank. You will receive a bill (PDF file) via email with all 
+            Yes, I also accept payments from any bank. You will receive a bill (PDF file) via email with all 
             the information you need. After payment, you will receive the instrumental(s) and rights via direct download link.
         </p>
     </details>

@@ -25,6 +25,7 @@ textarea {
   display: inline-block;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
+  background-color: var(--white);
   resize: none;
   border: 2px solid var(--secondary-color);
   color: var(--black);

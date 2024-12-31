@@ -1,6 +1,10 @@
-.accordion {
+#FAQ {
   text-align: left;
   padding: 1rem;
+}
+
+#FAQ h1 {
+  text-align: center;
 }
 
 .accordion__item {
@@ -9,8 +13,7 @@
 
 .accordion__item-title {
   padding: 1rem;
-  color: var(--white);
-  background-color: var(--secondary-color);
+  background-color: var(--box-color);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   cursor: pointer;
