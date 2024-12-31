@@ -4,13 +4,14 @@
 @import "./components/license-terms/license-terms.css";
 @import "./components/services/services.css";
 @import "./components/freebeats/freebeats.css";
+@import "./components/faq/faq.css";
 @import "./components/contact/contact.css";
 @import "./components/socials/socials.css";
 @import "./components/footer/footer.css";
 @import "./components/cookie-container/cookie-container.css";
 
 :root {
-  --white: #fff;
+  --white: rgb(248 250 252);
   --black: black;
   --gray: gray;
   --success-color: rgba(0, 128, 28, 0.5);

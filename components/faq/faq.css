@@ -1,0 +1,21 @@
+.accordion {
+  text-align: left;
+  padding: 1rem;
+}
+
+.accordion__item {
+  margin: 1rem;
+}
+
+.accordion__item-title {
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.accordion__item-content {
+  padding: 1rem;
+}
